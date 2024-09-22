@@ -1,0 +1,324 @@
+FID	DISTRICT	BLOCK	GP	VILLAGE	HABITATION	LATITUDE	LONGITUDE	PROPERTYID	PROPERTYTYPE	NUMBER_OF_FLOORS	CONSTRUCTIONTYPE	CONSUMERNAME	PHONENO	FAMILYCOUNT	WATERSUPPLYTYPE	SUPPLY_IN_HOURS	NUMBER_OF_CONNECTIONS	REMARKS	STATUS	SURVEYOR_LOCATION	USERNAME	CONNECTIONSTATUS	CONNECTIONPHOTO	NUMBEROFROOM	Result	Reason	
+1	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15833997	27.15833997	KIGS00002300	Pakka	1	Residentiali	Vinay kumar	6397008660	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+2	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158928	27.158928	KIGS000023031	Pakka	1	Residentiali	Jagdish	6395712902	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+3	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.159898	27.159898	KIGS00002365	Pakka	1	Residentiali	Rampal Singh	9795665138	13	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+4	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156226	27.156226	KIGS00002368	Pakka	1	Residentiali	Ganpat Singh Chauhan	8859281119	7	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+5	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156448	27.156448	KIGS00002372	Pakka	1	Residentiali	Mahesh Singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+6	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156505	27.156505	KIGS00002362	Pakka	1	Residentiali	Rakesh Singh Chauhan	8077790082	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+7	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156627	27.156627	KIGS00002369	Pakka	1	Residentiali	Ashok Singh	9411671875	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+8	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156697	27.156697	KIGS00002370	Pakka	1	Residentiali	Rajrani	8433201953	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+9	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156941	27.156941	KIGS00002371	Pakka	1	Residentiali	Ramshankar Awasthi	9634725758	9	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+10	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157332	27.157332	KIGS00002378	Pakka	1	Residentiali	Jayprakash	9997818677	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+11	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157536	27.157536	KIGS00002373	Pakka	1	Residentiali	Ramniwash	0	13	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+12	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157638	27.157638	KIGS00002376	Pakka	1	Residentiali	Rajkumar	9058691083	12	Borewell		1		Not Suplly		Amit	NiLL		5	Sucess		
+13	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15919061	27.15919061	KIGS00002375	Pakka	1	Residentiali	Sandeep Kumar	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+14	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15891582	27.15891582	KIGS00002379	Pakka	1	Residentiali	SohalPal	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+15	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.159197	27.159197	KIGS00002377	Pakka	1	Residentiali	Kamlesh Kumar	8433141596	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Sucess		
+16	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1578146	27.1578146	KIGS00002378	Pakka	1	Residentiali	Vinod Kumar	8958210921	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+17	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15789787	27.15789787	KIGS00002380	Pakka	1	Residentiali	Arvind Singh	7078735251	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+18	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15784649	27.15784649	KIGS00002385	Pakka	1	Residentiali	Vijay Kumar	8395866571	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+19	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157955	27.157955	KIGS00002389	Pakka	1	Residentiali	Sarla Devi	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+20	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15801721	27.15801721	KIGS00002382	Pakka	1	Residentiali	Shanti Devi	7954625405	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+21	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15796666	27.15796666	KIGS00002383	Pakka	1	Residentiali	Shambhu lal	807725432	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+22	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15906731	27.15906731	KIGS00002387	Pakka	1	Residentiali	Manju Devi	8171924717	4	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		3	Sucess		
+23	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158547	27.158547	KIGS00002388	Pakka	1	Residentiali	Guddi Devi	9152168635	11	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		5	Sucess		
+24	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1587374	27.1587374	KIGS00002389	Pakka	1	Residentiali	Veerpal	9528013642	7	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		3	Sucess		
+25	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15824914	27.15824914	KIGS00002390	Pakka	1	Residentiali	Bittan Devi	790695953	10	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		4	Sucess		
+26	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15748036	27.15748036	KIGS00002391	Pakka	1	Residentiali	Sadhana Devi	6396800374	5	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		2	Sucess		
+27	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15883258	27.15883258	KIGS00002392	Pakka	1	Residentiali	Vimala DEvi	8851993168	5	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		3	Sucess		
+28	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.159124	27.159124	KIGS00002393	Pakka	1	Residentiali	Rajesh	8801356169	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Sucess		
+29	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15814338	27.15814338	KIGS00002394	Pakka	1	Residentiali	Malkhan Singh	7.351111661E+10	5	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		3	Sucess		
+30	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15829875	27.15829875	KIGS00002395	Pakka	1	Residentiali	Shantidevi	9368911978	6	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		4	Sucess		
+31	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15926005	27.15926005	KIGS00002396	Pakka	1	Residentiali	Ajeet Kumar	9997371829	8	Borewell		1		Not Suplly		Dev prakash Singh	NiLL		5	Sucess		
+32	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.159042	27.159042	KIGS00002397	Pakka	1	Residentiali	Ramvati	750579117	2	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Sucess		
+33	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15820821	27.15820821	KIGS00002398	Pakka	1	Residentiali	Avnish	9368911978	8	Borewell		1		Not Suplly		Arun Pal	NiLL		4	Sucess		
+34	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15829545	27.15829545	KIGS00002399	Pakka	1	Residentiali	Maharaj Singh	0	4	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Sucess		
+35	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158982	27.158982	KIGS00002400	Pakka	1	Residentiali	Vijay	8273825941	4	Borewell		1		Not Suplly		Arun Pal	NiLL		3	Failed	Property already exists	
+36	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.159087	27.159087	KIGS00002401	Pakka	1	Residentiali	Ramesh Chandra	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+37	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15660049	27.15660049	KIGS00002402	Pakka	1	Residentiali	Shree kishan	8433141596	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+38	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158918	27.158918	KIGS00002403	Pakka	1	Residentiali	Vinod Kumar	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+39	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158991	27.158991	KIGS00002404	Pakka	1	Residentiali	Shohan Lal	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+40	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15823024	27.15823024	KIGS00002405	Pakka	1	Residentiali	Lala Ram	9639803176	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+41	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15836468	27.15836468	KIGS00002406	Pakka	1	Residentiali	Sarla	0	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+42	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158671	27.158671	KIGS00002407	Pakka	1	Residentiali	Saroj Devi	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+43	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158577	27.158577	KIGS00002408	Pakka	1	Residentiali	Amar  Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+44	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158415	27.158415	KIGS00002409	Pakka	1	Residentiali	Harish Kumar	9315564186	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+45	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158641	27.158641	KIGS00002410	Pakka	1	Residentiali	Munni Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+46	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15850401	27.15850401	KIGS00002411	Pakka	1	Residentiali	Sushil Kumar	9411640359	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+47	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15851	27.15851	KIGS00002412	Pakka	1	Residentiali	Manisha Devi	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+48	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158229	27.158229	KIGS00002413	Pakka	1	Residentiali	Subhas Kumar	8958009221	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+49	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158318	27.158318	KIGS00002414	Pakka	1	Residentiali	Satish Kumar	9634828656	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+50	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1582887	27.1582887	KIGS00002415	Pakka	1	Residentiali	Harish Kumar	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+51	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157723	27.157723	KIGS00002416	Pakka	1	Residentiali	Sandeep Yadav	7900653355	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+52	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158149	27.158149	KIGS00002417	Pakka	1	Residentiali	Rekha Devi	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+53	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158011	27.158011	KIGS00002418	Pakka	1	Residentiali	Mannu Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+54	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15776446	27.15776446	KIGS00002419	Pakka	1	Residentiali	Satish Kumar	7895387210	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+55	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157233	27.157233	KIGS00002420	Pakka	1	Residentiali	Sanjeev Singh	9917319481	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+56	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1575	27.1575	KIGS00002421	Pakka	1	Residentiali	Ramesh Naresh Dixit	9837271015	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+57	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.157456	27.157456	KIGS00002422	Pakka	1	Residentiali	Ram Shankar Awasthi	9.634722576E+10	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+58	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15583188	27.15583188	KIGS00002423	Pakka	1	Residentiali	Vimal Singh	9536565570	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+59	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.155526	27.155526	KIGS00002424	Pakka	1	Residentiali	Ramkripal	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+60	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.155748	27.155748	KIGS00002425	Pakka	1	Residentiali	Surendra Kumar	7983107557	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+61	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15622105	27.15622105	KIGS00002426	Pakka	1	Residentiali	Lashendra	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+62	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.155807	27.155807	KIGS00002427	Pakka	1	Residentiali	Sadhana	8770070156	4	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+63	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.155629	27.155629	KIGS00002428	Pakka	1	Residentiali	Puja Bhadaoria	7505545519	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+64	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.155568	27.155568	KIGS00002429	Pakka	1	Residentiali	Sunil	8077266292	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+65	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15742555	27.15742555	KIGS00002430	Pakka	1	Residentiali	Gomti Devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+66	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156102	27.156102	KIGS00002431	Pakka	1	Residentiali	Dhirendra Singh	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+67	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156202	27.156202	KIGS00002432	Pakka	1	Residentiali	Ravindra	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+68	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156167	27.156167	KIGS00002433	Pakka	1	Residentiali	Chhote Singh	0	6	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+69	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156342	27.156342	KIGS00002434	Pakka	1	Residentiali	Lakshaman Chauhan	0	7	Borewell		1		Not Suplly		Amit	NiLL		4	Failed	Property already exists	
+70	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156346	27.156346	KIGS00002435	Pakka	1	Residentiali	Shivmohan Singh	9458600840	4	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+71	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.156218	27.156218	KIGS00002436	Pakka	1	Residentiali	Sabal	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+72	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15750765	27.15750765	KIGS00002437	Pakka	1	Residentiali	Sudheer	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+73	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1588771	27.1588771	KIGS00002438	Pakka	1	Residentiali	Dinesh	9696497919	4	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+74	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15583188	27.15583188	KIGS00002439	Pakka	1	Residentiali	Vimal Singh	9536565570	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+75	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158501	27.158501	KIGS00002440	Pakka	1	Residentiali	Ram Ratan	9368911978	6	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Failed	Property already exists	
+76	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158601	27.158601	KIGS00002441	Pakka	1	Residentiali	Sadhna devi	9528013642	3	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Failed	Property already exists	
+77	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158517	27.158517	KIGS00002442	Pakka	1	Residentiali	Vinay kumar	6396800374	4	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Failed	Property already exists	
+78	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15872	27.15872	KIGS00002443	Pakka	1	Residentiali	Virendra Singh	6397008660	2	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Failed	Property already exists	
+79	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.158928	27.158928	KIGS00002444	Pakka	1	Residentiali	Jagdish	6395712902	4	Borewell		1		Not Suplly		Arun Pal	NiLL		2	Failed	Property already exists	
+80	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15762067	27.15762067	KIGS00002350	Pakka	1	Residentiali	Mukesh	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+81	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15837068	27.15837068	KIGS00002378	Pakka	1	Residentiali	Harish	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+82	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15873616	27.15873616	KIGS00002309	Pakka	1	Residentiali	Dayashankar	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+83	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15885418	27.15885418	KIGS00002316	Pakka	1	Residentiali	Prabhulal	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+84	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15836306	27.15836306	KIGS00002365	Pakka	1	Residentiali	Dayanand	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+85	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15817651	27.15817651	KIGS00002389	Pakka	1	Residentiali	Krapashankar	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+86	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15771395	27.15771395	KIGS00002312	Pakka	1	Residentiali	Ramdayal	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+87	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1580109	27.1580109	KIGS00002305	Pakka	1	Residentiali	Shivkumar	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+88	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15779961	27.15779961	KIGS00002399	Pakka	1	Residentiali	Amar	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+89	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15766255	27.15766255	KIGS00002316	Pakka	1	Residentiali	Prabhulal	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+90	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15762638	27.15762638	KIGS00002365	Pakka	1	Residentiali	Manish	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+91	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15760925	27.15760925	KIGS00002389	Pakka	1	Residentiali	Brajesh	0	0	Borewell		1		Not Suplly		Amit	NiLL		0	Sucess		
+92	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15775202	27.15775202	KIGS00002312	Pakka	1	Residentiali	Mukesh	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+93	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15769681	27.15769681	KIGS00002305	Pakka	1	Residentiali	Shikdar	0	4	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+94	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15783577	27.15783577	KIGS00002399	Pakka	1	Residentiali	Shambhu lal	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+95	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15766255	27.15766255	KIGS00002316	Pakka	1	Residentiali	Bardani	0	6	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+96	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.1576873	27.1576873	KIGS00002365	Pakka	1	Residentiali	Ganesh Shankar	0	7	Borewell		1		Not Suplly		Amit	NiLL		5	Sucess		
+97	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15936434	27.15936434	KIGS00002389	Pakka	1	Residentiali	Pramod	0	2	Borewell		1		Not Suplly		Amit	NiLL		5	Sucess		
+98	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15940051	27.15940051	KIGS00002312	Pakka	1	Residentiali	Kuldip	0	3	Borewell		1		Not Suplly		Amit	NiLL		1	Sucess		
+99	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15818793	27.15818793	KIGS00002305	Pakka	1	Residentiali	Pradip	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+100	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15792143	27.15792143	KIGS00002399	Pakka	1	Residentiali	Aman	0	4	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+101	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15783006	27.15783006	KIGS00002316	Pakka	1	Residentiali	Rekah Bai	0	6	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+102	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15761686	27.15761686	KIGS00002365	Pakka	1	Residentiali	Munni Devi	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+103	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15798425	27.15798425	KIGS00002389	Pakka	1	Residentiali	Rakhi	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+104	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15792143	27.15792143	KIGS00002312	Pakka	1	Residentiali	Chunni Bai	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+105	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15773108	27.15773108	KIGS00002305	 Pakka	1	Residentiali	AmarNath singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+106	Mainpuri	Mainpuri	Kiratpura	Kiratpura	Kiratpura	27.15794618	27.15794618	KIGS00002399	Pakka	1	Residentiali	Lallu	0	6	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+107	Mainpuri	Mainpuri	Kiratpura	Kiratpur	Kiratpur	27.15949759	27.15949759	KIGS00002305	Pakka	1	Residentiali	Prabhulal Singh	9415167891	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+108	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159938	27.159938	KIGS00002365	Pakka	1	Residentiali	Sudama Devi	9997401569	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Sucess		
+109	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1581767	27.1581767	KIGS00002366	pakka	1	Residentiali	lata	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+110	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1573796	27.1573796	KIGS00002367	pakka	1	Residentiali	Jitendra bhadauria	7351854074	7	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+111	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157622	27.157622	KIGS00002368	pakka	1	Residentiali	siyaram	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+112	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15772394	27.15772394	KIGS00002369	pakka	1	Residentiali	shivcharan	0	4	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+113	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157857	27.157857	KIGS00002370	pakka	1	Residentiali	bhagwati prasad	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+114	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15776257	27.15776257	KIGS00002371	pakka	1	Residentiali	bhagwati	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+115	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15764971	27.15764971	KIGS00002372	pakka	1	Residentiali	shivcharan	0	5	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+116	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15720128	27.15720128	KIGS00002373	pakka	1	Residentiali	brijmohan singh	0	3	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+117	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15755983	27.15755983	KIGS00002374	pakka	1	Residentiali	Radha kishan	0	7	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+118	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15761414	27.15761414	KIGS00002375	pakka	1	Residentiali	shaitan singh	0	5	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+119	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15718862	27.15718862	KIGS00002376	pakka	1	Residentiali	anil kumar	7351774497	5	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+120	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15708	27.15708	KIGS00002377	pakka	1	Residentiali	ram shankar	0	9	Borewell		1		Not Suplly		Sanjay	NiLL		4	Sucess		
+121	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15679754	27.15679754	KIGS00002378	pakka	1	Residentiali	mukesh	0	6	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+122	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1569807	27.1569807	KIGS00002379	pakka	1	Residentiali	vikram	952811352	8	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+123	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15743	27.15743	KIGS00002380	pakka	1	Residentiali	sudama	952811352	10	Borewell		1		Not Suplly		Sanjay	NiLL		4	Sucess		
+124	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15761099	27.15761099	KIGS00002381	pakka	1	Residentiali	jayram	0	5	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+125	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15783873	27.15783873	KIGS00002382	pakka	1	Residentiali	rajkumar	9528019651	6	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+126	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1577629	27.1577629	KIGS00002383	pakka	1	Residentiali	sonu	9528019651	3	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+127	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1583064	27.1583064	KIGS00002384	pakka	1	Residentiali	shivbeer singh	7351888575	8	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+128	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15993318	27.15993318	KIGS00002385	pakka	1	Residentiali	rama	0	4	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+129	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1579977	27.1579977	KIGS00002386	pakka	1	Residentiali	mahesh	7534892346	6	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+130	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586805	27.1586805	KIGS00002387	pakka	1	Residentiali	asha	9368253907	8	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+131	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586838	27.1586838	KIGS00002388	pakka	1	Residentiali	narayan singh	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+132	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586058	27.1586058	KIGS00002389	pakka	1	Residentiali	ravi singh	9528246504	5	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+133	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15877246	27.15877246	KIGS00002390	pakka	1	Residentiali	ajay singh	9528246504	4	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+134	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158702	27.158702	KIGS00002391	pakka	1	Residentiali	gullan singh	0	5	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+135	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586483	27.1586483	KIGS00002392	pakka	1	Residentiali	devendra	0	5	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+136	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15857407	27.15857407	KIGS00002393	pakka	1	Residentiali	gajendra singh	8279434517	4	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+137	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158566	27.158566	KIGS00002394	pakka	1	Residentiali	dheerendra pratap	0	3	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+138	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15869966	27.15869966	KIGS00002395	pakka	1	Residentiali	lalla singh	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		3	Sucess		
+139	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1584016	27.1584016	KIGS00002396	pakka	1	Residentiali	raja singh	0	3	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+140	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1595975	27.1595975	KIGS00002397	pakka	1	Residentiali	Ram Baran singh	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+141	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1599978	27.1599978	KIGS00002398	pakka	1	Residentiali	rishabh singh	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+142	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.160065	27.160065	KIGS00002399	pakka	1	Residentiali	akhilesh singh	9258355854	18	Borewell		1		Not Suplly		Sanjay	NiLL		5	Sucess		
+143	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16000686	27.16000686	KIGS00002400	pakka	1	Residentiali	rajesh	0	2	Borewell		1		Not Suplly		Sanjay	NiLL		2	Sucess		
+144	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16009608	27.16009608	KIGS00002401	Pakka	1	Residentiali	Arvind Singh	8006141431	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+145	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159902	27.159902	KIGS00002402	Pakka	1	Residentiali	Mohan Singh	9452223906	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+146	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159682	27.159682	KIGS00002403	Pakka	1	Residentiali	Raj Mohan Singh	6398458174	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+147	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159647	27.159647	KIGS00002404	Pakka	1	Residentiali	Dilip Kumar Chauhan	8957095902	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+148	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15952	27.15952	KIGS00002405	Pakka	1	Residentiali	Prakash Singh	708855013	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+149	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159352	27.159352	KIGS00002406	Pakka	1	Residentiali	K.P. Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+150	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159594	27.159594	KIGS00002407	Pakka	1	Residentiali	Netram Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+151	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1595467	27.1595467	KIGS00002408	Pakka	1	Residentiali	Krishan Bahadur Singh	9410854576	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+152	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16016334	27.16016334	KIGS00002409	Pakka	1	Residentiali	Arvind Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+153	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15944772	27.15944772	KIGS00002410	Pakka	1	Residentiali	Vikash Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+154	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16021412	27.16021412	KIGS00002411	Pakka	1	Residentiali	Gavraj Singh	9149265177	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+155	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.160298	27.160298	KIGS00002412	Pakka	1	Residentiali	Jyoti Devi	7417743077	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+156	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158654	27.158654	KIGS00002413	Pakka	1	Residentiali	Vijay Pal	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+157	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15892241	27.15892241	KIGS00002414	Pakka	1	Residentiali	Bantu Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+158	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15868997	27.15868997	KIGS00002415	Pakka	1	Residentiali	Pradip Chauhan	8279968746	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+159	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15851805	27.15851805	KIGS00002416	Pakka	1	Residentiali	Avneesh Chauhan	9368310366	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+160	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15847377	27.15847377	KIGS00002417	Pakka	1	Residentiali	Lata Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+161	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158262	27.158262	KIGS00002418	Pakka	1	Residentiali	Rajesh Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+162	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15831972	27.15831972	KIGS00002419	Pakka	1	Residentiali	Jagveeri Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+163	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15838503	27.15838503	KIGS00002420	Pakka	1	Residentiali	Rajeev Singh	9409318624	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+164	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158275	27.158275	KIGS00002421	Pakka	1	Residentiali	Jitendra Singh	8218627971	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+165	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15851295	27.15851295	KIGS00002422	Pakka	1	Residentiali	Chandrabhan Singh	8077184965	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+166	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157878	27.157878	KIGS00002423	Pakka	1	Residentiali	Gajendra singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+167	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15811634	27.15811634	KIGS00002424	Pakka	1	Residentiali	Ritesh Singh	9773912915	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+168	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158021	27.158021	KIGS00002425	Pakka	1	Residentiali	Jitendra Singh	9773912915	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+169	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157683	27.157683	KIGS00002426	Pakka	1	Residentiali	Jas Karan Singh	9.800854235E+10	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+170	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15736158	27.15736158	KIGS00002427	Pakka	1	Residentiali	NandKishor Singh	7668427627	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+171	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158003	27.158003	KIGS00002428	Pakka	1	Residentiali	Bhupendra Singh	9928020372	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+172	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158048	27.158048	KIGS00002429	Pakka	1	Residentiali	Devendra Singh	8936946058	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+173	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15820835	27.15820835	KIGS00002430	Pakka	1	Residentiali	Omprakash Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+174	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15838964	27.15838964	KIGS00002431	Pakka	1	Residentiali	Akhilesh singh	9149218886	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+175	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15827297	27.15827297	KIGS00002432	Pakka	1	Residentiali	Bhupendra Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+176	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158207	27.158207	KIGS00002433	Pakka	1	Residentiali	Manoj Singh	8218041263	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+177	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158545	27.158545	KIGS00002434	Pakka	1	Residentiali	Nerntram Singh	9690552635	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+178	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15785184	27.15785184	KIGS00002435	Pakka	1	Residentiali	Suryaprakash Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+179	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1575644	27.1575644	KIGS00002436	Pakka	1	Residentiali	Sheela Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+180	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157904	27.157904	KIGS00002437	Pakka	1	Residentiali	Rajan Singh	9528111352	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+181	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157891	27.157891	KIGS00002438	Pakka	1	Residentiali	Rajnesh Singh	9627050577	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+182	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157312	27.157312	KIGS00002439	Pakka	1	Residentiali	Siya Ram	0	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+183	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15721272	27.15721272	KIGS00002440	Pakka	1	Residentiali	Kusum Devi	9667585648	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+184	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157114	27.157114	KIGS00002441	Pakka	1	Residentiali	Teer Mohan Singh	8901015384	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+185	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157302	27.157302	KIGS00002442	Pakka	1	Residentiali	Kiran Singh	8859488441	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+186	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15743996	27.15743996	KIGS00002443	Pakka	1	Residentiali	Rakesh Kumar	8433038624	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+187	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15767124	27.15767124	KIGS00002444	Pakka	1	Residentiali	Gore Lal	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+188	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15722289	27.15722289	KIGS00002445	Pakka	1	Residentiali	Radhe Shyam	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+189	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15715363	27.15715363	KIGS00002446	Pakka	1	Residentiali	Ajit Singh	9761310798	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+190	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15750533	27.15750533	KIGS00002447	Pakka	1	Residentiali	Akash Kumar	0	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+191	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157308	27.157308	KIGS00002448	Pakka	1	Residentiali	Prem ChandraSingh	7535881120	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		5	Failed	Property already exists	
+192	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563724	27.1563724	KIGS00002449	Pakka	1	Residentiali	Ashok Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+193	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156535	27.156535	KIGS00002450	Pakka	1	Residentiali	Prem Singh	7055052576	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+194	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15651013	27.15651013	KIGS00002451	Pakka	1	Residentiali	Sanjay Singh	8477869634	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+195	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15665279	27.15665279	KIGS00002452	Pakka	1	Residentiali	Ram Kumar	8057377661	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+196	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156755	27.156755	KIGS00002453	Pakka	1	Residentiali	Parasuram Kumar	9690270881	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+197	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15699	27.15699	KIGS00002454	Pakka	1	Residentiali	Sudeep Singh	8191881202	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+198	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.157096	27.157096	KIGS00002455	Pakka	1	Residentiali	Kamond Singh	9352958640	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+199	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156833	27.156833	KIGS00002456	Pakka	1	Residentiali	Shanti Devi	7310657267	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+200	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15671106	27.15671106	KIGS00002457	Pakka	1	Residentiali	Manoj Singh	0	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+201	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156645	27.156645	KIGS00002458	Pakka	1	Residentiali	Shiv Kumar Singh	827963212	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+202	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156607	27.156607	KIGS00002459	Pakka	1	Residentiali	Sant Kumar Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+203	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158519	27.158519	KIGS00002460	Pakka	1	Residentiali	Munedra Singh	8057944473	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+204	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158904	27.158904	KIGS00002461	Pakka	1	Residentiali	Navratan Singh	0	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+205	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159077	27.159077	KIGS00002462	Pakka	1	Residentiali	Ram Kumar	0	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+206	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15989067	27.15989067	KIGS00002463	Pakka	1	Residentiali	Sarvendra Singh	9389989548	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		5	Failed	Property already exists	
+207	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159409	27.159409	KIGS00002464	Pakka	1	Residentiali	Surendra Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+208	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15943249	27.15943249	KIGS00002465	Pakka	1	Residentiali	Dharam Veer Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+209	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15926009	27.15926009	KIGS00002466	Pakka	1	Residentiali	Har Pal Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+210	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159343	27.159343	KIGS00002467	Pakka	1	Residentiali	Sarvesh Kumar	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+211	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159109	27.159109	KIGS00002468	Pakka	1	Residentiali	Rakesh Singh	8958792121	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+212	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159329	27.159329	KIGS00002469	Pakka	1	Residentiali	Ram Kumar Bhadoria	9927048050	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+213	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159435	27.159435	KIGS00002470	Pakka	1	Residentiali	Yash Bhadoria	9927048050	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+214	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159524	27.159524	KIGS00002471	Pakka	1	Residentiali	Jitendra singh	7454971918	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+215	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159712	27.159712	KIGS00002472	Pakka	1	Residentiali	Ram Saran Singh	7454971919	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+216	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15975004	27.15975004	KIGS00002473	Pakka	1	Residentiali	Kuldip Singh	7409619272	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		5	Failed	Property already exists	
+217	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16012906	27.16012906	KIGS00002474	Pakka	1	Residentiali	Shiv Nandan Singh	0	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Failed	Property already exists	
+218	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.16026	27.16026	KIGS00002475	Pakka	1	Residentiali	Deep Singh	0	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+219	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.160292	27.160292	KIGS00002476	Pakka	1	Residentiali	Shiv Nandan Singh	0	8	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Failed	Property already exists	
+220	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159119	27.159119	KIGS00002477	Pakka	1	Residentiali	Vijay Singh Chauhan	9389897074	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+221	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1593254	27.1593254	KIGS00002478	pakka	1	Residentiali	Ajay Pal Singh	7417456054	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+222	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1590605	27.1590605	KIGS00002479	pakka	1	Residentiali	Ajay Pal Singh	7417456054	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+223	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158956	27.158956	KIGS00002480	pakka	1	Residentiali	Anil  Singh	0	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+224	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1585788	27.1585788	KIGS00002481	pakka	1	Residentiali	Ajay	0	4	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+225	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158506	27.158506	KIGS00002482	pakka	1	Residentiali	Vinod kumar	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+226	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158321	27.158321	KIGS00002483	pakka	1	Residentiali	Rohit  kumar	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+227	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1585713	27.1585713	KIGS00002484	pakka	1	Residentiali	Shree Pal Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+228	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1582375	27.1582375	KIGS00002485	pakka	1	Residentiali	KamalRaj Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+229	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1584642	27.1584642	KIGS00002486	pakka	1	Residentiali	Lavkush Singh	8004885774	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+230	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1588025	27.1588025	KIGS00002487	pakka	1	Residentiali	Kavya Devi	9682245248	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+231	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1587643	27.1587643	KIGS00002488	pakka	1	Residentiali	Suruchi Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+232	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1590737	27.1590737	KIGS00002489	pakka	1	Residentiali	Puspendra Singh	8808865848	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+233	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1589365	27.1589365	KIGS00002490	pakka	1	Residentiali	Amrendra Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+234	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159111	27.159111	KIGS00002491	pakka	1	Residentiali	Harshit Singh	7703068317	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+235	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1589257	27.1589257	KIGS00002492	pakka	1	Residentiali	Bhupendra Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+236	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.159008	27.159008	KIGS00002493	pakka	1	Residentiali	Chandra Shekhar Singh	9886039030	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+237	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1590644	27.1590644	KIGS00002494	pakka	1	Residentiali	Laxmi Narayan Singh	0	3	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+238	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1591781	27.1591781	KIGS00002495	pakka	1	Residentiali	Balveer Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+239	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1592383	27.1592383	KIGS00002496	pakka	1	Residentiali	Amendra Singh	0	6	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Sucess		
+240	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1589869	27.1589869	KIGS00002497	pakka	1	Residentiali	Veer Bahadur Singh	0	5	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		3	Sucess		
+241	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1588502	27.1588502	KIGS00002498	pakka	1	Residentiali	Sulochna Devi	0	7	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		4	Sucess		
+242	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1581158	27.1581158	KIGS00002499	pakka	1	Residentiali	Shakshi Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+243	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1579419	27.1579419	KIGS00002500	pakka	1	Residentiali	Savita Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+244	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1578448	27.1578448	KIGS00002501	pakka	1	Residentiali	Rakhi Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+245	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1578032	27.1578032	KIGS00002502	pakka	1	Residentiali	Ram Swaroop Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+246	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158657	27.158657	KIGS00002503	pakka	1	Residentiali	Ram LalSingh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+247	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1592392	27.1592392	KIGS00002504	pakka	1	Residentiali	Vidhya Bhusad Singh	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+248	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15675063	27.15675063	KIGS00002505	pakka	1	Residentiali	Roshani Devi	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+249	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15660746	27.15660746	KIGS00002506	pakka	1	Residentiali	Roshan Kumar	9919405260	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+250	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1565511	27.1565511	KIGS00002507	pakka	1	Residentiali	Santosh Kumar	6386528530	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Sucess		
+251	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1564342	27.1564342	KIGS00002508	pakka	1	Residentiali	Kanheya lal	0	2	Borewell		1		Not Suplly		Matsendra Ojha	NiLL		2	Failed	Property already exists	
+252	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1581707	27.1581707	KIGS00002509	pakka	1	Residentiali	Ap  Singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+253	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.158021	27.158021	KIGS00002510	pakka	1	Residentiali	Raj Kumar	0	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+254	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1580084	27.1580084	KIGS00002511	pakka	1	Residentiali	vineet kumar	8577074335	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+255	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1579229	27.1579229	KIGS00002512	pakka	1	Residentiali	Usha Devi	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+256	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1578694	27.1578694	KIGS00002513	pakka	1	Residentiali	Sushma Devi	7880354085	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+257	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1579553	27.1579553	KIGS00002514	pakka	1	Residentiali	Sushil kumar	9453634556	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+258	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15789	27.15789	KIGS00002515	pakka	1	Residentiali	Rama Devi	0	9	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+259	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1580012	27.1580012	KIGS00002516	pakka	1	Residentiali	Abha Devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		4	Failed	Property already exists	
+260	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1580499	27.1580499	KIGS00002517	pakka	1	Residentiali	Surabhi	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+261	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1581012	27.1581012	KIGS00002518	pakka	1	Residentiali	Manna	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+262	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1581874	27.1581874	KIGS00002519	pakka	1	Residentiali	Annu devi	0	4	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+263	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1582811	27.1582811	KIGS00002520	pakka	1	Residentiali	Akhilesh kumar	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+264	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1583765	27.1583765	KIGS00002521	pakka	1	Residentiali	madan singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+265	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15827882	27.15827882	KIGS00002522	pakka	1	Residentiali	Rajneesh Kumar	9456573607	8	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+266	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1583759	27.1583759	KIGS00002523	pakka	1	Residentiali	Piyush kumar	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+267	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15828563	27.15828563	KIGS00002524	pakka	1	Residentiali	Shiv mohan	0	6	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+268	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1584052	27.1584052	KIGS00002525	pakka	1	Residentiali	Saumya Singh	0	3	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+269	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15819341	27.15819341	KIGS00002526	pakka	1	Residentiali	Urmila devi	0	9	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+270	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15913319	27.15913319	KIGS00002527	pakka	1	Residentiali	harshit singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		4	Failed	Property already exists	
+271	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1571075	27.1571075	KIGS00002528	pakka	1	Residentiali	Shalu devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+272	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1589615	27.1589615	KIGS00002529	pakka	1	Residentiali	Sarmila Devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+273	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15889332	27.15889332	KIGS00002530	pakka	1	Residentiali	Ranjana devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+274	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1587715	27.1587715	KIGS00002531	pakka	1	Residentiali	jaya devi	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+275	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586945	27.1586945	KIGS00002532	pakka	1	Residentiali	Anuradha	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+276	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1585791	27.1585791	KIGS00002533	pakka	1	Residentiali	rakesh Kumar	8528727513	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+277	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1587279	27.1587279	KIGS00002534	pakka	1	Residentiali	Shailendra Kumar	6005729535	8	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+278	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586364	27.1586364	KIGS00002535	pakka	1	Residentiali	Shiv prakash singh	8858425326	4	Borewell		1		Not Suplly		Amit	NiLL		5	Failed	Property already exists	
+279	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1585343	27.1585343	KIGS00002536	pakka	1	Residentiali	Shailesh Kumar	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+280	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1584684	27.1584684	KIGS00002537	pakka	1	Residentiali	Puneet Kumar	6394154295	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+281	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15877885	27.15877885	KIGS00002538	pakka	1	Residentiali	Abhay pal singh	0	4	Borewell		1		Not Suplly		Amit	NiLL		4	Failed	Property already exists	
+282	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1591324	27.1591324	KIGS00002539	pakka	1	Residentiali	Sarla devi	7703902715	6	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+283	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15891003	27.15891003	KIGS00002540	pakka	1	Residentiali	Dheerendra kumar	0	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+284	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15895461	27.15895461	KIGS00002541	pakka	1	Residentiali	Anshu	9562737625	5	Borewell		1		Not Suplly		Amit	NiLL		2	Failed	Property already exists	
+285	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1588267	27.1588267	KIGS00002542	pakka	1	Residentiali	Sanjay kuamr	0	6	Borewell		1		Not Suplly		Amit	NiLL		3	Failed	Property already exists	
+286	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1587912	27.1587912	KIGS00002543	pakka	1	Residentiali	sanjay	6352453070	4	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+287	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1586462	27.1586462	KIGS00002544	pakka	1	Residentiali	Sanjiv	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+288	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15664	27.15664	KIGS00002545	pakka	1	Residentiali	Aditya Singh	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+289	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1565013	27.1565013	KIGS00002546	pakka	1	Residentiali	Anurag Singh	9919586038	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+290	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563032	27.1563032	KIGS00002547	pakka	1	Residentiali	Ragini Singh	0	7	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+291	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1561123	27.1561123	KIGS00002548	pakka	1	Residentiali	Deendayal Singh Chauhan	8577075350	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+292	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563027	27.1563027	KIGS00002549	pakka	1	Residentiali	Primary school	0	3	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+293	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563027	27.1563027	KIGS00002550	pakka	1	Residentiali	Siv dayal	0	2	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+294	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1558862	27.1558862	KIGS00002551	pakka	1	Residentiali	Sivnarayan	0	6	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+295	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1568435	27.1568435	KIGS00002552	pakka	1	Residentiali	Deepanshu singh	8574076325	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+296	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1566916	27.1566916	KIGS00002553	pakka	1	Residentiali	vinay singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+297	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1565028	27.1565028	KIGS00002554	pakka	1	Residentiali	Dileep Singh	9870523543	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+298	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.156436	27.156436	KIGS00002555	pakka	1	Residentiali	Kuldeep Singh	8928523645	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+299	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1562874	27.1562874	KIGS00002556	pakka	1	Residentiali	Amarpal Singh	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+300	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1561958	27.1561958	KIGS00002557	pakka	1	Residentiali	Kalyani devi	0	7	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+301	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15842333	27.15842333	KIGS00002558	pakka	1	Residentiali	Vimala devi	0	8	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+302	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1558957	27.1558957	KIGS00002559	pakka	1	Residentiali	Kuwan Singh	0	6	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+303	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1557036	27.1557036	KIGS00002560	pakka	1	Residentiali	Gudiya devi	0	2	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+304	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1564828	27.1564828	KIGS00002561	pakka	1	Residentiali	Akshay Singh	8953715355	6	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+305	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1564241	27.1564241	KIGS00002562	pakka	1	Residentiali	Manipal singh	8172852602	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+306	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1557454	27.1557454	KIGS00002563	pakka	1	Residentiali	Harpal Singh	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+307	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1557919	27.1557919	KIGS00002564	pakka	1	Residentiali	Shambhunath	0	6	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+308	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15578235	27.15578235	KIGS00002565	pakka	1	Residentiali	Raghunath Singh	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+309	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15596148	27.15596148	KIGS00002566	pakka	1	Residentiali	Yuvraj	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+310	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1560849	27.1560849	KIGS00002567	pakka	1	Residentiali	nanhe	0	6	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+311	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15599053	27.15599053	KIGS00002568	pakka	1	Residentiali	Anuj	7935862530	6	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+312	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1559494	27.1559494	KIGS00002569	pakka	1	Residentiali	Rajjan Singh Chauhan	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+313	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563719	27.1563719	KIGS00002570	pakka	1	Residentiali	Krishna Singh	9819252765	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+314	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1563423	27.1563423	KIGS00002571	pakka	1	Residentiali	Sushant Singh Chauhan	8956354251	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+315	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1566746	27.1566746	KIGS00002572	pakka	1	Residentiali	Veer bhadra singh	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+316	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1565392	27.1565392	KIGS00002573	pakka	1	Residentiali	Sangam Singh	6394253235	2	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+317	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1565852	27.1565852	KIGS00002574	pakka	1	Residentiali	Yogendra Singh Chauhan	0	5	Borewell		1		Not Suplly		Amit	NiLL		3	Sucess		
+318	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15689	27.15689	KIGS00002575	pakka	1	Residentiali	Jiogindar	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+319	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.15608388	27.15608388	KIGS00002576	pakka	1	Residentiali	Praveen Singh Chauhan	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+320	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.155976	27.155976	KIGS00002577	pakka	1	Residentiali	Vipul Singh	0	6	Borewell		1		Not Suplly		Amit	NiLL		4	Sucess		
+321	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1556001	27.1556001	KIGS00002578	pakka	1	Residentiali	police station	0	4	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+322	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1555208	27.1555208	KIGS00002579	pakka	1	Residentiali	Shishupal	0	5	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		
+323	Mainpuri	Mainpuri	Kiratpura	Ghitoli	Ghitoli	27.1553623	27.1553623	KIGS00002580	pakka	1	Residentiali	Sabal Singh Chauhan	0	3	Borewell		1		Not Suplly		Amit	NiLL		2	Sucess		

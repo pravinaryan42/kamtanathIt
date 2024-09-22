@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KamtanathDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OwnerName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PinCode" Type="Int32" Nullable="false" />
+    <Property Name="GSTIN" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedBy" Type="Guid" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="TaxDeductionType" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="InvoiceNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DeductionType" Type="Int32" />
+    <Property Name="InvoiceDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="1" Nullable="false" />
+    <Property Name="Tax" Type="Decimal" Precision="18" Scale="1" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="createdby" Type="Guid" Nullable="false" />
+    <Property Name="createdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="InvoiceType" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProductRate" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="InvoiceId" Type="Int32" Nullable="false" />
+    <Property Name="UnitType" Type="Int32" Nullable="false" />
+    <Property Name="IsTaxable" Type="Boolean" Nullable="false" />
+    <Property Name="TaxPercentage" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductuCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProductuName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedBy" Type="Guid" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsTaxable" Type="Boolean" />
+    <Property Name="ProductImage" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Rate" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Unit" Type="Int32" Nullable="false" />
+    <Property Name="TaxPercentage" Type="Decimal" Precision="18" Scale="1" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="SaltKey" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserRoleId" Type="Int32" />
+    <Property Name="FirstName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProfileImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IpAddress" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="KamtanathDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoice" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="GeoRecords" EntityType="KamtanathDbModel.GeoRecord" />
+    <EntitySet Name="MasterLocations" EntityType="KamtanathDbModel.MasterLocation" />
+  </EntityContainer>
+  <EntityType Name="GeoRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FID" Type="Int64" />
+    <Property Name="DISTRICT" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="BLOCK" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="GP" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="VILLAGE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="HABITATION" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="LATITUDE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="LONGITUDE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="PROPERTYID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PROPERTYTYPE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="NUMBE_ROF_FLOORS" Type="Int32" />
+    <Property Name="CONSTRUCTIONTYPE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="CONSUMERNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="PHONENO" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="FAMILYCOUNT" Type="Int32" />
+    <Property Name="WATERSUPPLYTYPE" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="SUPPLY_IN_HOURS" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NUMBER_OF_CONNECTIONS" Type="Int32" />
+    <Property Name="REMARKS" Type="String" MaxLength="540" FixedLength="false" Unicode="true" />
+    <Property Name="STATUS" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="SURVEYOR_LOCATION" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="USERNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="CONNECTIONSTATUS" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="CONNECTIONPHOTO" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UPLOADEDBY" Type="Guid" />
+    <Property Name="UPLOADEDON" Type="DateTime" Precision="3" />
+    <Property Name="NumberOfRoom" Type="Int32" />
+  </EntityType>
+  <EntityType Name="MasterLocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="District" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Block" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Gram_Panchayat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

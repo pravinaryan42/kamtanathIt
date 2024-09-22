@@ -1,0 +1,62 @@
+﻿<nav class="bg-white sidebar sidebar-offcanvas" id="sidebar">
+    <div class="user-info">
+        <img src="/images/face.jpg" alt="">
+        <p class="designation">@(CurrentUser.FirstName+" "+CurrentUser.LastName)</p>
+        <span class="online"></span>
+    </div>
+    <ul class="nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="@Url.Action("Index","Dashboard")">
+                <img src="/images/icons/1.png" alt="">
+                <span class="menu-title">Dashboard</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="@Url.Action("Index","GeoRecord")">
+                <img src="/images/icons/9.png" alt="">
+                <span class="menu-title">Geo Records</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="@Url.Action("UpdateData","GeoRecord")">
+                <img src="/images/icons/2.png" alt="">
+                <span class="menu-title">Update Data</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="@Url.Action("Index","Map")">
+                <img src="/images/icons/4.png" alt="">
+                <span class="menu-title">Geo Locations</span>
+            </a>
+        </li>
+
+        @*<li class="nav-item">
+            <a class="nav-link" href="pages/charts/index.html">
+                <img src="/images/icons/6.png" alt="">
+                <span class="menu-title">Invoice</span>
+            </a>
+        </li>*@
+        @*<li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#sample-pages" aria-expanded="false" aria-controls="sample-pages">
+                <img src="/images/icons/10.png" alt="">
+                <span class="menu-title">Settings<i class="fa fa-sort-down"></i></span>
+            </a>
+            <div class="collapse" id="sample-pages">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/samples/blank_page.html">
+                            Product
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("CompanyIndex","Company")">
+                            Company
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </li>*@
+
+    </ul>
+</nav>

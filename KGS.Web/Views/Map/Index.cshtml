@@ -1,0 +1,125 @@
+﻿@model KGS.DTO.SelectionMapModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+<h2>Geo Locations</h2>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUsPb28kQYwQlW7y0ifwSxixDqNc0meD8&callback=initMap" async defer></script>
+<style>
+    #map {
+        height: 800px;
+        width: 100%;
+    }
+
+    .rowhead {
+        background-color: antiquewhite;
+        padding: 15px;
+        margin: 15px 0px 15px 0px;
+    }
+</style>
+<div class="row rowhead">
+    <div class="col-md-3 col-lg-3">
+        <div class="form-group">
+            <label>Select District</label>
+            @Html.DropDownListFor(model => model.SelectedDistrict, Model.DistrictDataList, "Select District", htmlAttributes: new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-3 col-lg-3">
+        <div class="form-group">
+            <label>Select Block</label>
+            @Html.DropDownListFor(model => model.SelectedBlock, Model.BlockDataList, "Select Block", htmlAttributes: new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-3 col-lg-3">
+        <div class="form-group">
+            <label>Select Gram Panchayat</label>
+            @Html.DropDownListFor(model => model.SelectedGP, Model.GPDataList, "Select GP", htmlAttributes: new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-3 col-lg-3">
+        <label>    </label>
+        <a class="btn btn-primary" id="loadMapBtn" style="color: white; margin-top: 25px; " title="click to load map">Load Geo-Locations</a>
+
+    </div>
+    <div class="col-md-12 col-lg-12">
+        <b>Note-</b>Please select district/block/Gp and press Load GeoLocation button to show location on map.
+    </div>
+
+</div>
+<div class="browse-block">
+    <div class="row">
+        <div class="col-sm-4 select-lbl">
+            @Html.Label("Select File Import", htmlAttributes: new { @class = "requiredasterisk" })
+
+        </div>
+        <div class="col-sm-8">
+            <label class="btn-block" onchange="selectFile(6)">
+                <a style="cursor:pointer">
+                    <div id="divSelectedFile" class="btn btn-primary  browse-btn">
+                        <span id="fakefile">Browse</span>
+                    </div>
+                    <input id='kmlFile' name='kmlFile' type='file' style='display:none' accept="*" />
+                </a>
+            </label>
+            <span class="text-danger errorfile"></span>
+
+        </div>
+    </div>
+</div>
+
+<div id="map"></div>
+@section scripts{
+    <script>
+        function initMap() {
+            // Default center point (you can modify this)
+
+           @if (Model.MapDataList.Any())
+           {
+                <text>
+            var firstPointMarkerLat = @(Model.MapDataList.First().Latitude);
+            var firstPointMarkerLong =@(Model.MapDataList.First().Longitude);
+            var center = { lat: firstPointMarkerLat, lng: firstPointMarkerLong };
+            // Create the map
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: center,
+                mapTypeId: google.maps.MapTypeId.SATELLITE
+            });
+            </text>
+               }
+               else {
+                    <text>
+            var center = { lat: 26.8467, lng: 80.9462 };
+            // Create the map
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: center,
+                mapTypeId: google.maps.MapTypeId.SATELLITE
+            });
+                    </text>
+           }
+
+
+            // Custom marker icon URL
+            var markerIcon = {
+                url: domain + 'images/icons/marker.png', // Your icon URL
+                scaledSize: new google.maps.Size(22, 22), // Set the width and height of the marker
+            };
+            // Add markers
+            @foreach (var location in Model.MapDataList)
+            {
+                <text>
+                    var marker = new google.maps.Marker({
+                        position: { lat: @location.Latitude, lng: @location.Longitude },
+                        map: map,
+                        icon: markerIcon, // Set the custom icon
+                        title: '@location.Name',
+                        mapTypeId: google.maps.MapTypeId.SATELLITE
+                    });
+                </text>
+            }
+        }
+    </script>
+    <script src="~/Scripts/CustomJs/loadMap.js"></script>
+}

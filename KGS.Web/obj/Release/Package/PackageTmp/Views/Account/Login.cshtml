@@ -1,0 +1,59 @@
+﻿@model KGS.Web.Models.UserLoginViewModel
+
+@{
+
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<!-- /.login-box -->
+
+
+    <div class="container-fluid">
+        
+        <div class="row">
+
+            <div class="content-wrapper full-page-wrapper d-flex align-items-center auth-pages">
+                <div class="card col-lg-4 mx-auto">
+                    <div class="card-body px-5 py-5">
+                        <div> @Html.Partial("_MessageNotification")</div>
+                        <div class="text-center">
+                            <img src="~/images/logo_inner.png" height="100px" width="100px" />
+                        </div>
+
+                        <h3 class="card-title text-center mb-3">Login</h3>
+                        <form action="@Url.Action("SignIn", "Account")" autocomplete="off" method="post" id="formLogin">
+                            @Html.AntiForgeryToken()
+                            <div id="validation-summary"></div>
+                            <div class="form-group">
+                                @Html.TextBoxFor(model => model.Email, true, null, new { @maxlength = "50", @class = "form-control p_input", placeholder = "Email Id", @autocomplete = "off" })
+
+                            </div>
+                            <div class="form-group">
+                                @Html.PasswordFor(model => model.Password, true, new { @maxlength = "20", @class = "form-control p_input", placeholder = "Password", @autocomplete = "off" })
+
+                            </div>
+                            <div class="form-group d-flex align-items-center justify-content-between">
+                                <div class="form-check"><label><input type="checkbox" class="form-check-input">Remember me</label></div>
+                                <a href="#" class="forgot-pass">Forgot password</a>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-block enter-btn">LOG IN</button>
+                            </div>
+                            <p class="Or-login-with my-3">Or login with</p>
+                            <a href="@Url.Action("registeruser","Account")" class="facebook-login btn btn-facebook btn-block">Create An Account</a>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@section Scripts{
+    @Scripts.Render("~/js/CustomJs/Login/user-login.js")
+}
+
+
+

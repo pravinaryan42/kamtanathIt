@@ -1,0 +1,759 @@
+FID	DISTRICT	BLOCK	GP	VILLAGE	HABITATION	LATITUDE	LONGITUDE	PROPERTYID	PROPERTYTYPE	NUMBER_OF_FLOORS	CONSTRUCTIONTYPE	CONSUMERNAME	PHONENO	FAMILYCOUNT	WATERSUPPLYTYPE	SUPPLY_IN_HOURS	NUMBER_OF_CONNECTIONS	REMARKS	STATUS	SURVEYOR_LOCATION	USERNAME	CONNECTIONSTATUS	CONNECTIONPHOTO	NUMBEROFROOM	Result	Reason	
+1	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1647856	79.1094988	KIGSKSA00006609	Pakka	1	residential	dinesh		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+2	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1646925	79.1092685	KIGSKSA00006610	Pakka	1	residential	manikchand		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+3	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650194	79.109076	KIGSKSA00006611	Pakka	1	residential	amarsingh		7	Borewell		1		Not suplly		Keshav			3	Sucess		
+4	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650212	79.1093416	KIGSKSA00006612	Pakka	1	residential	kadorilal		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+5	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1648342	79.1090677	KIGSKSA00006613	Pakka	1	residential	darmend		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+6	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650281	79.108963	KIGSKSA00006614	Pakka	1	residential	mahesh		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+7	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649923	79.108833	KIGSKSA00006615	Pakka	1	residential	Anju		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+8	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649705	79.1089362	KIGSKSA00006616	Pakka	1	residential	nirajkumar	9911044252	5	Borewell		1		Not suplly		Keshav			4	Sucess		
+9	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165122	79.1087461	KIGSKSA00006617	Pakka	1	residential	satyabir		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+10	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1652542	79.1089443	KIGSKSA00006618	Pakka	1	residential	Ravina		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+11	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653991	79.1090727	KIGSKSA00006619	Pakka	1	residential	lalman		3	Borewell		1		Not suplly		Keshav			3	Sucess		
+12	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165503	79.1090046	KIGSKSA00006620	Pakka	1	residential	prabhudyal		3	Borewell		1		Not suplly		Keshav			5	Sucess		
+13	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656542	79.1089278	KIGSKSA00006621	Pakka	1	residential	ramnaresh		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+14	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656503	79.1089416	KIGSKSA00006622	Pakka	1	residential	sarnem		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+15	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657022	79.1088527	KIGSKSA00006623	Pakka	1	residential	shubhash		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+16	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658245	79.108661	KIGSKSA00006624	Pakka	1	residential	kabirdas		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+17	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658081	79.1087887	KIGSKSA00006625	Pakka	1	residential	lakshami		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+18	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658227	79.1087894	KIGSKSA00006626	Pakka	1	residential	durvijay	9557397278	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+19	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1659847	79.1087408	KIGSKSA00006627	Pakka	1	residential	jagnath		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+20	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1660554	79.1086895	KIGSKSA00006628	Pakka	1	residential	pramodkumar		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+21	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654737	79.1090935	KIGSKSA00006629	Pakka	1	residential	pakajkumar		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+22	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654215	79.1092024	KIGSKSA00006630	Pakka	1	residential	shivnandan		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+23	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656467	79.1091837	KIGSKSA00006631	Pakka	1	residential	Abrish		3	Borewell		1		Not suplly		Keshav			3	Sucess		
+24	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656804	79.1092977	KIGSKSA00006632	Pakka	1	residential	amandip		3	Borewell		1		Not suplly		Keshav			3	Sucess		
+25	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658248	79.1092695	KIGSKSA00006633	Pakka	1	residential	nirmila		5	Borewell		1		Not suplly		Keshav			2	Sucess		
+26	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658403	79.1092785	KIGSKSA00006634	Pakka	1	residential	mahesh		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+27	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656619	79.1092232	KIGSKSA00006635	Pakka	1	residential	jyoti		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+28	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656545	79.1094355	KIGSKSA00006636	Pakka	1	residential	mohmad		6	Borewell		1		Not suplly		Keshav			2	Sucess		
+29	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165818	79.1094713	KIGSKSA00006637	Pakka	1	residential	rakesh		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+30	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658391	79.1092705	KIGSKSA00006638	Pakka	1	residential	manshi		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+31	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657559	79.1094552	KIGSKSA00006639	Pakka	1	residential	ramnivash		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+32	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1659155	79.1094422	KIGSKSA00006640	Pakka	1	residential	rajpal		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+33	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654731	79.1098877	KIGSKSA00006641	Pakka	1	residential	mustak		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+34	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657974	79.1093429	KIGSKSA00006642	Pakka	1	residential	mina		6	Borewell		1		Not suplly		Keshav			6	Sucess		
+35	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657484	79.1095655	KIGSKSA00006643	Pakka	1	residential	ramasare		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+36	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1659053	79.109419	KIGSKSA00006644	Pakka	1	residential	rajbir		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+37	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1659623	79.1096453	KIGSKSA00006645	Pakka	1	residential	amit		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+38	Mainpuri	jagir	sagamai	jagir	jagir	27.1737128	79.1060991	KIGSKSA00006646	Pakka	1	residential	rajpal	8279423135	4	Borewell		1		Not suplly		Keshav			6	Sucess		
+39	Mainpuri	jagir	sagamai	jagir	jagir	27.1742638	79.1058601	KIGSKSA00006647	Pakka	1	residential	jagdish		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+40	Mainpuri	jagir	sagamai	jagir	jagir	27.1742563	79.1059898	KIGSKSA00006648	Pakka	1	residential	syamlal		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+41	Mainpuri	jagir	sagamai	jagir	jagir	27.174449	79.1060736	KIGSKSA00006649	Pakka	1	residential	chnadprakash		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+42	Mainpuri	jagir	sagamai	jagir	jagir	27.1747049	79.10596	KIGSKSA00006650	Pakka	1	residential	suman		7	Borewell		1		Not suplly		Keshav			5	Sucess		
+43	Mainpuri	jagir	sagamai	jagir	jagir	27.1749718	79.1059026	KIGSKSA00006651	Pakka	1	residential	Arjun 		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+44	Mainpuri	jagir	sagamai	jagir	jagir	27.1749936	79.1058473	KIGSKSA00006652	Pakka	1	residential	Rampal		7	Borewell		1		Not suplly		Keshav			5	Sucess		
+45	Mainpuri	jagir	sagamai	jagir	jagir	27.1751129	79.1058041	KIGSKSA00006653	Pakka	1	residential	Shivraj		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+46	Mainpuri	jagir	sagamai	jagir	jagir	27.1751845	79.1057253	KIGSKSA00006654	Pakka	1	residential	sarbesh		3	Borewell		1		Not suplly		Keshav			6	Sucess		
+47	Mainpuri	jagir	sagamai	jagir	jagir	27.1751735	79.1058349	KIGSKSA00006655	Pakka	1	residential	Shivani		4	Borewell		1		Not suplly		Keshav			6	Sucess		
+48	Mainpuri	jagir	sagamai	jagir	jagir	27.1752445	79.1059013	KIGSKSA00006656	Pakka	1	residential	utam	9412013348	5	Borewell		1		Not suplly		Keshav			3	Sucess		
+49	Mainpuri	jagir	sagamai	jagir	jagir	27.1753053	79.1060029	KIGSKSA00006657	Pakka	1	residential	sarjiv		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+50	Mainpuri	jagir	sagamai	jagir	jagir	27.1753053	79.1060029	KIGSKSA00006658	Pakka	1	residential	saket		7	Borewell		1		Not suplly		Keshav			4	Sucess		
+51	Mainpuri	jagir	sagamai	jagir	jagir	27.1750542	79.1061652	KIGSKSA00006659	Pakka	1	residential	sarbesh		7	Borewell		1		Not suplly		Keshav			3	Sucess		
+52	Mainpuri	jagir	sagamai	jagir	jagir	27.1749993	79.1062772	KIGSKSA00006660	Pakka	1	residential	rakesh		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+53	Mainpuri	jagir	sagamai	jagir	jagir	27.1748958	79.106478	KIGSKSA00006661	Pakka	1	residential	jagatram		7	Borewell		1		Not suplly		Keshav			5	Sucess		
+54	Mainpuri	jagir	sagamai	jagir	jagir	27.1748358	79.1062812	KIGSKSA00006662	Pakka	1	residential	Ankit		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+55	Mainpuri	jagir	sagamai	jagir	jagir	27.1750079	79.106253	KIGSKSA00006663	Pakka	1	residential	rajbir		4	Borewell		1		Not suplly		Keshav			6	Sucess		
+56	Mainpuri	jagir	sagamai	jagir	jagir	27.1748627	79.1061635	KIGSKSA00006664	Pakka	1	residential	pradip		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+57	Mainpuri	jagir	sagamai	jagir	jagir	27.1750515	79.1060726	KIGSKSA00006665	Pakka	1	residential	bijmohan		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+58	Mainpuri	jagir	sagamai	jagir	jagir	27.1749256	79.1059164	KIGSKSA00006666	Pakka	1	residential	rajesh		6	Borewell		1		Not suplly		Keshav			6	Sucess		
+59	Mainpuri	jagir	sagamai	jagir	jagir	27.1740741	79.1063338	KIGSKSA00006667	Pakka	1	residential	pradip		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+60	Mainpuri	jagir	sagamai	jagir	jagir	27.1741161	79.1063985	KIGSKSA00006668	Pakka	1	residential	abhilashsingh	9759882326	6	Borewell		1		Not suplly		Keshav			5	Sucess		
+61	Mainpuri	jagir	sagamai	jagir	jagir	27.1741087	79.1061145	KIGSKSA00006669	Pakka	1	residential	yogendsingh	6397515886	6	Borewell		1		Not suplly		Keshav			6	Sucess		
+62	Mainpuri	jagir	sagamai	jagir	jagir	27.1742441	79.1059509	KIGSKSA00006670	Pakka	1	residential	amarsigh		6	Borewell		1		Not suplly		Keshav			6	Sucess		
+63	Mainpuri	jagir	sagamai	jagir	jagir	27.1740893	79.1058054	KIGSKSA00006671	Pakka	1	residential	subedar	7599453155	5	Borewell		1		Not suplly		Keshav			7	Sucess		
+64	Mainpuri	jagir	sagamai	jagir	jagir	27.1737907	79.1060757	KIGSKSA00006672	Pakka	1	residential	premdash		6	Borewell		1		Not suplly		Keshav			5	Sucess		
+65	Mainpuri	jagir	sagamai	jagir	jagir	27.1730987	79.1072089	KIGSKSA00006673	Pakka	1	residential	Pramod		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+66	Mainpuri	jagir	sagamai	jagir	jagir	27.1732383	79.106774	KIGSKSA00006674	Pakka	1	residential	manish		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+67	Mainpuri	jagir	sagamai	jagir	jagir	27.1733651	79.106648	KIGSKSA00006675	Pakka	1	residential	talesingh		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+68	Mainpuri	jagir	sagamai	jagir	jagir	27.1735759	79.1064797	KIGSKSA00006676	Pakka	1	residential	biresh		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+69	Mainpuri	jagir	sagamai	jagir	jagir	27.173731	79.1068468	KIGSKSA00006677	Pakka	1	residential	udaybir		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+70	Mainpuri	jagir	sagamai	jagir	jagir	27.1739023	79.1068257	KIGSKSA00006678	Pakka	1	residential	ashish		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+71	Mainpuri	jagir	sagamai	jagir	jagir	27.1740398	79.1067673	KIGSKSA00006679	Pakka	1	residential	mastarsingh		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+72	Mainpuri	jagir	sagamai	jagir	jagir	27.1740818	79.1066289	KIGSKSA00006680	Pakka	1	residential	ramnaresh	952004337	4	Borewell		1		Not suplly		Keshav			5	Sucess		
+73	Mainpuri	jagir	sagamai	jagir	jagir	27.1741274	79.1067687	KIGSKSA00006681	Pakka	1	residential	Ramhet		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+74	Mainpuri	jagir	sagamai	jagir	jagir	27.1740723	79.1066222	KIGSKSA00006682	Pakka	1	residential	Ramnaresh		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+75	Mainpuri	jagir	sagamai	jagir	jagir	27.174148	79.1068535	KIGSKSA00006683	Pakka	1	residential	suresh		8	Borewell		1		Not suplly		Keshav			3	Sucess		
+76	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1653735	79.110516	KIGSKSA00006684	Pakka	1	residential 	mahesh	9517726911	5	Borewell		1		Not suplly		Harsh			4	Sucess		
+77	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.165315	79.1104798	KIGSKSA00006685	Pakka	1	residential 	denesh	9517726933	4	Borewell		1		Not suplly		Harsh			4	Sucess		
+78	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1652974	79.1104507	KIGSKSA00006686	Pakka	1	residential 	rakesh	9517726933	6	Borewell		1		Not suplly		Harsh			3	Sucess		
+79	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1652327	79.1104057	KIGSKSA00006687	Pakka	1	residential 	ramesh		3	Borewell		1		Not suplly		Harsh			6	Sucess		
+80	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1650937	79.1104084	KIGSKSA00006688	Pakka	1	residential 	ramakanat		3	Borewell		1		Not suplly		Harsh			6	Sucess		
+81	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1650269	79.1103192	KIGSKSA00006689	Pakka	1	residential 	bakilsaaab		6	Borewell		1		Not suplly		Harsh			6	Sucess		
+82	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1647856	79.1101305	KIGSKSA00006690	Pakka	1	residential 	Grishchand sukla	9760158490	2	Borewell		1		Not suplly		Harsh			6	Sucess		
+83	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1646472	79.1096118	KIGSKSA00006691	Pakka	1	residential 	vijender singh		2	Borewell		1		Not suplly		Harsh			6	Sucess		
+84	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1648327	79.1095002	KIGSKSA00006692	Pakka	1	residential 	ramesh singh gaur		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+85	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1649117	79.1097965	KIGSKSA00006693	Pakka	1	residential 	zalimkhan		6	Borewell		1		Not suplly		Harsh			5	Sucess		
+86	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1649028	79.1098388	KIGSKSA00006694	Pakka	1	residential 	zulfukhan		3	Borewell		1		Not suplly		Harsh			5	Sucess		
+87	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.164995	79.109789	KIGSKSA00006695	Pakka	1	residential 	ramprakash 		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+88	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1644899	79.1100916	KIGSKSA00006696	Pakka	1	residential 	mansingh	7248263596	4	Borewell		1		Not suplly		Harsh			4	Sucess		
+89	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1644464	79.1101016	KIGSKSA00006697	Pakka	1	residential 	raju	7248263596	6	Borewell		1		Not suplly		Harsh			3	Sucess		
+90	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1644014	79.1101013	KIGSKSA00006698	Pakka	1	residential 	satiram	9012651033	15	Borewell		1		Not suplly		Harsh			3	Sucess		
+91	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.16439	79.1100866	KIGSKSA00006699	Pakka	1	residential 	munni devi		5	Borewell		1		Not suplly		Harsh			8	Sucess		
+92	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643151	79.1100701	KIGSKSA00006700	Pakka	1	residential 	hari ram		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+93	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1642981	79.1100621	KIGSKSA00006701	Pakka	1	residential 	ashok		4	Borewell		1		Not suplly		Harsh			5	Sucess		
+94	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1642689	79.1100674	KIGSKSA00006702	Pakka	1	residential 	meenadwvi	9058766114	5	Borewell		1		Not suplly		Harsh			5	Sucess		
+95	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1641266	79.1100671	KIGSKSA00006703	Pakka	1	residential 	avneesh singh		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+96	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1641335	79.110163	KIGSKSA00006704	Pakka	1	residential 	anil		2	Borewell		1		Not suplly		Harsh			3	Sucess		
+97	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643071	79.109812	KIGSKSA00006705	Pakka	1	residential 	dhermender	7060246687	2	Borewell		1		Not suplly		Harsh			3	Sucess		
+98	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1645887	79.1094096	KIGSKSA00006706	Pakka	1	residential 	ramdas		2	Borewell		1		Not suplly		Harsh			4	Sucess		
+99	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1646212	79.1094841	KIGSKSA00006707	Pakka	1	residential 	manikchander	9456608124	2	Borewell		1		Not suplly		Harsh			3	Sucess		
+100	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643844	79.1097717	KIGSKSA00006708	Pakka	1	residential 	rajbhadur		2	Borewell		1		Not suplly		Harsh			4	Sucess		
+101	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1642206	79.1091884	KIGSKSA00006709	Pakka	1	residential 	gaurisankar		4	Borewell		1		Not suplly		Harsh			3	Sucess		
+102	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643053	79.1089932	KIGSKSA00006710	Pakka	1	residential 	ramnresh		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+103	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1642922	79.1087082	KIGSKSA00006711	Pakka	1	residential 	sukhram		4	Borewell		1		Not suplly		Harsh			3	Sucess		
+104	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643026	79.1085403	KIGSKSA00006712	Pakka	1	residential 	umasankar	9917647736	5	Borewell		1		Not suplly		Harsh			3	Sucess		
+105	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643465	79.1085282	KIGSKSA00006713	Pakka	1	residential 	munni devi		4	Borewell		1		Not suplly		Harsh			5	Sucess		
+106	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1642012	79.108777	KIGSKSA00006714	Pakka	1	residential 	ramji	8076112266	6	Borewell		1		Not suplly		Harsh			5	Sucess		
+107	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1649135	79.1086566	KIGSKSA00006715	Pakka	1	residential 	ramnresh		6	Borewell		1		Not suplly		Harsh			5	Sucess		
+108	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1651185	79.1083254	KIGSKSA00006716	Pakka	1	residential 	ramchandra		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+109	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1650776	79.1089037	KIGSKSA00006717	Pakka	1	residential 	ramnivaas	8126353322	5	Borewell		1		Not suplly		Harsh			4	Sucess		
+110	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1651381	79.1089443	KIGSKSA00006718	Pakka	1	residential 	rajneeskumar	9412406635	10	Borewell		1		Not suplly		Harsh			5	Sucess		
+111	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1652205	79.1090747	KIGSKSA00006719	Pakka	1	residential 	bakelal	9756363102	9	Borewell		1		Not suplly		Harsh			7	Sucess		
+112	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.165159	79.1091572	KIGSKSA00006720	Pakka	1	residential 	gahnshyam	9457629591	9	Borewell		1		Not suplly		Harsh			5	Sucess		
+113	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1649061	79.1092259	KIGSKSA00006721	Pakka	1	residential 	ramkumar 		3	Borewell		1		Not suplly		Harsh			6	Sucess		
+114	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1650138	79.1094643	KIGSKSA00006722	Pakka	1	residential 	viney		3	Borewell		1		Not suplly		Harsh			6	Sucess		
+115	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.16504	79.109532	KIGSKSA00006723	Pakka	1	residential 	bilala		5	Borewell		1		Not suplly		Harsh			6	Sucess		
+116	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.165662	79.109287	KIGSKSA00006724	Pakka	1	residential 	shivram	9917573687	5	Borewell		1		Not suplly		Harsh			3	Sucess		
+117	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1656199	79.1095401	KIGSKSA00006725	Pakka	1	residential 	bhawangdas	8347543821	4	Borewell		1		Not suplly		Harsh			4	Sucess		
+118	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1655874	79.1094707	KIGSKSA00006726	Pakka	1	residential 	gudidevi		4	Borewell		1		Not suplly		Harsh			3	Sucess		
+119	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1655987	79.1099367	KIGSKSA00006727	Pakka	1	residential 	munni devi		3	Borewell		1		Not suplly		Harsh			4	Sucess		
+120	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1651718	79.1110931	KIGSKSA00006728	Pakka	1	residential 	satyaram	983246725	3	Borewell		1		Not suplly		Harsh			3	Sucess		
+121	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1646955	79.1091867	KIGSKSA00006729	Pakka	1	residential 	jeetdas		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+122	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1647703	79.1094046	KIGSKSA00006730	Pakka	1	residential 	ramu		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+123	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1635688	79.1081802	KIGSKSA00006731	Pakka	1	residential 	neeta davi		4	Borewell		1		Not suplly		Harsh			3	Sucess		
+124	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1627037	79.1090325	KIGSKSA00006732	Pakka	1	residential 	rupadevi		7	Borewell		1		Not suplly		Harsh			4	Sucess		
+125	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.162841	79.1091414	KIGSKSA00006733	Pakka	1	residential 	neetu		7	Borewell		1		Not suplly		Harsh			5	Sucess		
+126	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1633233	79.1087371	KIGSKSA00006734	Pakka	1	residential 	kanak		7	Borewell		1		Not suplly		Harsh			5	Sucess		
+127	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1640085	79.1085396	KIGSKSA00006735	Pakka	1	residential 	rajuparnaam		7	Borewell		1		Not suplly		Harsh			5	Sucess		
+128	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643981	79.1073534	KIGSKSA00006736	Pakka	1	residential 	amod		7	Borewell		1		Not suplly		Harsh			5	Sucess		
+129	Mainpuri	jagir	sagamai 	sagamai 	sagamai 	27.1643981	79.1073534	KIGSKSA00006737	Pakka	1	residential 	amod		11	Borewell		1		Not suplly		Harsh			6	Sucess		
+130	Mainpuri	jagir	sagamai 	jagir	jagir	27.1753817	79.1053924	KIGSKSA00006738	Pakka	1	residential 	chandsheker	84570058	7	Borewell		1		Not suplly		Harsh			8	Sucess		
+131	Mainpuri	jagir	sagamai 	jagir	jagir	27.1750387	79.1057283	KIGSKSA00006739	Pakka	1	residential 	pancheelal	9368042686	5	Borewell		1		Not suplly		Harsh			5	Sucess		
+132	Mainpuri	jagir	sagamai 	jagir	jagir	27.1750157	79.1057917	KIGSKSA00006740	Pakka	1	residential 	manish	7300514341	5	Borewell		1		Not suplly		Harsh			6	Sucess		
+133	Mainpuri	jagir	sagamai 	jagir	jagir	27.1749784	79.1058269	KIGSKSA00006741	Pakka	1	residential 	amarsingh	827353000	5	Borewell		1		Not suplly		Harsh			5	Sucess		
+134	Mainpuri	jagir	sagamai 	jagir	jagir	27.1749784	79.1058269	KIGSKSA00006742	Pakka	1	residential 	amarsingh	8273530002	6	Borewell		1		Not suplly		Harsh			5	Sucess		
+135	Mainpuri	jagir	sagamai 	jagir	jagir	27.1748785	79.1063	KIGSKSA00006743	Pakka	1	residential 	santoos kumar	9958341206	5	Borewell		1		Not suplly		Harsh			5	Sucess		
+136	Mainpuri	jagir	sagamai 	jagir	jagir	27.1747526	79.1067834	KIGSKSA00006744	Pakka	1	residential 	raju yadav 	8755469306	4	Borewell		1		Not suplly		Harsh			5	Sucess		
+137	Mainpuri	jagir	sagamai 	jagir	jagir	27.1741301	79.106888	KIGSKSA00006745	Pakka	1	residential 	harvind	7060987330	7	Borewell		1		Not suplly		Harsh			3	Sucess		
+138	Mainpuri	jagir	sagamai 	jagir	jagir	27.1741003	79.106541	KIGSKSA00006746	Pakka	1	residential 	jaipal		10	Borewell		1		Not suplly		Harsh			6	Sucess		
+139	Mainpuri	jagir	sagamai 	jagir	jagir	27.1741701	79.1064297	KIGSKSA00006747	Pakka	1	residential 	Jai rani	9368857624	9	Borewell		1		Not suplly		Harsh			8	Sucess		
+140	Mainpuri	jagir	sagamai 	jagir	jagir	27.1741758	79.1062963	KIGSKSA00006748	Pakka	1	residential 	sonpal	9027017284	4	Borewell		1		Not suplly		Harsh			6	Sucess		
+141	Mainpuri	jagir	sagamai 	jagir	jagir	27.1742542	79.1063398	KIGSKSA00006749	Pakka	1	residential 	roshan		7	Borewell		1		Not suplly		Harsh			5	Sucess		
+142	Mainpuri	jagir	sagamai 	jagir	jagir	27.1742709	79.1062815	KIGSKSA00006750	Pakka	1	residential 	ravinder	8923140043	5	Borewell		1		Not suplly		Harsh			5	Sucess		
+143	Mainpuri	jagir	sagamai 	jagir	jagir	27.1742709	79.1062815	KIGSKSA00006751	Pakka	1	residential 	ravinder	8923140043	6	Borewell		1		Not suplly		Harsh			5	Sucess		
+144	Mainpuri	jagir	sagamai 	jagir	jagir	27.174154	79.1063767	KIGSKSA00006752	Pakka	1	residential 	ashok	7055498811	6	Borewell		1		Not suplly		Harsh			6	Sucess		
+145	Mainpuri	jagir	sagamai 	jagir	jagir	27.1742199	79.1062383	KIGSKSA00006753	Pakka	1	residential 	satram	8535004906	6	Borewell		1		Not suplly		Harsh			6	Sucess		
+146	Mainpuri	jagir	sagamai 	jagir	jagir	27.1743425	79.1060461	KIGSKSA00006754	Pakka	1	residential 	rajuprasd		5	Borewell		1		Not suplly		Harsh			6	Sucess		
+147	Mainpuri	jagir	sagamai 	jagir	jagir	27.1745567	79.1058584	KIGSKSA00006755	Pakka	1	residential 	Vishal Rajpoot		3	Borewell		1		Not suplly		Harsh			6	Sucess		
+148	Mainpuri	jagir	sagamai 	jagir	jagir	27.1743884	79.105784	KIGSKSA00006756	Pakka	1	residential 	ramsroop	7078539291	6	Borewell		1		Not suplly		Harsh			6	Sucess		
+149	Mainpuri	jagir	sagamai 	jagir	jagir	27.1732765	79.1053179	KIGSKSA00006757	Pakka	1	residential 	phool singh	9.690723388E+10	3	Borewell		1		Not suplly		Harsh			5	Sucess		
+150	Mainpuri	jagir	sagamai 	jagir	jagir	27.174695	79.1082798	KIGSKSA00006758	Pakka	1	residential 	gurelal	7268068742	6	Borewell		1		Not suplly		Harsh			5	Sucess		
+151	Mainpuri	jagir	sagamai 	jagir	jagir	27.1740084	79.1080521	KIGSKSA00006759	Pakka	1	residential 	safalmohamand	8057747836	6	Borewell		1		Not suplly		Harsh			5	Sucess		
+152	Mainpuri	jagir	sagamai 	jagir	jagir	27.1739723	79.108257	KIGSKSA00006760	Pakka	1	residential 	udayveer singh		6	Borewell		1		Not suplly		Harsh			5	Sucess		
+153	Mainpuri	jagir	sagamai 	jagir	jagir	27.174202	79.1085326	KIGSKSA00006761	Pakka	1	residential 	saherveer singh	9411250999	2	Borewell		1		Not suplly		Harsh			5	Sucess		
+154	Mainpuri	jagir	sagamai 	jagir	jagir	27.1738793	79.1087807	KIGSKSA00006762	Pakka	1	residential 	anilkumar		2	Borewell		1		Not suplly		Harsh			4	Sucess		
+155	Mainpuri	jagir	sagamai 	jagir	jagir	27.1738196	79.1092671	KIGSKSA00006763	Pakka	1	residential 	rajesh 		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+156	Mainpuri	jagir	sagamai 	jagir	jagir	27.1736783	79.1092269	KIGSKSA00006764	Pakka	1	residential 	Avdesh singh	9568586155	5	Borewell		1		Not suplly		Harsh			4	Sucess		
+157	Mainpuri	jagir	sagamai 	jagir	jagir	27.173717	79.1091404	KIGSKSA00006765	Pakka	1	residental	pinku	9012937178	6	Borewell		1		Not suplly		Harsh			4	Sucess		
+158	Mainpuri	jagir	sagamai 	jagir	jagir	27.1736568	79.1090623	KIGSKSA00006766	Pakka	1	residental	rajveer singh		3	Borewell		1		Not suplly		Harsh			3	Sucess		
+159	Mainpuri	jagir	jagir	jagir	jagir	27.1736001	79.1090294	KIGSKSA00006767	Pakka	1	residental	asahram		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+160	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657681	79.1111152	KIGSKSA00006768	Pakka	1	residential 	rajkumar	8273308189	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+161	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656139	79.1111893	KIGSKSA00006769	Pakka	1	residential 	rajpal	9012886652	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+162	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657601	79.1109727	KIGSKSA00006770	Pakka	1	residential 	umesh	9084268676	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+163	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657058	79.1106119	KIGSKSA00006771	Pakka	1	residential 	anil	8272031397	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+164	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655116	79.1106766	KIGSKSA00006772	Pakka	1	residential 	Anjali	8272031397	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+165	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165497	79.1108553	KIGSKSA00006773	Pakka	1	residential 	rakesh		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+166	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654895	79.1106619	KIGSKSA00006774	Pakka	1	residential 	rajiv	7456003081	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+167	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654236	79.1105828	KIGSKSA00006775	Pakka	1	residential 	sakuntla		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+168	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654382	79.110456	KIGSKSA00006776	Pakka	1	residential 	jayveer		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+169	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654516	79.1103642	KIGSKSA00006777	Pakka	1	residential 	mohan	9084268676	5	Borewell		1		Not suplly		Apurva			5	Sucess		
+170	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655119	79.1102998	KIGSKSA00006778	Pakka	1	residential 	Shohan		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+171	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653959	79.1102056	KIGSKSA00006779	Pakka	1	residential 	munni devi		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+172	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653827	79.1101878	KIGSKSA00006780	Pakka	1	residential 	suraj	6395407709	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+173	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653523	79.1101516	KIGSKSA00006781	Pakka	1	residential 	rajbahadur		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+174	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653523	79.1101516	KIGSKSA00006782	Pakka	1	residential 	rajbahadur	9897724121	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+175	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653308	79.1100457	KIGSKSA00006783	Pakka	1	residential 	rakeshsingh	7078702932	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+176	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654612	79.1100493	KIGSKSA00006784	Pakka	1	residential 	jitendra		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+177	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654314	79.1098871	KIGSKSA00006785	Pakka	1	residential 	surjeet		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+178	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1652106	79.1096547	KIGSKSA00006786	Pakka	1	residential 	 Mukesh gor	9058182076	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+179	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1651241	79.109582	KIGSKSA00006787	Pakka	1	residential 	dinesh	9058182076	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+180	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650624	79.1097137	KIGSKSA00006788	Pakka	1	residential 	rampalsingh gor	9411251088	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+181	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649419	79.1098398	KIGSKSA00006789	Pakka	1	residential 	rajpal		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+182	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1646898	79.109824	KIGSKSA00006790	Pakka	1	residential 	pushpatiwari	8273533863	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+183	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641994	79.1099156	KIGSKSA00006791	Pakka	1	residential 	Rajendra singh		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+184	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1642024	79.1098046	KIGSKSA00006792	Pakka	1	residential 	vipin	9058256988	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+185	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641866	79.1097419	KIGSKSA00006793	Pakka	1	residential 	maheshsingh	8273234161	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+186	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164121	79.1096567	KIGSKSA00006794	Pakka	1	residential 	Shivratan		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+187	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641004	79.1094583	KIGSKSA00006795	Pakka	1	residential 	naredra		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+188	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1639635	79.1094059	KIGSKSA00006796	Pakka	1	residential 	vinod		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+189	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1637776	79.1092752	KIGSKSA00006797	Pakka	1	residential 	lajjaram	7895212641	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+190	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1638611	79.1092983	KIGSKSA00006798	Pakka	1	residential 	shivsharan	9761082031	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+191	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1636446	79.1091364	KIGSKSA00006799	Pakka	1	residential 	tezsingh		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+192	Mainpuri	jagir	sagamai	sagamai	sagamai	27.163706	79.1090804	KIGSKSA00006800	Pakka	1	residential 	anilkumar	9368537642	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+193	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1637442	79.10872	KIGSKSA00006801	Pakka	1	residential 	hariprashad		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+194	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1635876	79.1081872	KIGSKSA00006802	Pakka	1	residential 	prabhudayal	8006522202	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+195	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1634719	79.1081416	KIGSKSA00006803	Pakka	1	residential 	no name		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+196	Mainpuri	jagir	sagamai	jagir	jagir	27.1718012	79.1051593	KIGSKSA00006804	Pakka	1	residential 	harishsingh	8057873255	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+197	Mainpuri	jagir	sagamai	jagir	jagir	27.1718123	79.1052821	KIGSKSA00006805	Pakka	1	residential 	rajkumar	7037282686	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+198	Mainpuri	jagir	sagamai	jagir	jagir	27.1718123	79.1052821	KIGSKSA00006806	Pakka	1	residential 	rajkumar	7037282686	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+199	Mainpuri	jagir	sagamai	jagir	jagir	27.1718275	79.1053578	KIGSKSA00006807	Pakka	1	residential 	shivam	7037699446	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+200	Mainpuri	jagir	sagamai	jagir	jagir	27.171968	79.1060267	KIGSKSA00006808	Pakka	1	residential 	mukesh		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+201	Mainpuri	jagir	sagamai	jagir	jagir	27.172487	79.1064166	KIGSKSA00006809	Pakka	1	residential 	Munna		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+202	Mainpuri	jagir	sagamai	jagir	jagir	27.1724953	79.1065373	KIGSKSA00006810	Pakka	1	residential 	phuleri		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+203	Mainpuri	jagir	sagamai	jagir	jagir	27.1728681	79.106592	KIGSKSA00006811	Pakka	1	residential 	manisha		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+204	Mainpuri	jagir	sagamai	jagir	jagir	27.172969	79.1067308	KIGSKSA00006812	Pakka	1	residential 	sanjaysingh	7088773791	5	Borewell		1		Not suplly		Apurva			5	Sucess		
+205	Mainpuri	jagir	sagamai	jagir	jagir	27.1729991	79.1069128	KIGSKSA00006813	Pakka	1	residential 	avnishyadav	8273308658	5	Borewell		1		Not suplly		Apurva			5	Sucess		
+206	Mainpuri	jagir	sagamai	jagir	jagir	27.1730083	79.1069169	KIGSKSA00006814	Pakka	1	residential 	abhay		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+207	Mainpuri	jagir	sagamai	jagir	jagir	27.173059	79.1068357	KIGSKSA00006815	Pakka	1	residential 	lavkesh		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+208	Mainpuri	jagir	sagamai	jagir	jagir	27.1731971	79.1066379	KIGSKSA00006816	Pakka	1	residential 	anand		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+209	Mainpuri	jagir	sagamai	jagir	jagir	27.1733191	79.1061377	KIGSKSA00006817	Pakka	1	residential 	ramveersingh	7310893067	5	Borewell		1		Not suplly		Apurva			5	Sucess		
+210	Mainpuri	jagir	sagamai	jagir	jagir	27.1732461	79.106024	KIGSKSA00006818	Pakka	1	residential 	neegatchodhary		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+211	Mainpuri	jagir	sagamai	jagir	jagir	27.1726415	79.1055811	KIGSKSA00006819	Pakka	1	residential 	brahjmohanyadav	9758525356	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+212	Mainpuri	jagir	sagamai	jagir	jagir	27.1726334	79.1055989	KIGSKSA00006820	Pakka	1	residential 	sarveshyadav	9084663846	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+213	Mainpuri	jagir	sagamai	jagir	jagir	27.1724637	79.1054866	KIGSKSA00006821	Pakka	1	residential 	Santosh		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+214	Mainpuri	jagir	sagamai	jagir	jagir	27.1725535	79.1054735	KIGSKSA00006822	Pakka	1	residential 	santoshkumar	9410225771	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+215	Mainpuri	jagir	sagamai	jagir	jagir	27.1725723	79.1055761	KIGSKSA00006823	Pakka	1	residential 	premsingh	8864842255	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+216	Mainpuri	jagir	sagamai	jagir	jagir	27.1726662	79.1055419	KIGSKSA00006824	Pakka	1	residential 	sanjeev	7078468322	5	Borewell		1		Not suplly		Apurva			5	Sucess		
+217	Mainpuri	jagir	sagamai	jagir	jagir	27.1724163	79.1055644	KIGSKSA00006825	Pakka	1	residential 	shyamsundar	9412543880	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+218	Mainpuri	jagir	sagamai	jagir	jagir	27.172464	79.1053075	KIGSKSA00006826	Pakka	1	residential 	shumit		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+219	Mainpuri	jagir	sagamai	jagir	jagir	27.1722149	79.1053803	KIGSKSA00006827	Pakka	1	residential 	puneetpratapsingh	8006499806	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+220	Mainpuri	jagir	sagamai	jagir	jagir	27.1721287	79.1051335	KIGSKSA00006828	Pakka	1	residential 	amit		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+221	Mainpuri	jagir	sagamai	jagir	jagir	27.1728195	79.1072645	KIGSKSA00006829	Pakka	1	residential 	yogesh	8923129160	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+222	Mainpuri	jagir	sagamai	jagir	jagir	27.1727089	79.1071395	KIGSKSA00006830	Pakka	1	residential 	Yegesh		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+223	Mainpuri	jagir	sagamai	jagir	jagir	27.1728327	79.1069517	KIGSKSA00006831	Pakka	1	residential 	avnishpratapsingh	8273308658	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+224	Mainpuri	jagir	sagamai	jagir	jagir	27.1728535	79.1069658	KIGSKSA00006832	Pakka	1	residential 	surendra	9410044565	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+225	Mainpuri	jagir	sagamai	jagir	jagir	27.172884	79.1070205	KIGSKSA00006833	Pakka	1	residential 	Sumit		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+226	Mainpuri	jagir	sagamai	jagir	jagir	27.1730009	79.1071864	KIGSKSA00006834	Pakka	1	residential 	rakesh		5	Borewell		1		Not suplly		Apurva			5	Sucess		
+227	Mainpuri	jagir	sagamai	jagir	jagir	27.1731709	79.1072686	KIGSKSA00006835	Pakka	1	residential 	sanoj		5	Borewell		1		Not suplly		Apurva			5	Sucess		
+228	Mainpuri	jagir	sagamai	jagir	jagir	27.17321	79.107223	KIGSKSA00006836	Pakka	1	residential 	Saurabh		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+229	Mainpuri	jagir	sagamai	jagir	jagir	27.1735625	79.1079971	KIGSKSA00006837	Pakka	1	residential 	Swaraj		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+230	Mainpuri	jagir	sagamai	jagir	jagir	27.1733484	79.1079502	KIGSKSA00006838	Pakka	1	residential 	brajbhaansingh		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+231	Mainpuri	jagir	sagamai	jagir	jagir	27.1734375	79.1081775	KIGSKSA00006839	Pakka	1	residential 	kusumdevi	8126244673	5	Borewell		1		Not suplly		Apurva			4	Sucess		
+232	Mainpuri	jagir	sagamai	jagir	jagir	27.173377	79.1082902	KIGSKSA00006840	Pakka	1	residential 	Khusbu		5	Borewell		1		Not suplly		Apurva			4	Sucess		
+233	Mainpuri	jagir	sagamai	jagir	jagir	27.173349	79.1084011	KIGSKSA00006841	Pakka	1	residential 	sarvehskumar	9761547305	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+234	Mainpuri	jagir	sagamai	jagir	jagir	27.1733114	79.1085453	KIGSKSA00006842	Pakka	1	residential 	vinodkumar	9639803282	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+235	Mainpuri	jagir	sagamai	jagir	jagir	27.1732881	79.1085523	KIGSKSA00006843	Pakka	1	residential 	phulandevi		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+236	Mainpuri	jagir	sagamai	jagir	jagir	27.1731766	79.1086063	KIGSKSA00006844	Pakka	1	residential 	kaushlendra	9473500086	5	Borewell		1		Not suplly		Apurva			3	Sucess		
+237	Mainpuri	jagir	sagamai	jagir	jagir	27.1728547	79.108847	KIGSKSA00006845	Pakka	1	residential 	Mukesh singh		5	Borewell		1		Not suplly		Apurva			3	Sucess		
+238	Mainpuri	jagir	sagamai	jagir	jagir	27.1728845	79.1088866	KIGSKSA00006846	Pakka	1	residential 	balveersingh		7	Borewell		1		Not suplly		Apurva			4	Sucess		
+239	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656742	79.1111953	KIGSKSA00006847	Pakka	1	residential	rajkumari	9759096166	7	Borewell		1		Not suplly		Monu			4	Sucess		
+240	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655543	79.1109962	KIGSKSA00006848	Pakka	1	residential	tarachandra	9997215653	7	Borewell		1		Not suplly		Monu			4	Sucess		
+241	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655337	79.1109492	KIGSKSA00006849	Pakka	1	residential	ablesh		7	Borewell		1		Not suplly		Monu			4	Sucess		
+242	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655238	79.1108956	KIGSKSA00006850	Pakka	1	residential	vipan		5	Borewell		1		Not suplly		Monu			4	Sucess		
+243	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654039	79.1107474	KIGSKSA00006851	Pakka	1	residential	sonelal	8983927853	10	Borewell		1		Not suplly		Monu			3	Sucess		
+244	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653744	79.1107072	KIGSKSA00006852	Pakka	1	residential	laxman	9639803353	6	Borewell		1		Not suplly		Monu			7	Sucess		
+245	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655074	79.1105345	KIGSKSA00006853	Pakka	1	residential	ranveer	8868959250	5	Borewell		1		Not suplly		Monu			6	Sucess		
+246	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165508	79.1104852	KIGSKSA00006854	Pakka	1	residential	ranjeet singh	8171737052	5	Borewell		1		Not suplly		Monu			6	Sucess		
+247	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655477	79.1104406	KIGSKSA00006855	Pakka	1	residential	jayveer singh	7455807201	5	Borewell		1		Not suplly		Monu			5	Sucess		
+248	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655799	79.110399	KIGSKSA00006856	Pakka	1	residential	parvati devi	7248482320	5	Borewell		1		Not suplly		Monu			5	Sucess		
+249	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656175	79.11034	KIGSKSA00006857	Pakka	1	residential	sukhveer	7248482320	4	Borewell		1		Not suplly		Monu			6	Sucess		
+250	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655748	79.1102864	KIGSKSA00006858	Pakka	1	residential	rajpal	9012886652	5	Borewell		1		Not suplly		Monu			5	Sucess		
+251	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656977	79.1099323	KIGSKSA00006859	Pakka	1	residential	abren singh	8218161097	5	Borewell		1		Not suplly		Monu			3	Sucess		
+252	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165335	79.1097721	KIGSKSA00006860	Pakka	1	residential	sakuntla devi		5	Borewell		1		Not suplly		Monu			4	Sucess		
+253	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1651292	79.1097469	KIGSKSA00006861	Pakka	1	residential	shishupal singh	9634383173	6	Borewell		1		Not suplly		Monu			4	Sucess		
+254	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649786	79.1097037	KIGSKSA00006862	Pakka	1	residential	jalim	8533832715	2	Borewell		1		Not suplly		Monu			4	Sucess		
+255	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649025	79.1096906	KIGSKSA00006863	Pakka	1	residential	sushma devi	8191875369	2	Borewell		1		Not suplly		Monu			4	Sucess		
+256	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1648601	79.1097355	KIGSKSA00006864	Pakka	1	residential	urmila		5	Borewell		1		Not suplly		Monu			3	Sucess		
+257	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641213	79.1099488	KIGSKSA00006865	Pakka	1	residential	Indra pal singh		5	Borewell		1		Not suplly		Monu			3	Sucess		
+258	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641579	79.1095672	KIGSKSA00006866	Pakka	1	residential	sobran singh		5	Borewell		1		Not suplly		Monu			3	Sucess		
+259	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641571	79.1095136	KIGSKSA00006867	Pakka	1	residential	shree daya ram bharti		5	Borewell		1		Not suplly		Monu			4	Sucess		
+260	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1639825	79.1093832	KIGSKSA00006868	Pakka	1	residential	reetu		6	Borewell		1		Not suplly		Monu			3	Sucess		
+261	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1639256	79.1092987	KIGSKSA00006869	Pakka	1	residential	navav singh	7078412331	6	Borewell		1		Not suplly		Monu			3	Sucess		
+262	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1635205	79.1092796	KIGSKSA00006870	Pakka	1	residential	Alpesh		7	Borewell		1		Not suplly		Monu			4	Sucess		
+263	Mainpuri	jagir	sagamai	sagamai	sagamai	27.163332	79.1091716	KIGSKSA00006871	Pakka	1	residential	dhurvijay	6398315917	7	Borewell		1		Not suplly		Monu			4	Sucess		
+264	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1632484	79.1089587	KIGSKSA00006872	Pakka	1	residential	shehpal  singh		7	Borewell		1		Not suplly		Monu			5	Sucess		
+265	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1631682	79.1089607	KIGSKSA00006873	Pakka	1	residential	prdeep		6	Borewell		1		Not suplly		Monu			6	Sucess		
+266	Mainpuri	jagir	sagamai	sagamai	sagamai	27.163124	79.1090905	KIGSKSA00006874	Pakka	1	residential	mukesh kumar	9411814387	6	Borewell		1		Not suplly		Monu			6	Sucess		
+267	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16317	79.1088816	KIGSKSA00006875	Pakka	1	residential	ram kharan		6	Borewell		1		Not suplly		Monu			6	Sucess		
+268	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1626879	79.1089527	KIGSKSA00006876	Pakka	1	residential	rakesh rajput		6	Borewell		1		Not suplly		Monu			5	Sucess		
+269	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658857	79.1093634	KIGSKSA00006877	Pakka	1	residential	saber ali	9412362703	5	Borewell		1		Not suplly		Monu			4	Sucess		
+270	Mainpuri	jagir	sagamai	jagir	jagir	27.1748755	79.1060733	KIGSKSA00006878	Pakka	1	residential	balram singh	7599453158	5	Borewell		1		Not suplly		Monu			5	Sucess		
+271	Mainpuri	jagir	sagamai	jagir	jagir	27.1748836	79.1060931	KIGSKSA00006879	Pakka	1	residential	serwan		5	Borewell		1		Not suplly		Monu			5	Sucess		
+272	Mainpuri	jagir	sagamai	jagir	jagir	27.174724	79.1062222	KIGSKSA00006880	Pakka	1	residential	suraj		3	Borewell		1		Not suplly		Monu			4	Sucess		
+273	Mainpuri	jagir	sagamai	jagir	jagir	27.1746181	79.1062493	KIGSKSA00006881	Pakka	1	residential	bedram matser	800652100	6	Borewell		1		Not suplly		Monu			5	Sucess		
+274	Mainpuri	jagir	sagamai	jagir	jagir	27.1745611	79.106363	KIGSKSA00006882	Pakka	1	residential	sikha	9818906354	4	Borewell		1		Not suplly		Monu			6	Sucess		
+275	Mainpuri	jagir	sagamai	jagir	jagir	27.1744192	79.1068156	KIGSKSA00006883	Pakka	1	residential	chandra sekhar	7500643552	4	Borewell		1		Not suplly		Monu			5	Sucess		
+276	Mainpuri	jagir	sagamai	jagir	jagir	27.1742104	79.1068917	KIGSKSA00006884	Pakka	1	residential	srila devi	9760131971	4	Borewell		1		Not suplly		Monu			5	Sucess		
+277	Mainpuri	jagir	sagamai	jagir	jagir	27.1741629	79.1070178	KIGSKSA00006885	Pakka	1	residential	chunni lal		2	Borewell		1		Not suplly		Monu			5	Sucess		
+278	Mainpuri	jagir	sagamai	jagir	jagir	27.174018	79.1071998	KIGSKSA00006886	Pakka	1	residential	prveen	9457968891	2	Borewell		1		Not suplly		Monu			5	Sucess		
+279	Mainpuri	jagir	sagamai	jagir	jagir	27.173819	79.1072555	KIGSKSA00006887	Pakka	1	residential	chintu		2	Borewell		1		Not suplly		Monu			3	Sucess		
+280	Mainpuri	jagir	sagamai	jagir	jagir	27.1738512	79.1070708	KIGSKSA00006888	Pakka	1	residential	smol		7	Borewell		1		Not suplly		Monu			4	Sucess		
+281	Mainpuri	jagir	sagamai	jagir	jagir	27.1737841	79.1071371	KIGSKSA00006889	Pakka	1	residential	vijendra singh	8218355220	7	Borewell		1		Not suplly		Monu			5	Sucess		
+282	Mainpuri	jagir	sagamai	jagir	jagir	27.1737934	79.1072441	KIGSKSA00006890	Pakka	1	residential	ghanshyam		7	Borewell		1		Not suplly		Monu			5	Sucess		
+283	Mainpuri	jagir	sagamai	jagir	jagir	27.173714	79.107108	KIGSKSA00006891	Pakka	1	residential	omprakash	9560820949	7	Borewell		1		Not suplly		Monu			5	Sucess		
+284	Mainpuri	jagir	sagamai	jagir	jagir	27.1741698	79.1064052	KIGSKSA00006892	Pakka	1	residential	seetaram		4	Borewell		1		Not suplly		Monu			5	Sucess		
+285	Mainpuri	jagir	sagamai	jagir	jagir	27.1731727	79.1062604	KIGSKSA00006893	Pakka	1	residential	ramnaresh	9368504677	4	Borewell		1		Not suplly		Monu			3	Sucess		
+286	Mainpuri	jagir	sagamai	jagir	jagir	27.1737272	79.1055965	KIGSKSA00006894	Pakka	1	residential	ram		4	Borewell		1		Not suplly		Monu			4	Sucess		
+287	Mainpuri	jagir	sagamai	jagir	jagir	27.1736055	79.1055295	KIGSKSA00006895	Pakka	1	residential	shivpal		4	Borewell		1		Not suplly		Monu			4	Sucess		
+288	Mainpuri	jagir	sagamai	jagir	jagir	27.1733522	79.1054416	KIGSKSA00006896	Pakka	1	residential	gyani		4	Borewell		1		Not suplly		Monu			3	Sucess		
+289	Mainpuri	jagir	sagamai	jagir	jagir	27.1732467	79.1054534	KIGSKSA00006897	Pakka	1	residential	shuresh		6	Borewell		1		Not suplly		Monu			3	Sucess		
+290	Mainpuri	jagir	sagamai	jagir	jagir	27.1730453	79.1056317	KIGSKSA00006898	Pakka	1	residential	teekaram	9639531886	4	Borewell		1		Not suplly		Monu			3	Failed	Property already exists	
+291	Mainpuri	jagir	sagamai	jagir	jagir	27.1726301	79.1069581	KIGSKSA00006899	Pakka	1	residential	suresh chandra	9720995409	4	Borewell		1		Not suplly		Monu			3	Sucess		
+292	Mainpuri	jagir	sagamai	jagir	jagir	27.1725899	79.107287	KIGSKSA00006900	Pakka	1	residential	puspendra		7	Borewell		1		Not suplly		Monu			3	Sucess		
+293	Mainpuri	jagir	sagamai	jagir	jagir	27.1726254	79.1073484	KIGSKSA00006901	Pakka	1	residential	ram beti	7668304885	5	Borewell		1		Not suplly		Monu			3	Sucess		
+294	Mainpuri	jagir	sagamai	jagir	jagir	27.1728962	79.1073795	KIGSKSA00006902	Pakka	1	residential	Raghvendra 		4	Borewell		1		Not suplly		Monu			3	Sucess		
+295	Mainpuri	jagir	sagamai	jagir	jagir	27.1729418	79.107456	KIGSKSA00006903	Pakka	1	residential	snesha		5	Borewell		1		Not suplly		Monu			4	Sucess		
+296	Mainpuri	jagir	sagamai	jagir	jagir	27.1729752	79.1074248	KIGSKSA00006904	Pakka	1	residential	dharamveer	9411222285	4	Borewell		1		Not suplly		Monu			3	Sucess		
+297	Mainpuri	jagir	sagamai	jagir	jagir	27.17311	79.1075053	KIGSKSA00006905	Pakka	1	residential	sajay	9457849225	4	Borewell		1		Not suplly		Monu			5	Sucess		
+298	Mainpuri	jagir	sagamai	jagir	jagir	27.1731867	79.1075314	KIGSKSA00006906	Pakka	1	residential	bittu		4	Borewell		1		Not suplly		Monu			5	Sucess		
+299	Mainpuri	jagir	sagamai	jagir	jagir	27.1733352	79.1075817	KIGSKSA00006907	Pakka	1	residential	pyarelal		4	Borewell		1		Not suplly		Monu			5	Sucess		
+300	Mainpuri	jagir	sagamai	jagir	jagir	27.1733084	79.1076394	KIGSKSA00006908	Pakka	1	residential	chunnilal		3	Borewell		1		Not suplly		Monu			5	Sucess		
+301	Mainpuri	jagir	sagamai	jagir	jagir	27.1735312	79.1074798	KIGSKSA00006909	Pakka	1	residential	aashadevi		3	Borewell		1		Not suplly		Monu			5	Sucess		
+302	Mainpuri	jagir	sagamai	jagir	jagir	27.1735601	79.1074412	KIGSKSA00006910	Pakka	1	residential	vimlesh		3	Borewell		1		Not suplly		Monu			5	Sucess		
+303	Mainpuri	jagir	sagamai	jagir	jagir	27.1736517	79.107575	KIGSKSA00006911	Pakka	1	residential	rajnesh		5	Borewell		1		Not suplly		Monu			5	Sucess		
+304	Mainpuri	jagir	sagamai	jagir	jagir	27.1737701	79.107631	KIGSKSA00006912	Pakka	1	residential	rishabh yadav	70787607	6	Borewell		1		Not suplly		Monu			5	Sucess		
+305	Mainpuri	jagir	sagamai	jagir	jagir	27.173454	79.1087766	KIGSKSA00006913	Pakka	1	residential	Rajnish		6	Borewell		1		Not suplly		Monu			4	Sucess		
+306	Mainpuri	jagir	sagamai	jagir	jagir	27.1733472	79.1088078	KIGSKSA00006914	Pakka	1	residential	shukhverr	9971512694	6	Borewell		1		Not suplly		Monu			4	Sucess		
+307	Mainpuri	jagir	sagamai	jagir	jagir	27.1733454	79.1089087	KIGSKSA00006915	Pakka	1	residential	suraj		7	Borewell		1		Not suplly		Monu			5	Sucess		
+308	Mainpuri	jagir	sagamai	jagir	jagir	27.1730731	79.1090851	KIGSKSA00006916	Pakka	1	residential	janved singh	9870669564	5	Borewell		1		Not suplly		Monu			4	Sucess		
+309	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657681	79.1111152	KIGSKSA00006917	Pakka	1	residential 	rajkumar	8273308189	5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+310	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1656139	79.1111893	KIGSKSA00006918	Pakka	1	residential 	rajpal	9012886652	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+311	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657601	79.1109727	KIGSKSA00006919	Pakka	1	residential 	umesh	9084268676	4	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+312	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1657058	79.1106119	KIGSKSA00006920	Pakka	1	residential 	anil	8272031397	5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+313	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655116	79.1106766	KIGSKSA00006921	Pakka	1	residential 	Anuj	8272031397	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+314	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165497	79.1108553	KIGSKSA00006922	Pakka	1	residential 	rakesh		7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+315	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654895	79.1106619	KIGSKSA00006923	Pakka	1	residential 	rajiv	7456003081	5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+316	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654236	79.1105828	KIGSKSA00006924	Pakka	1	residential 	sakuntla		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+317	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654382	79.110456	KIGSKSA00006925	Pakka	1	residential 	jayveer		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+318	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654516	79.1103642	KIGSKSA00006926	Pakka	1	residential 	mohan	9084268676	7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+319	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1655119	79.1102998	KIGSKSA00006927	Pakka	1	residential 	Mohit		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+320	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653959	79.1102056	KIGSKSA00006928	Pakka	1	residential 	munni devi		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+321	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653827	79.1101878	KIGSKSA00006929	Pakka	1	residential 	suraj	6395407709	7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+322	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653523	79.1101516	KIGSKSA00006930	Pakka	1	residential 	rajbahadur		6	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+323	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653523	79.1101516	KIGSKSA00006931	Pakka	1	residential 	rajbahadur	9897724121	7	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+324	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653308	79.1100457	KIGSKSA00006932	Pakka	1	residential 	rakeshsingh	7078702932	7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+325	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654612	79.1100493	KIGSKSA00006933	Pakka	1	residential 	jitendra		7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+326	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654314	79.1098871	KIGSKSA00006934	Pakka	1	residential 	surjeet		5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+327	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1652106	79.1096547	KIGSKSA00006935	Pakka	1	residential 	 Mukesh gor	9058182076	5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+328	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1651241	79.109582	KIGSKSA00006936	Pakka	1	residential 	dinesh	9058182076	5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+329	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650624	79.1097137	KIGSKSA00006937	Pakka	1	residential 	rampalsingh gor	9411251088	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+330	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649419	79.1098398	KIGSKSA00006938	Pakka	1	residential 	rajpal		7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+331	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1646898	79.109824	KIGSKSA00006939	Pakka	1	residential 	pushpatiwari	8273533863	7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+332	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641994	79.1099156	KIGSKSA00006940	Pakka	1	residential 	Rajendra singh		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+333	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1642024	79.1098046	KIGSKSA00006941	Pakka	1	residential 	vipin	9058256988	5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+334	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641866	79.1097419	KIGSKSA00006942	Pakka	1	residential 	maheshsingh	8273234161	6	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+335	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164121	79.1096567	KIGSKSA00006943	Pakka	1	residential 	Naresh		7	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+336	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641004	79.1094583	KIGSKSA00006944	Pakka	1	residential 	naredra		5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+337	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1639635	79.1094059	KIGSKSA00006945	Pakka	1	residential 	vinod		5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+338	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1637776	79.1092752	KIGSKSA00006946	Pakka	1	residential 	lajjaram	7895212641	5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+339	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1638611	79.1092983	KIGSKSA00006947	Pakka	1	residential 	shivsharan	9761082031	5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+340	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1636446	79.1091364	KIGSKSA00006948	Pakka	1	residential 	tezsingh		8	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+341	Mainpuri	jagir	sagamai	sagamai	sagamai	27.163706	79.1090804	KIGSKSA00006949	Pakka	1	residential 	anilkumar	9368537642	7	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+342	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1637442	79.10872	KIGSKSA00006950	Pakka	1	residential 	hariprashad		7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+343	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1635876	79.1081872	KIGSKSA00006951	Pakka	1	residential 	prabhudayal	8006522202	8	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+344	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1634719	79.1081416	KIGSKSA00006952	Pakka	1	residential 	Shivkumar		7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+345	Mainpuri	jagir	sagamai	jagir	jagir	27.1718012	79.1051593	KIGSKSA00006953	Pakka	1	residential 	harishsingh	8057873255	5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+346	Mainpuri	jagir	sagamai	jagir	jagir	27.1718123	79.1052821	KIGSKSA00006954	Pakka	1	residential 	rajkumar	7037282686	7	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+347	Mainpuri	jagir	sagamai	jagir	jagir	27.1718123	79.1052821	KIGSKSA00006955	Pakka	1	residential 	rajkumar	7037282686	7	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+348	Mainpuri	jagir	sagamai	jagir	jagir	27.1718275	79.1053578	KIGSKSA00006956	Pakka	1	residential 	shivam	7037699446	5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+349	Mainpuri	jagir	sagamai	jagir	jagir	27.171968	79.1060267	KIGSKSA00006957	Pakka	1	residential 	mukesh		2	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+350	Mainpuri	jagir	sagamai	jagir	jagir	27.172487	79.1064166	KIGSKSA00006958	Pakka	1	residential 	Rajkumar		3	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+351	Mainpuri	jagir	sagamai	jagir	jagir	27.1724953	79.1065373	KIGSKSA00006959	Pakka	1	residential 	phuleri		3	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+352	Mainpuri	jagir	sagamai	jagir	jagir	27.1728681	79.106592	KIGSKSA00006960	Pakka	1	residential 	manisha		3	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+353	Mainpuri	jagir	sagamai	jagir	jagir	27.172969	79.1067308	KIGSKSA00006961	Pakka	1	residential 	sanjaysingh	7088773791	4	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+354	Mainpuri	jagir	sagamai	jagir	jagir	27.1729991	79.1069128	KIGSKSA00006962	Pakka	1	residential 	avnishyadav	8273308658	4	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+355	Mainpuri	jagir	sagamai	jagir	jagir	27.1730083	79.1069169	KIGSKSA00006963	Pakka	1	residential 	abhay		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+356	Mainpuri	jagir	sagamai	jagir	jagir	27.173059	79.1068357	KIGSKSA00006964	Pakka	1	residential 	Shivam		5	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+357	Mainpuri	jagir	sagamai	jagir	jagir	27.1731971	79.1066379	KIGSKSA00006965	Pakka	1	residential 	anand		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+358	Mainpuri	jagir	sagamai	jagir	jagir	27.1733191	79.1061377	KIGSKSA00006966	Pakka	1	residential 	ramveersingh	7310893067	5	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+359	Mainpuri	jagir	sagamai	jagir	jagir	27.1732461	79.106024	KIGSKSA00006967	Pakka	1	residential 	neegatchodhary		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+360	Mainpuri	jagir	sagamai	jagir	jagir	27.1726415	79.1055811	KIGSKSA00006968	Pakka	1	residential 	brahjmohanyadav	9758525356	4	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+361	Mainpuri	jagir	sagamai	jagir	jagir	27.1726334	79.1055989	KIGSKSA00006969	Pakka	1	residential 	sarveshyadav	9084663846	4	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+362	Mainpuri	jagir	sagamai	jagir	jagir	27.1724637	79.1054866	KIGSKSA00006970	Pakka	1	residential 	Rohit		4	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+363	Mainpuri	jagir	sagamai	jagir	jagir	27.1725535	79.1054735	KIGSKSA00006971	Pakka	1	residential 	santoshkumar	9410225771	4	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+364	Mainpuri	jagir	sagamai	jagir	jagir	27.1725723	79.1055761	KIGSKSA00006972	Pakka	1	residential 	premsingh	8864842255	3	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+365	Mainpuri	jagir	sagamai	jagir	jagir	27.1726662	79.1055419	KIGSKSA00006973	Pakka	1	residential 	sanjeev	7078468322	3	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+366	Mainpuri	jagir	sagamai	jagir	jagir	27.1724163	79.1055644	KIGSKSA00006974	Pakka	1	residential 	shyamsundar	9412543880	3	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+367	Mainpuri	jagir	sagamai	jagir	jagir	27.172464	79.1053075	KIGSKSA00006975	Pakka	1	residential 	shumit		4	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+368	Mainpuri	jagir	sagamai	jagir	jagir	27.1722149	79.1053803	KIGSKSA00006976	Pakka	1	residential 	puneetpratapsingh	8006499806	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+369	Mainpuri	jagir	sagamai	jagir	jagir	27.1721287	79.1051335	KIGSKSA00006977	Pakka	1	residential 	amit		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+370	Mainpuri	jagir	sagamai	jagir	jagir	27.1728195	79.1072645	KIGSKSA00006978	Pakka	1	residential 	yogesh	8923129160	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+371	Mainpuri	jagir	sagamai	jagir	jagir	27.1727089	79.1071395	KIGSKSA00006979	Pakka	1	residential 	atul		7	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+372	Mainpuri	jagir	sagamai	jagir	jagir	27.1728327	79.1069517	KIGSKSA00006980	Pakka	1	residential 	avnishpratapsingh	8273308658	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+373	Mainpuri	jagir	sagamai	jagir	jagir	27.1728535	79.1069658	KIGSKSA00006981	Pakka	1	residential 	surendra	9410044565	7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+374	Mainpuri	jagir	sagamai	jagir	jagir	27.172884	79.1070205	KIGSKSA00006982	Pakka	1	residential 	Ramakant		7	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+375	Mainpuri	jagir	sagamai	jagir	jagir	27.1730009	79.1071864	KIGSKSA00006983	Pakka	1	residential 	rakesh		7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+376	Mainpuri	jagir	sagamai	jagir	jagir	27.1731709	79.1072686	KIGSKSA00006984	Pakka	1	residential 	sanoj		7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+377	Mainpuri	jagir	sagamai	jagir	jagir	27.17321	79.107223	KIGSKSA00006985	Pakka	1	residential 	no name 		7	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+378	Mainpuri	jagir	sagamai	jagir	jagir	27.1735625	79.1079971	KIGSKSA00006986	Pakka	1	residential 	no name		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+379	Mainpuri	jagir	sagamai	jagir	jagir	27.1733484	79.1079502	KIGSKSA00006987	Pakka	1	residential 	brajbhaansingh		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+380	Mainpuri	jagir	sagamai	jagir	jagir	27.1734375	79.1081775	KIGSKSA00006988	Pakka	1	residential 	kusumdevi	8126244673	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+381	Mainpuri	jagir	sagamai	jagir	jagir	27.173377	79.1082902	KIGSKSA00006989	Pakka	1	residential 	no name		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+382	Mainpuri	jagir	sagamai	jagir	jagir	27.173349	79.1084011	KIGSKSA00006990	Pakka	1	residential 	sarvehskumar	9761547305	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+383	Mainpuri	jagir	sagamai	jagir	jagir	27.1733114	79.1085453	KIGSKSA00006991	Pakka	1	residential 	vinodkumar	9639803282	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+384	Mainpuri	jagir	sagamai	jagir	jagir	27.1732881	79.1085523	KIGSKSA00006992	Pakka	1	residential 	phulandevi		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+385	Mainpuri	jagir	sagamai	jagir	jagir	27.1731766	79.1086063	KIGSKSA00006993	Pakka	1	residential 	kaushlendra	9473500086	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+386	Mainpuri	jagir	sagamai	jagir	jagir	27.1728547	79.108847	KIGSKSA00006994	Pakka	1	residential 	Mukesh singh		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+387	Mainpuri	jagir	sagamai	jagir	jagir	27.1728845	79.1088866	KIGSKSA00006995	Pakka	1	residential 	balveersingh		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+388	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.164231	79.1100795	KIGSKSA00006996	Pakka	1	residential	pankaj 	8279865009	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+389	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1639423	79.1100564	KIGSKSA00006997	Pakka	1	residential	meena		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+390	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1639703	79.1100128	KIGSKSA00006998	Pakka	1	residential	kushi		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+391	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.163996	79.1099665	KIGSKSA00006999	Pakka	1	residential	raj veer 		6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+392	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1640303	79.1099233	KIGSKSA00007000	Pakka	1	residential	sukhram 		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+393	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1640353	79.1100678	KIGSKSA00007001	Pakka	1	residential	shivani	8445443145	6	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+394	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1643638	79.109984	KIGSKSA00007002	Pakka	1	residential	devi charan		5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+395	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1643253	79.1099468	KIGSKSA00007003	Pakka	1	residential	satya veer		5	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+396	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1641332	79.1098036	KIGSKSA00007004	Pakka	1	residential	raj kumari 		5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+397	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1642468	79.1096111	KIGSKSA00007005	Pakka	1	residential	sarvesh 	9557041349	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+398	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1641982	79.1096477	KIGSKSA00007006	Pakka	1	residential	sadhu dina ray		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+399	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.16424	79.1096936	KIGSKSA00007007	Pakka	1	residential	raj		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+400	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1643166	79.1097617	KIGSKSA00007008	Pakka	1	residential	lakhan singh 		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+401	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1646272	79.1096477	KIGSKSA00007009	Pakka	1	residential	brijnandan 		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+402	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.164708	79.1096621	KIGSKSA00007010	Pakka	1	residential	suraj		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+403	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1647408	79.1096289	KIGSKSA00007011	Pakka	1	residential	sobha ram	8445151264	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+404	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1648425	79.109824	KIGSKSA00007012	Pakka	1	residential	anup		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+405	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1648792	79.1097516	KIGSKSA00007013	Pakka	1	residential	raghvendra 	9557649719	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+406	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1647369	79.1096373	KIGSKSA00007014	Pakka	1	residential	chand mukhi	9760621128	4	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+407	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1647993	79.1096618	KIGSKSA00007015	Pakka	1	residential	ram kripal	9456815344	4	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+408	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1648965	79.1097174	KIGSKSA00007016	Pakka	1	residential	umesh kumar 	8808244260	5	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+409	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1645636	79.1095967	KIGSKSA00007017	Pakka	1	residential	uday sharma 	7983907662	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+410	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1644595	79.10935	KIGSKSA00007018	Pakka	1	residential	Hariom 	9069831657	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+411	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1644798	79.109244	KIGSKSA00007019	Pakka	1	residential	ajal sharma 	9897228033	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+412	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1645228	79.1089151	KIGSKSA00007020	Pakka	1	residential	suresh		5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+413	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1645138	79.1088313	KIGSKSA00007021	Pakka	1	residential	mol singh 		5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+414	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1645633	79.108947	KIGSKSA00007022	Pakka	1	residential	nihal singh 		5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+415	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1646125	79.109009	KIGSKSA00007023	Pakka	1	residential	rakesh kumar 	7060059912	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+416	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1647844	79.1089034	KIGSKSA00007024	Pakka	1	residential	ramesh	7060472108	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+417	Mainpuri	jagir	sagamai	sagamai 	sagamai 	27.1647041	79.1090113	KIGSKSA00007025	Pakka	1	residential	vinay		6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+418	Mainpuri	jagir	sagamai	jagir	jagir	27.1717947	79.105273	KIGSKSA00007026	Pakka	1	residential	virendra singh 	7037444733	4	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+419	Mainpuri	jagir	sagamai	jagir	jagir	27.1718731	79.1054406	KIGSKSA00007027	Pakka	1	residential	dhiraj		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+420	Mainpuri	jagir	sagamai	jagir	jagir	27.1718591	79.1054497	KIGSKSA00007028	Pakka	1	residential	richa	9675310643	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+421	Mainpuri	jagir	sagamai	jagir	jagir	27.172084	79.1054487	KIGSKSA00007029	Pakka	1	residential	surendra singh 	7983964915	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+422	Mainpuri	jagir	sagamai	jagir	jagir	27.1720524	79.105792	KIGSKSA00007030	Pakka	1	residential	amanya 		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+423	Mainpuri	jagir	sagamai	jagir	jagir	27.1721514	79.1057169	KIGSKSA00007031	Pakka	1	residential	chhotu	9018208152	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+424	Mainpuri	jagir	sagamai	jagir	jagir	27.1722835	79.1057799	KIGSKSA00007032	Pakka	1	residential	dev rajput 		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+425	Mainpuri	jagir	sagamai	jagir	jagir	27.1722316	79.1058108	KIGSKSA00007033	Pakka		residential	kamal rajput 		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+426	Mainpuri	jagir	sagamai	jagir	jagir	27.1720604	79.1057947	KIGSKSA00007034	Pakka		residential	ram Kailash 		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+427	Mainpuri	jagir	sagamai	jagir	jagir	27.1721571	79.1057219	KIGSKSA00007035	Pakka	1	residential	desh raj		5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+428	Mainpuri	jagir	sagamai	jagir	jagir	27.1722194	79.1056666	KIGSKSA00007036	Pakka	1	residential	ram bilas 		5	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+429	Mainpuri	jagir	sagamai	jagir	jagir	27.172353	79.1058685	KIGSKSA00007037	Pakka	1	residential	ramesh		5	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+430	Mainpuri	jagir	sagamai	jagir	jagir	27.1723259	79.1056006	KIGSKSA00007038	Pakka	1	residential	vimlesh 	6398559571	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+431	Mainpuri	jagir	sagamai	jagir	jagir	27.1723876	79.1057856	KIGSKSA00007039	Pakka	1	residential	aaditya 	7895768626	6	Borewell		1		Not suplly		Abhishekh			2	Sucess		
+432	Mainpuri	jagir	sagamai	jagir	jagir	27.1723832	79.1058701	KIGSKSA00007040	Pakka	1	residential	manish kumar 		6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+433	Mainpuri	jagir	sagamai	jagir	jagir	27.1723071	79.1057011	KIGSKSA00007041	Pakka	1	residential	akhlesh 	9457415827	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+434	Mainpuri	jagir	sagamai	jagir	jagir	27.172359	79.1058517	KIGSKSA00007042	Pakka	1	residential	subedar		6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+435	Mainpuri	jagir	sagamai	jagir	jagir	27.1726152	79.1057675	KIGSKSA00007043	Pakka	1	residential	meena devi		4	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+436	Mainpuri	jagir	sagamai	jagir	jagir	27.1726236	79.1055442	KIGSKSA00007044	Pakka	1	residential	yashi		7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+437	Mainpuri	jagir	sagamai	jagir	jagir	27.1722048	79.1050772	KIGSKSA00007045	Pakka	1	residential	sarnam singh 		5	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+438	Mainpuri	jagir	sagamai	jagir	jagir	27.1725195	79.1052063	KIGSKSA00007046	Pakka	1	residential	motilal 		6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+439	Mainpuri	jagir	sagamai	jagir	jagir	27.1725066	79.105325	KIGSKSA00007047	Pakka	1	residential	anuj	9368465440	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+440	Mainpuri	jagir	sagamai	jagir	jagir	27.1723465	79.1049692	KIGSKSA00007048	Pakka	1	residential	virendra singh 	6397802930	5	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+441	Mainpuri	jagir	sagamai	jagir	jagir	27.1726233	79.1055546	KIGSKSA00007049	Pakka	1	residential	sant kumar	7017638274	5	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+442	Mainpuri	jagir	sagamai	jagir	jagir	27.1725654	79.1057685	KIGSKSA00007050	Pakka	1	residential	jay karan 	9639684770	7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+443	Mainpuri	jagir	sagamai	jagir	jagir	27.1724169	79.1055865	KIGSKSA00007051	Pakka	1	residential	badan singh 	9389894488	7	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+444	Mainpuri	jagir	sagamai	jagir	jagir	27.1727632	79.1051969	KIGSKSA00007052	Pakka	1	residential	rajeah	9568231042	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+445	Mainpuri	jagir	sagamai	jagir	jagir	27.1723894	79.1049136	KIGSKSA00007053	Pakka	1	residential	vimlesh 		6	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+446	Mainpuri	jagir	sagamai	jagir	jagir	27.1724365	79.1050031	KIGSKSA00007054	Pakka	1	residential	anil kumar 		6	Borewell		1		Not suplly		Abhishekh			6	Sucess		
+447	Mainpuri	jagir	sagamai	jagir	jagir	27.172396	79.1056411	KIGSKSA00007055	Pakka	1	residential	ram singh 		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+448	Mainpuri	jagir	sagamai	jagir	jagir	27.1730635	79.1060438	KIGSKSA00007056	Pakka	1	residential	seema devi		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+449	Mainpuri	jagir	sagamai	jagir	jagir	27.1742223	79.1059389	KIGSKSA00007057	Pakka	1	residential	kishan	8097219973	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+450	Mainpuri	jagir	sagamai	jagir	jagir	27.1734217	79.1090851	KIGSKSA00007058	Pakka	1	residential	satendra singh 	7078164194	6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+451	Mainpuri	jagir	sagamai	jagir	jagir	27.1734223	79.1090492	KIGSKSA00007059	Pakka	1	residential	dupu		6	Borewell		1		Not suplly		Abhishekh			5	Sucess		
+452	Mainpuri	jagir	sagamai	jagir	jagir	27.1737755	79.10919	KIGSKSA00007060	Pakka	1	residential	suresh		6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+453	Mainpuri	jagir	sagamai	jagir	jagir	27.1738873	79.1087887	KIGSKSA00007061	Pakka	1	residential	rakesh kumar 	7037757128	6	Borewell		1		Not suplly		Abhishekh			4	Sucess		
+454	Mainpuri	jagir	sagamai	jagir	jagir	27.1741263	79.1089818	KIGSKSA00007062	Pakka	1	residential	akhlesh singh 	9457870820	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+455	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653058	79.1106619	KIGSKSA00007063	Pakka	1	residential 	Hriom singh	9520910246	6	Borewell		1		Not suplly		Abhishekh			3	Sucess		
+456	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1652542	79.1106388	KIGSKSA00007064	Pakka	1	residential 	Brajesh singh	8126846293	5	Borewell		1		Not suplly		Manish			3	Sucess		
+457	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1652026	79.1106166	KIGSKSA00007065	Pakka	1	residential 	Ram mohan	9760532959	5	Borewell		1		Not suplly		Manish			3	Sucess		
+458	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165096	79.110557	KIGSKSA00007066	Pakka	1	residential 	Rahul singh	7037757298	5	Borewell		1		Not suplly		Manish			4	Sucess		
+459	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650755	79.1103746	KIGSKSA00007067	Pakka	1	residential 	Bobi singh	7037757298	5	Borewell		1		Not suplly		Manish			3	Sucess		
+460	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1645368	79.1099923	KIGSKSA00007068	Pakka	1	residential 	Govind singh 		5	Borewell		1		Not suplly		Manish			4	Sucess		
+461	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1647014	79.1096044	KIGSKSA00007069	Pakka	1	residential 	Naresh Singh 		6	Borewell		1		Not suplly		Manish			4	Sucess		
+462	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1648237	79.1094137	KIGSKSA00007070	Pakka	1	residential 	Ramrup Singh 		5	Borewell		1		Not suplly		Manish			4	Sucess		
+463	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1645001	79.1102203	KIGSKSA00007071	Pakka	1	residential 	subhash singh		6	Borewell		1		Not suplly		Manish			4	Sucess		
+464	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1645195	79.1101959	KIGSKSA00007072	Pakka	1	residential 	sarvesh singh 		6	Borewell		1		Not suplly		Manish			4	Sucess		
+465	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644658	79.1103038	KIGSKSA00007073	Pakka	1	residential 	selesh Singh 		6	Borewell		1		Not suplly		Manish			4	Sucess		
+466	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644697	79.110331	KIGSKSA00007074	Pakka	1	residential 	Raju Singh 		6	Borewell		1		Not suplly		Manish			4	Sucess		
+467	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644556	79.1103846	KIGSKSA00007075	Pakka	1	residential 	Dinesh kumar 		6	Borewell		1		Not suplly		Manish			3	Sucess		
+468	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1643894	79.1104426	KIGSKSA00007076	Pakka	1	residential 	Mhendra		6	Borewell		1		Not suplly		Manish			4	Sucess		
+469	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644345	79.1099404	KIGSKSA00007077	Pakka	1	residential 	shri Rajendra Singh 		9	Borewell		1		Not suplly		Manish			4	Sucess		
+470	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644348	79.109933	KIGSKSA00007078	Pakka	1	residential 	Rajeshwar singh 	8126328341	9	Borewell		1		Not suplly		Manish			5	Sucess		
+471	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644383	79.1098985	KIGSKSA00007079	Pakka	1	residential 	kamlesh kumar 	8126328341	6	Borewell		1		Not suplly		Manish			4	Sucess		
+472	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644846	79.1098623	KIGSKSA00007080	Pakka	1	residential 	ravindra singh 	6399886780	7	Borewell		1		Not suplly		Manish			4	Sucess		
+473	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644079	79.1099994	KIGSKSA00007081	Pakka	1	residential 	pappu singh	8532040374	7	Borewell		1		Not suplly		Manish			5	Sucess		
+474	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644225	79.1100138	KIGSKSA00007082	Pakka	1	residential 	shayam veer singh 	8532040374	6	Borewell		1		Not suplly		Manish			5	Sucess		
+475	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1642898	79.1099699	KIGSKSA00007083	Pakka	1	residential 	chidalal singh	9639168781	10	Borewell		1		Not suplly		Manish			3	Sucess		
+476	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1640515	79.1100926	KIGSKSA00007084	Pakka	1	residential 	ram naresh singh 	9457941905	10	Borewell		1		Not suplly		Manish			7	Sucess		
+477	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641923	79.110166	KIGSKSA00007085	Pakka	1	residential 	Dalveer Singh 	9457941905	10	Borewell		1		Not suplly		Manish			7	Sucess		
+478	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1639172	79.1100785	KIGSKSA00007086	Pakka	1	residential 	Amar singh	9457941905	5	Borewell		1		Not suplly		Manish			8	Sucess		
+479	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1642274	79.1096249	KIGSKSA00007087	Pakka	1	residential 	shanti devi 	9756173621	4	Borewell		1		Not suplly		Manish			7	Sucess		
+480	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164468	79.109554	KIGSKSA00007088	Pakka	1	residential 	Rajveer Singh 	7500385650	4	Borewell		1		Not suplly		Manish			7	Sucess		
+481	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1645126	79.1096165	KIGSKSA00007089	Pakka	1	residential 	shri chandra		4	Borewell		1		Not suplly		Manish			8	Sucess		
+482	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1645117	79.1096339	KIGSKSA00007090	Pakka	1	residential 	satish 		4	Borewell		1		Not suplly		Manish			7	Sucess		
+483	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1641216	79.1093855	KIGSKSA00007091	Pakka	1	residential 	Asharam singh		7	Borewell		1		Not suplly		Manish			6	Sucess		
+484	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1643363	79.1091196	KIGSKSA00007092	Pakka	1	residential 	satyaveer singh	9910698985	7	Borewell		1		Not suplly		Manish			6	Sucess		
+485	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1642274	79.1089667	KIGSKSA00007093	Pakka	1	residential 	mangal Singh 	9910698985	7	Borewell		1		Not suplly		Keshav			5	Sucess		
+486	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644774	79.1088601	KIGSKSA00007094	Pakka	1	residential 	Priya Singh 		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+487	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1644646	79.1087176	KIGSKSA00007095	Pakka	1	residential 	Darbari lal 		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+488	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164348	79.1086496	KIGSKSA00007096	Pakka	1	residential 	sushila devi 		10	Borewell		1		Not suplly		Keshav			5	Sucess		
+489	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1643673	79.108556	KIGSKSA00007097	Pakka	1	residential 	manoj  singh	9058443985	10	Borewell		1		Not suplly		Keshav			6	Sucess		
+490	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1647181	79.1086623	KIGSKSA00007098	Pakka	1	residential 	ayush singh		10	Borewell		1		Not suplly		Keshav			6	Sucess		
+491	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1648494	79.1086968	KIGSKSA00007099	Pakka	1	residential 	Balram Singh 		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+492	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649651	79.1086818	KIGSKSA00007100	Pakka	1	residential 	rvindra singh		10	Borewell		1		Not suplly		Keshav			5	Sucess		
+493	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1649201	79.1088303	KIGSKSA00007101	Pakka	1	residential 	vimla devi 		10	Borewell		1		Not suplly		Keshav			7	Sucess		
+494	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650284	79.1087274	KIGSKSA00007102	Pakka	1	residential 	stayveer singh		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+495	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1650865	79.1087257	KIGSKSA00007103	Pakka	1	residential 	jiledra singh		10	Borewell		1		Not suplly		Keshav			5	Sucess		
+496	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165233	79.1086901	KIGSKSA00007104	Pakka	1	residential 	girendra singh		10	Borewell		1		Not suplly		Keshav			7	Sucess		
+497	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1651059	79.1085949	KIGSKSA00007105	Pakka	1	residential 	pinku		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+498	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165125	79.1085406	KIGSKSA00007106	Pakka	1	residential 	Subash 		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+499	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653168	79.1085637	KIGSKSA00007107	Pakka	1	residential 	jay Singh 		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+500	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1653687	79.1090268	KIGSKSA00007108	Pakka	1	residential 	shyam Sharma 		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+501	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654946	79.1090123	KIGSKSA00007109	Pakka	1	residential 	mukesh kumar 		10	Borewell		1		Not suplly		Keshav			8	Sucess		
+502	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1654528	79.1091357	KIGSKSA00007110	Pakka	1	residential 	nirmla devi	9627952802	8	Borewell		1		Not suplly		Keshav			5	Sucess		
+503	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165879	79.109185	KIGSKSA00007111	Pakka	1	residential 	prdeep singh		8	Borewell		1		Not suplly		Keshav			7	Sucess		
+504	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16573	79.1092896	KIGSKSA00007112	Pakka	1	residential 	karan singh		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+505	Mainpuri	jagir	sagamai	sagamai	sagamai	27.1658609	79.1093862	KIGSKSA00007113	Pakka	1	residential 	Taeef		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+506	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165676	79.1120855	KIGSKSA00007114	Pakka	1	residential 	dipesh singh		8	Borewell		1		Not suplly		Keshav			4	Sucess		
+507	Mainpuri	jagir	sagamai	jagir	jagir	27.1747508	79.1058366	KIGSKSA00007115	Pakka	1	residential 	manoj kumar 		8	Borewell		1		Not suplly		Keshav			4	Sucess		
+508	Mainpuri	jagir	sagamai	jagir	jagir	27.1746843	79.1058651	KIGSKSA00007116	Pakka	1	residential 	jagdeesh singh		8	Borewell		1		Not suplly		Keshav			3	Sucess		
+509	Mainpuri	jagir	sagamai	jagir	jagir	27.1746086	79.1057568	KIGSKSA00007117	Pakka	1	residential 	ramprakash singh		8	Borewell		1		Not suplly		Keshav			3	Sucess		
+510	Mainpuri	jagir	sagamai	jagir	jagir	27.174678	79.1058554	KIGSKSA00007118	Pakka	1	residential 	surendra singh		8	Borewell		1		Not suplly		Keshav			4	Sucess		
+511	Mainpuri	jagir	sagamai	jagir	jagir	27.1745862	79.1059409	KIGSKSA00007119	Pakka	1	residential 	Hariram 		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+512	Mainpuri	jagir	sagamai	jagir	jagir	27.1745927	79.1059338	KIGSKSA00007120	Pakka	1	residential 	bheem sen		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+513	Mainpuri	jagir	sagamai	jagir	jagir	27.1745107	79.106018	KIGSKSA00007121	Pakka	1	residential 	balishtar		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+514	Mainpuri	jagir	sagamai	jagir	jagir	27.1744827	79.1060565	KIGSKSA00007122	Pakka	1	residential 	anokhe lal		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+515	Mainpuri	jagir	sagamai	jagir	jagir	27.1745432	79.105741	KIGSKSA00007123	Pakka	1	residential 	devarilal		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+516	Mainpuri	jagir	sagamai	jagir	jagir	27.174412	79.1060961	KIGSKSA00007124	Pakka	1	residential 	rameshwar 		8	Borewell		1		Not suplly		Keshav			6	Sucess		
+517	Mainpuri	jagir	sagamai	jagir	jagir	27.1743768	79.1062101	KIGSKSA00007125	Pakka	1	residential 	jangjeet		8	Borewell		1		Not suplly		Keshav			6	Sucess		
+518	Mainpuri	jagir	sagamai	jagir	jagir	27.1743162	79.1062564	KIGSKSA00007126	Pakka	1	residential 	Devendra 		8	Borewell		1		Not suplly		Keshav			6	Sucess		
+519	Mainpuri	jagir	sagamai	jagir	jagir	27.1743395	79.1062607	KIGSKSA00007127	Pakka	1	residential 	dipti mastar 		8	Borewell		1		Not suplly		Keshav			6	Sucess		
+520	Mainpuri	jagir	sagamai	jagir	jagir	27.1750327	79.1058443	KIGSKSA00007128	Pakka	1	residential 	Rajesh singh	6396965504	5	Borewell		1		Not suplly		Keshav			7	Sucess		
+521	Mainpuri	jagir	sagamai	jagir	jagir	27.1747103	79.1059925	KIGSKSA00007129	Pakka	1	residential 	prmod singh		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+522	Mainpuri	jagir	sagamai	jagir	jagir	27.1745748	79.1062533	KIGSKSA00007130	Pakka	1	residential 	ranveer singh		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+523	Mainpuri	jagir	sagamai	jagir	jagir	27.1746953	79.1063801	KIGSKSA00007131	Pakka	1	residential 	brajesh singh	9411650221	4	Borewell		1		Not suplly		Keshav			4	Sucess		
+524	Mainpuri	jagir	sagamai	jagir	jagir	27.1745716	79.1063938	KIGSKSA00007132	Pakka	1	residential 	kuvarpal singh	9411650221	4	Borewell		1		Not suplly		Keshav			3	Sucess		
+525	Mainpuri	jagir	sagamai	jagir	jagir	27.1745107	79.1063043	KIGSKSA00007133	Pakka	1	residential 	echaram 		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+526	Mainpuri	jagir	sagamai	jagir	jagir	27.1740797	79.1072387	KIGSKSA00007134	Pakka	1	residential 	amindra singh		7	Borewell		1		Not suplly		Keshav			4	Sucess		
+527	Mainpuri	jagir	sagamai	jagir	jagir	27.174043	79.1069933	KIGSKSA00007135	Pakka	1	residential 	Satendra Singh 	8923162233	7	Borewell		1		Not suplly		Keshav			4	Sucess		
+528	Mainpuri	jagir	sagamai	jagir	jagir	27.1739127	79.1071391	KIGSKSA00007136	Pakka	1	residential 	upendra Singh 		7	Borewell		1		Not suplly		Keshav			3	Sucess		
+529	Mainpuri	jagir	sagamai	jagir	jagir	27.1739649	79.1071579	KIGSKSA00007137	Pakka	1	residential 	nitin 		7	Borewell		1		Not suplly		Keshav			5	Sucess		
+530	Mainpuri	jagir	sagamai	jagir	jagir	27.1738727	79.1071127	KIGSKSA00007138	Pakka	1	residential 	Joly singh		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+531	Mainpuri	jagir	sagamai	jagir	jagir	27.1738784	79.1071019	KIGSKSA00007139	Pakka	1	residential	ajay pal Singh 		6	Borewell		1		Not suplly		Keshav			7	Sucess		
+532	Mainpuri	jagir	sagamai	jagir	jagir	27.173788	79.1066409	KIGSKSA00007140	Pakka	1	residential	ramveer singh	7668828710	6	Borewell		1		Not suplly		Keshav			7	Sucess		
+533	Mainpuri	jagir	sagamai	jagir	jagir	27.173785	79.1066087	KIGSKSA00007141	Pakka	1	residential	chndraparkash	9627560337	6	Borewell		1		Not suplly		Keshav			7	Sucess		
+534	Mainpuri	jagir	sagamai	jagir	jagir	27.1743416	79.1063466	KIGSKSA00007142	Pakka	1	residential	premnath singh		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+535	Mainpuri	jagir	sagamai	jagir	jagir	27.174021	79.105902	KIGSKSA00007143	Pakka	1	residential	sivram singh	7037246892	5	Borewell		1		Not suplly		Keshav			4	Sucess		
+536	Mainpuri	jagir	sagamai	jagir	jagir	27.1738447	79.1060006	KIGSKSA00007144	Pakka	1	residential	mr. dhaniram 	9410632917	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+537	Mainpuri	jagir	sagamai	jagir	jagir	27.1731557	79.1051774	KIGSKSA00007145	Pakka	1	residential	tinku Singh 	8859305071	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+538	Mainpuri	jagir	sagamai	jagir	jagir	27.172875	79.1050403	KIGSKSA00007146	Pakka	1	residential	Harnarayan 	9457973051	6	Borewell		1		Not suplly		Keshav			3	Sucess		
+539	Mainpuri	jagir	sagamai	jagir	jagir	27.1723545	79.1048747	KIGSKSA00007147	Pakka	1	residential	ramsurat singh	8851527957	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+540	Mainpuri	jagir	sagamai	jagir	jagir	27.1722161	79.1048254	KIGSKSA00007148	Pakka	1	residential	Arjun singh	8851527957	8	Borewell		1		Not suplly		Keshav			3	Sucess		
+541	Mainpuri	jagir	sagamai	jagir	jagir	27.1721436	79.1047218	KIGSKSA00007149	Pakka	1	residential	shri Anil Kumar 	6397894346	6	Borewell		1		Not suplly		Keshav			3	Sucess		
+542	Mainpuri	jagir	sagamai	jagir	jagir	27.1745283	79.1081084	KIGSKSA00007150	Pakka	1	residential	jghesh singh	7088698469	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+543	Mainpuri	jagir	sagamai	jagir	jagir	27.1743965	79.10803	KIGSKSA00007151	Pakka	1	residential	Sumit Pratap 	9719954274	6	Borewell		1		Not suplly		Keshav			4	Sucess		
+544	Mainpuri	jagir	sagamai	jagir	jagir	27.1742008	79.107812	KIGSKSA00007152	Pakka	1	residential	dheeraj Singh 	9457661024	6	Borewell		1		Not suplly		Keshav			5	Sucess		
+545	Mainpuri	jagir	sagamai	jagir	jagir	27.1738492	79.1076404	KIGSKSA00007153	Pakka	1	residential	akhilesh singh 		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+546	Mainpuri	jagir	sagamai	jagir	jagir	27.1738542	79.1075653	KIGSKSA00007154	Pakka	1	residential	sanoj singh		6	Borewell		1		Not suplly		Keshav			7	Sucess		
+547	Mainpuri	jagir	sagamai	jagir	jagir	27.1740386	79.1073805	KIGSKSA00007155	Pakka	1	residential	dalveer singh		6	Borewell		1		Not suplly		Keshav			7	Sucess		
+548	Mainpuri	jagir	sagamai	jagir	jagir	27.1733907	79.1087287	KIGSKSA00007156	Pakka	1	residential	depti singh 		6	Borewell		1		Not suplly		Keshav			5	Sucess		
+549	Mainpuri	jagir	sagamai	jagir	jagir	27.1731017	79.109005	KIGSKSA00007157	Pakka	1	residential	jagdeesh singh	9084336922	4	Borewell		1		Not suplly		Keshav			4	Sucess		
+550	Mainpuri	jagir	sagamai	jagir	jagir	27.175327	79.106316	KIGSKSA00007158	Pakka	1	residential	Lalu		3	Borewell		1		Not suplly		Harsh			4	Sucess		
+551	Mainpuri	jagir	sagamai	jagir	jagir	27.175179	79.106398	KIGSKSA00007159	Pakka	1	residential	Suresh		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+552	Mainpuri	jagir	sagamai	jagir	jagir	27.175171	79.106509	KIGSKSA00007160	Pakka	1	residential	Raghu		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+553	Mainpuri	jagir	sagamai	jagir	jagir	27.175063	79.106549	KIGSKSA00007161	Pakka	1	residential	Bhura		3	Borewell		1		Not suplly		Harsh			4	Sucess		
+554	Mainpuri	jagir	sagamai	jagir	jagir	27.175312	79.106904	KIGSKSA00007162	Pakka	1	residential	Mulchandra		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+555	Mainpuri	jagir	sagamai	jagir	jagir	27.174864	79.106718	KIGSKSA00007163	Pakka	1	residential	Girdhari		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+556	Mainpuri	jagir	sagamai	jagir	jagir	27.174732	79.106479	KIGSKSA00007164	Pakka	1	residential	Brajbhushan		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+557	Mainpuri	jagir	sagamai	jagir	jagir	27.174651	79.10655	KIGSKSA00007165	Pakka	1	residential	Anirudha		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+558	Mainpuri	jagir	sagamai	jagir	jagir	27.174651	79.106664	KIGSKSA00007166	Pakka	1	residential	Vikash		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+559	Mainpuri	jagir	sagamai	jagir	jagir	27.174569	79.1068	KIGSKSA00007167	Pakka	1	residential	Nirjala		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+560	Mainpuri	jagir	sagamai	jagir	jagir	27.174637	79.10689	KIGSKSA00007168	Pakka	1	residential	Maya		3	Borewell		1		Not suplly		Harsh			4	Sucess		
+561	Mainpuri	jagir	sagamai	jagir	jagir	27.174566	79.106995	KIGSKSA00007169	Pakka	1	residential	Niraj		6	Borewell		1		Not suplly		Harsh			3	Sucess		
+562	Mainpuri	jagir	sagamai	jagir	jagir	27.174339	79.107478	KIGSKSA00007170	Pakka	1	residential	Rohit Singh		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+563	Mainpuri	jagir	sagamai	jagir	jagir	27.174021	79.10779	KIGSKSA00007171	Pakka	1	residential	Post Office		5	Borewell		1		Not suplly		Harsh			2	Sucess		
+564	Mainpuri	jagir	sagamai	jagir	jagir	27.174364	79.107308	KIGSKSA00007172	Pakka	1	residential	Mintu		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+565	Mainpuri	jagir	sagamai	jagir	jagir	27.173951	79.107451	KIGSKSA00007173	Pakka	1	residential	Rekhraj		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+566	Mainpuri	jagir	sagamai	jagir	jagir	27.173967	79.107255	KIGSKSA00007174	Pakka	1	residential	Arun		4	Borewell		1		Not suplly		Harsh			5	Sucess		
+567	Mainpuri	jagir	sagamai	jagir	jagir	27.173859	79.107393	KIGSKSA00007175	Pakka	1	residential	Minu		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+568	Mainpuri	jagir	sagamai	jagir	jagir	27.173754	79.107411	KIGSKSA00007176	Pakka	1	residential	Shilu		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+569	Mainpuri	jagir	sagamai	jagir	jagir	27.17357	79.105429	KIGSKSA00007177	Pakka	1	residential	Jasprit		3	Borewell		1		Not suplly		Harsh			3	Sucess		
+570	Mainpuri	jagir	sagamai	jagir	jagir	27.17363	79.105397	KIGSKSA00007178	Pakka	1	residential	Mangal		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+571	Mainpuri	jagir	sagamai	jagir	jagir	27.173668	79.105358	KIGSKSA00007179	Pakka	1	residential	Virsingh		4	Borewell		1		Not suplly		Harsh			4	Sucess		
+572	Mainpuri	jagir	sagamai	jagir	jagir	27.173742	79.105288	KIGSKSA00007180	Pakka	1	residential	Kadam Singh		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+573	Mainpuri	jagir	sagamai	jagir	jagir	27.173805	79.105228	KIGSKSA00007181	Pakka	1	residential	Vikram Singh		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+574	Mainpuri	jagir	sagamai	jagir	jagir	27.173778	79.105377	KIGSKSA00007182	Pakka	1	residential	Ashish		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+575	Mainpuri	jagir	sagamai	jagir	jagir	27.173847	79.105258	KIGSKSA00007183	Pakka	1	residential	Aman		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+576	Mainpuri	jagir	sagamai	jagir	jagir	27.173896	79.105327	KIGSKSA00007184	Pakka	1	residential	Rajesh 		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+577	Mainpuri	jagir	sagamai	jagir	jagir	27.173942	79.10538	KIGSKSA00007185	Pakka	1	residential	Ashutosh		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+578	Mainpuri	jagir	sagamai	jagir	jagir	27.173872	79.10544	KIGSKSA00007186	Pakka	1	residential	Piyush		6	Borewell		1		Not suplly		Harsh			3	Sucess		
+579	Mainpuri	jagir	sagamai	jagir	jagir	27.173894	79.105505	KIGSKSA00007187	Pakka	1	residential	Rajul		6	Borewell		1		Not suplly		Harsh			5	Sucess		
+580	Mainpuri	jagir	sagamai	jagir	jagir	27.173948	79.105539	KIGSKSA00007188	Pakka	1	residential	Rohit yadav		5	Borewell		1		Not suplly		Harsh			5	Sucess		
+581	Mainpuri	jagir	sagamai	jagir	jagir	27.173987	79.105425	KIGSKSA00007189	Pakka	1	residential	Parul		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+582	Mainpuri	jagir	sagamai	jagir	jagir	27.174017	79.105552	KIGSKSA00007190	Pakka	1	residential	Paras		4	Borewell		1		Not suplly		Harsh			3	Sucess		
+583	Mainpuri	jagir	sagamai	jagir	jagir	27.174157	79.105515	KIGSKSA00007191	Pakka	1	residential	Raju		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+584	Mainpuri	jagir	sagamai	jagir	jagir	27.173847	79.105537	KIGSKSA00007192	Pakka	1	residential	Rajvir Singh		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+585	Mainpuri	jagir	sagamai	jagir	jagir	27.173816	79.105602	KIGSKSA00007193	Pakka	1	residential	Avtar Singh		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+586	Mainpuri	jagir	sagamai	jagir	jagir	27.173881	79.105691	KIGSKSA00007194	Pakka	1	residential	Rakesh		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+587	Mainpuri	jagir	sagamai	jagir	jagir	27.173776	79.105682	KIGSKSA00007195	Pakka	1	residential	Subhash 		5	Borewell		1		Not suplly		Harsh			3	Sucess		
+588	Mainpuri	jagir	sagamai	jagir	jagir	27.173916	79.105612	KIGSKSA00007196	Pakka	1	residential	Rajesh		4	Borewell		1		Not suplly		Harsh			5	Sucess		
+589	Mainpuri	jagir	sagamai	jagir	jagir	27.173806	79.105725	KIGSKSA00007197	Pakka	1	residential	Titu		5	Borewell		1		Not suplly		Harsh			4	Sucess		
+590	Mainpuri	jagir	sagamai	jagir	jagir	27.173836	79.105808	KIGSKSA00007198	Pakka	1	residential	Harikesh yadav		6	Borewell		1		Not suplly		Harsh			4	Sucess		
+591	Mainpuri	jagir	sagamai	jagir	jagir	27.173936	79.105904	KIGSKSA00007199	Pakka	1	residential	ratinesh		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+592	Mainpuri	jagir	sagamai	jagir	jagir	27.173867	79.105942	KIGSKSA00007200	Pakka	1	residential	Upendra		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+593	Mainpuri	jagir	sagamai	jagir	jagir	27.174024	79.105776	KIGSKSA00007201	Pakka	1	residential	Nagendra		6	Borewell		1		Not suplly		Keshav			5	Sucess		
+594	Mainpuri	jagir	sagamai	jagir	jagir	27.174447	79.1058	KIGSKSA00007202	Pakka	1	residential	Vikash		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+595	Mainpuri	jagir	sagamai	jagir	jagir	27.174475	79.105957	KIGSKSA00007203	Pakka	1	residential	Vinod Kumar		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+596	Mainpuri	jagir	sagamai	jagir	jagir	27.174109	79.105969	KIGSKSA00007204	Pakka	1	residential	Arvind Singh		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+597	Mainpuri	jagir	sagamai	jagir	jagir	27.174196	79.10605	KIGSKSA00007205	Pakka	1	residential	Vijay Kumar		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+598	Mainpuri	jagir	sagamai	jagir	jagir	27.174159	79.105859	KIGSKSA00007206	Pakka	1	residential	Sarla Devi		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+599	Mainpuri	jagir	sagamai	jagir	jagir	27.173945	79.106047	KIGSKSA00007207	Pakka	1	residential	Shanti Devi		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+600	Mainpuri	jagir	sagamai	jagir	jagir	27.173998	79.106131	KIGSKSA00007208	Pakka	1	residential	Shambhu lal		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+601	Mainpuri	jagir	sagamai	jagir	jagir	27.174041	79.106195	KIGSKSA00007209	Pakka	1	residential	Manju Devi		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+602	Mainpuri	jagir	sagamai	jagir	jagir	27.174104	79.106246	KIGSKSA00007210	Pakka	1	residential	Guddi Devi		3	Borewell		1		Not suplly		Keshav			5	Sucess		
+603	Mainpuri	jagir	sagamai	jagir	jagir	27.174172	79.106153	KIGSKSA00007211	Pakka	1	residential	Veerpal		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+604	Mainpuri	jagir	sagamai	jagir	jagir	27.173374	79.105942	KIGSKSA00007212	Pakka	1	residential	Bittan Devi		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+605	Mainpuri	jagir	sagamai	jagir	jagir	27.173471	79.105982	KIGSKSA00007213	Pakka	1	residential	Sadhana Devi		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+606	Mainpuri	jagir	sagamai	jagir	jagir	27.173463	79.105816	KIGSKSA00007214	Pakka	1	residential	Vimala DEvi		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+607	Mainpuri	jagir	sagamai	jagir	jagir	27.173613	79.105864	KIGSKSA00007215	Pakka	1	residential	Rajesh		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+608	Mainpuri	jagir	sagamai	jagir	jagir	27.173717	79.105928	KIGSKSA00007216	Pakka	1	residential	Malkhan Singh		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+609	Mainpuri	jagir	sagamai	jagir	jagir	27.173968	79.106186	KIGSKSA00007217	Pakka	1	residential	Shantidevi		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+610	Mainpuri	jagir	sagamai	jagir	jagir	27.17382	79.106547	KIGSKSA00007218	Pakka	1	residential	Ajeet Kumar		3	Borewell		1		Not suplly		Keshav			3	Sucess		
+611	Mainpuri	jagir	sagamai	jagir	jagir	27.173888	79.106676	KIGSKSA00007219	Pakka	1	residential	Ramvati		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+612	Mainpuri	jagir	sagamai	jagir	jagir	27.173942	79.106758	KIGSKSA00007220	Pakka	1	residential	Shiv Sagar Kumar 		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+613	Mainpuri	jagir	sagamai	jagir	jagir	27.17397	79.106881	KIGSKSA00007221	Pakka	1	residential	Akash dhovi 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+614	Mainpuri	jagir	sagamai	jagir	jagir	27.173592	79.1066	KIGSKSA00007222	Pakka	1	residential	Mata parsad 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+615	Mainpuri	jagir	sagamai	jagir	jagir	27.173469	79.106649	KIGSKSA00007223	Pakka	1	residential	Naman Kumar 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+616	Mainpuri	jagir	sagamai	jagir	jagir	27.173428	79.10672	KIGSKSA00007224	Pakka	1	residential	Akhilesh Kumar 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+617	Mainpuri	jagir	sagamai	jagir	jagir	27.173435	79.106914	KIGSKSA00007225	Pakka	1	residential	Nanka Devi 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+618	Mainpuri	jagir	sagamai	jagir	jagir	27.173556	79.106939	KIGSKSA00007226	Pakka	1	residential	Harsh Kumar 		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+619	Mainpuri	jagir	sagamai	jagir	jagir	27.173565	79.106803	KIGSKSA00007227	Pakka	1	residential	Vishal Kumar 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+620	Mainpuri	jagir	sagamai	jagir	jagir	27.173784	79.106946	KIGSKSA00007228	Pakka	1	residential	Arvind Kumar 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+621	Mainpuri	jagir	sagamai	jagir	jagir	27.173646	79.106911	KIGSKSA00007229	Pakka	1	residential	Anjana Devi 		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+622	Mainpuri	jagir	sagamai	jagir	jagir	27.173634	79.107035	KIGSKSA00007230	Pakka	1	residential	Anjana Devi 		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+623	Mainpuri	jagir	sagamai	jagir	jagir	27.173695	79.106954	KIGSKSA00007231	Pakka	1	residential	Amrita Devi 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+624	Mainpuri	jagir	sagamai	jagir	jagir	27.173584	79.107634	KIGSKSA00007232	Pakka	1	residential	Piyush kumar 		3	Borewell		1		Not suplly		Keshav			2	Sucess		
+625	Mainpuri	jagir	sagamai	jagir	jagir	27.173549	79.107599	KIGSKSA00007233	Pakka	1	residential	Shivanand 		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+626	Mainpuri	jagir	sagamai	jagir	jagir	27.173531	79.107728	KIGSKSA00007234	Pakka	1	residential	Rajesh Kumar 		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+627	Mainpuri	jagir	sagamai	jagir	jagir	27.173464	79.107705	KIGSKSA00007235	Pakka	1	residential	veeru yadav		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+628	Mainpuri	jagir	sagamai	jagir	jagir	27.173389	79.107485	KIGSKSA00007236	Pakka	1	residential	jay sankar kumar		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+629	Mainpuri	jagir	sagamai	jagir	jagir	27.173496	79.107375	KIGSKSA00007237	Pakka	1	residential	satya veer		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+630	Mainpuri	jagir	sagamai	jagir	jagir	27.173596	79.107366	KIGSKSA00007238	Pakka	1	residential	vijay yadav		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+631	Mainpuri	jagir	sagamai	jagir	jagir	27.173709	79.107281	KIGSKSA00007239	Pakka	1	residential	omesh chand		7	Borewell		1		Not suplly		Keshav			4	Sucess		
+632	Mainpuri	jagir	sagamai	jagir	jagir	27.173343	79.10725	KIGSKSA00007240	Pakka	1	residential	satish chand		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+633	Mainpuri	jagir	sagamai	jagir	jagir	27.173422	79.107387	KIGSKSA00007241	Pakka	1	residential	dharm pal		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+634	Mainpuri	jagir	sagamai	jagir	jagir	27.17264	79.106588	KIGSKSA00007242	Pakka	1	residential	Mintu		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+635	Mainpuri	jagir	sagamai	jagir	jagir	27.17314	79.106486	KIGSKSA00007243	Pakka	1	residential	Rajkumari 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+636	Mainpuri	jagir	sagamai	jagir	jagir	27.173081	79.106547	KIGSKSA00007244	Pakka	1	residential	Pramod 		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+637	Mainpuri	jagir	sagamai	jagir	jagir	27.173081	79.106635	KIGSKSA00007245	Pakka	1	residential	Badan Singh 		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+638	Mainpuri	jagir	sagamai	jagir	jagir	27.172823	79.106712	KIGSKSA00007246	Pakka	1	residential	Rambe ji		8	Borewell		1		Not suplly		Keshav			5	Sucess		
+639	Mainpuri	jagir	sagamai	jagir	jagir	27.172734	79.106887	KIGSKSA00007247	Pakka	1	residential	Javat Singh 		6	Borewell		1		Not suplly		Keshav			6	Sucess		
+640	Mainpuri	jagir	sagamai	jagir	jagir	27.173182	79.106948	KIGSKSA00007248	Pakka	1	residential	Indravati		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+641	Mainpuri	jagir	sagamai	jagir	jagir	27.172014	79.105206	KIGSKSA00007249	Pakka	1	residential	Shree Devi 		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+642	Mainpuri	jagir	sagamai	jagir	jagir	27.171964	79.10531	KIGSKSA00007250	Pakka	1	residential	pramos		3	Borewell		1		Not suplly		Keshav			4	Sucess		
+643	Mainpuri	jagir	sagamai	jagir	jagir	27.171877	79.105091	KIGSKSA00007251	Pakka	1	residential	Yashpal Singh 		4	Borewell		1		Not suplly		Keshav			2	Sucess		
+644	Mainpuri	jagir	sagamai	jagir	jagir	27.171914	79.10522	KIGSKSA00007252	Pakka	1	residential	vinod		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+645	Mainpuri	jagir	sagamai	jagir	jagir	27.171886	79.105343	KIGSKSA00007253	Pakka	1	residential	Shivam		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+646	Mainpuri	jagir	sagamai	jagir	jagir	27.172	79.105476	KIGSKSA00007254	Pakka	1	residential	Mahonlal		9	Borewell		1		Not suplly		Keshav			3	Sucess		
+647	Mainpuri	jagir	sagamai	jagir	jagir	27.172145	79.10544	KIGSKSA00007255	Pakka	1	residential	Rajbahadur 		7	Borewell		1		Not suplly		Keshav			6	Sucess		
+648	Mainpuri	jagir	sagamai	jagir	jagir	27.172005	79.105592	KIGSKSA00007256	Pakka	1	residential	Sanjay		6	Borewell		1		Not suplly		Keshav			5	Sucess		
+649	Mainpuri	jagir	sagamai	jagir	jagir	27.172286	79.105405	KIGSKSA00007257	Pakka	1	residential	Manoj Kumar 		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+650	Mainpuri	jagir	sagamai	jagir	jagir	27.172336	79.105505	KIGSKSA00007258	Pakka	1	residential	OM		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+651	Mainpuri	jagir	sagamai	jagir	jagir	27.172234	79.105528	KIGSKSA00007259	Pakka	1	residential	Ramprakash 		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+652	Mainpuri	jagir	sagamai	jagir	jagir	27.17214	79.105628	KIGSKSA00007260	Pakka	1	residential	Satram		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+653	Mainpuri	jagir	sagamai	jagir	jagir	27.171984	79.105694	KIGSKSA00007261	Pakka	1	residential	Ramprakash gupta		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+654	Mainpuri	jagir	sagamai	jagir	jagir	27.172777	79.105346	KIGSKSA00007262	Pakka	1	residential	Salman Khan 		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+655	Mainpuri	jagir	sagamai	jagir	jagir	27.172874	79.105386	KIGSKSA00007263	Pakka	1	residential	santosh		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+656	Mainpuri	jagir	sagamai	jagir	jagir	27.172194	79.105227	KIGSKSA00007264	Pakka	1	residential	Aman		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+657	Mainpuri	jagir	sagamai	jagir	jagir	27.172269	79.105113	KIGSKSA00007265	Pakka	1	residential	Bhupesh		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+658	Mainpuri	jagir	sagamai	jagir	jagir	27.1724	79.105157	KIGSKSA00007266	Pakka	1	residential	bhupenra		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+659	Mainpuri	jagir	sagamai	jagir	jagir	27.171873	79.103985	KIGSKSA00007267	Pakka	1	residential	Soumitra 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+660	Mainpuri	jagir	sagamai	jagir	jagir	27.171932	79.104072	KIGSKSA00007268	Pakka	1	residential	Bhawani		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+661	Mainpuri	jagir	sagamai	jagir	jagir	27.171976	79.104119	KIGSKSA00007269	Pakka	1	residential	Rohit		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+662	Mainpuri	jagir	sagamai	jagir	jagir	27.172034	79.104177	KIGSKSA00007270	Pakka	1	residential	Parasnath		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+663	Mainpuri	jagir	sagamai	jagir	jagir	27.17209	79.104248	KIGSKSA00007271	Pakka	1	residential	Kaluram 		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+664	Mainpuri	jagir	sagamai	jagir	jagir	27.172641	79.105346	KIGSKSA00007272	Pakka	1	residential	Manju devi		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+665	Mainpuri	jagir	sagamai	jagir	jagir	27.172598	79.105683	KIGSKSA00007273	Pakka	1	residential	shiv mohan 		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+666	Mainpuri	jagir	sagamai	jagir	jagir	27.172521	79.105648	KIGSKSA00007274	Pakka	1	residential	savitri		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+667	Mainpuri	jagir	sagamai	jagir	jagir	27.172369	79.107091	KIGSKSA00007275	Pakka	1	residential	samanta		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+668	Mainpuri	jagir	sagamai	jagir	jagir	27.17402	79.107586	KIGSKSA00007276	Pakka	1	residential	mohan		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+669	Mainpuri	jagir	sagamai	jagir	jagir	27.174127	79.107687	KIGSKSA00007277	Pakka	1	residential	Aditya 		7	Borewell		1		Not suplly		Keshav			4	Sucess		
+670	Mainpuri	jagir	sagamai	jagir	jagir	27.173471	79.107831	KIGSKSA00007278	Pakka	1	residential	Kallu		6	Borewell		1		Not suplly		Keshav			5	Sucess		
+671	Mainpuri	jagir	sagamai	jagir	jagir	27.173351	79.107785	KIGSKSA00007279	Pakka	1	residential	Ankur		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+672	Mainpuri	jagir	sagamai	jagir	jagir	27.173247	79.107734	KIGSKSA00007280	Pakka	1	residential	Raghuraj Singh		4	Borewell		1		Not suplly		Keshav			5	Sucess		
+673	Mainpuri	jagir	sagamai	jagir	jagir	27.173422	79.108025	KIGSKSA00007281	Pakka	1	residential	Anmol		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+674	Mainpuri	jagir	sagamai	jagir	jagir	27.173293	79.108119	KIGSKSA00007282	Pakka	1	residential	Rahul		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+675	Mainpuri	jagir	sagamai	jagir	jagir	27.173206	79.108215	KIGSKSA00007283	Pakka	1	residential	Avnish		7	Borewell		1		Not suplly		Keshav			4	Sucess		
+676	Mainpuri	jagir	sagamai	jagir	jagir	27.173178	79.108728	KIGSKSA00007284	Pakka	1	residential	Pratik		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+677	Mainpuri	jagir	sagamai	jagir	jagir	27.173487	79.109149	KIGSKSA00007285	Pakka	1	residential	Ashish		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+678	Mainpuri	jagir	sagamai	jagir	jagir	27.173518	79.108917	KIGSKSA00007286	Pakka	1	residential	Raju		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+679	Mainpuri	jagir	sagamai	jagir	jagir	27.173881	79.107906	KIGSKSA00007287	Pakka	1	residential	Annu		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+680	Mainpuri	jagir	sagamai	jagir	jagir	27.173842	79.108037	KIGSKSA00007288	Pakka	1	residential	anmol		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+681	Mainpuri	jagir	sagamai	jagir	jagir	27.173737	79.108244	KIGSKSA00007289	Pakka	1	residential	Shital Das		4	Borewell		1		Not suplly		Keshav			4	Sucess		
+682	Mainpuri	jagir	sagamai	jagir	jagir	27.173679	79.108363	KIGSKSA00007290	Pakka	1	residential	Bhagwandas		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+683	Mainpuri	jagir	sagamai	jagir	jagir	27.173785	79.108454	KIGSKSA00007291	Pakka	1	residential	Mohanda sharma		5	Borewell		1		Not suplly		Keshav			4	Sucess		
+684	Mainpuri	jagir	sagamai	jagir	jagir	27.173554	79.108311	KIGSKSA00007292	Pakka	1	residential	Rajan Singh		6	Borewell		1		Not suplly		Keshav			4	Sucess		
+685	Mainpuri	jagir	sagamai	jagir	jagir	27.173508	79.108404	KIGSKSA00007293	Pakka	1	residential	Rajnesh Singh		5	Borewell		1		Not suplly		Keshav			3	Sucess		
+686	Mainpuri	jagir	sagamai	jagir	jagir	27.173464	79.108558	KIGSKSA00007294	Pakka	1	residential	Siya Ram		5	Borewell		1		Not suplly		Keshav			5	Sucess		
+687	Mainpuri	jagir	sagamai	jagir	jagir	27.173723	79.108534	KIGSKSA00007295	Pakka	1	residential	Kusum Devi		6	Borewell		1		Not suplly		Keshav			3	Sucess		
+688	Mainpuri	jagir	sagamai	jagir	jagir	27.173223	79.108858	KIGSKSA00007296	Pakka	1	residential	Teer Mohan Singh		4	Borewell		1		Not suplly		Keshav			3	Sucess		
+689	Mainpuri	jagir	sagamai	jagir	jagir	27.173036	79.108878	KIGSKSA00007297	Pakka	1	residential	Kiran Singh		3	Borewell		1		Not suplly		Keshav			4	Sucess		
+690	Mainpuri	jagir	sagamai	jagir	jagir	27.172954	79.109007	KIGSKSA00007298	Pakka	1	residential	Rakesh Kumar		3	Borewell		1		Not suplly		Keshav			4	Sucess		
+691	Mainpuri	jagir	sagamai	jagir	jagir	27.17283	79.108999	KIGSKSA00007299	Pakka	1	residential	Gore Lal		3	Borewell		1		Not suplly		Keshav			4	Sucess		
+692	Mainpuri	jagir	sagamai	jagir	jagir	27.172964	79.109178	KIGSKSA00007300	Pakka	1	residential	Radhe Shyam		5	Borewell		1		Not suplly		Keshav			6	Sucess		
+693	Mainpuri	jagir	sagamai	jagir	jagir	27.173254	79.108667	KIGSKSA00007301	Pakka	1	residential	Ajit Singh		6	Borewell		1		Not suplly		Monu			6	Sucess		
+694	Mainpuri	jagir	sagamai	jagir	jagir	27.174032	79.108465	KIGSKSA00007302	Pakka	1	residential	Akash Kumar		6	Borewell		1		Not suplly		Monu			5	Sucess		
+695	Mainpuri	jagir	sagamai	jagir	jagir	27.173014	79.105275	KIGSKSA00007303	Pakka	1	residential	Prem ChandraSingh		7	Borewell		1		Not suplly		Monu			4	Sucess		
+696	Mainpuri	jagir	sagamai	jagir	jagir	27.173543	79.107242	KIGSKSA00007304	Pakka	1	residential	Ashok Singh		7	Borewell		1		Not suplly		Monu			5	Sucess		
+697	Mainpuri	jagir	sagamai	jagir	jagir	27.173407	79.107119	KIGSKSA00007305	Pakka	1	residential	Prem Singh		5	Borewell		1		Not suplly		Monu			5	Sucess		
+698	Mainpuri	jagir	sagamai	jagir	jagir	27.17307	79.107027	KIGSKSA00007306	Pakka	1	residential	Sanjay Singh		5	Borewell		1		Not suplly		Monu			6	Sucess		
+699	Mainpuri	jagir	sagamai	jagir	jagir	27.172859	79.10916	KIGSKSA00007307	Pakka	1	residential	Ram Kumar		5	Borewell		1		Not suplly		Monu			7	Sucess		
+700	Mainpuri	jagir	sagamai	jagir	jagir	27.173323	79.109246	KIGSKSA00007308	Pakka	1	residential	Parasuram Kumar		5	Borewell		1		Not suplly		Monu			4	Sucess		
+701	Mainpuri	jagir	sagamai	jagir	jagir	27.173138	79.109413	KIGSKSA00007309	Pakka	1	residential	Sudeep Singh		5	Borewell		1		Not suplly		Monu			4	Sucess		
+702	Mainpuri	jagir	sagamai	jagir	jagir	27.173535	79.108101	KIGSKSA00007310	Pakka	1	residential	Kamond Singh		5	Borewell		1		Not suplly		Monu			6	Sucess		
+703	Mainpuri	jagir	sagamai	sagamai	sagamai	27.166122	79.111213	KIGSKSA00007311	Pakka	1	residential	Rajendra		5	Borewell		1		Not suplly		Monu			3	Sucess		
+704	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165383	79.110844	KIGSKSA00007312	Pakka	1	residential	hajarilal		5	Borewell		1		Not suplly		Monu			4	Sucess		
+705	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165271	79.110815	KIGSKSA00007313	Pakka	1	residential	ambeer singh		5	Borewell		1		Not suplly		Monu			5	Sucess		
+706	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165142	79.111002	KIGSKSA00007314	Pakka	1	residential	Mithlesh		5	Borewell		1		Not suplly		Monu			7	Sucess		
+707	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165248	79.110892	KIGSKSA00007315	Pakka	1	residential	Vikash		4	Borewell		1		Not suplly		Monu			5	Sucess		
+708	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165625	79.110519	KIGSKSA00007316	Pakka	1	residential	Kaptan singh		6	Borewell		1		Not suplly		Monu			4	Sucess		
+709	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164894	79.110305	KIGSKSA00007317	Pakka	1	residential	Geeta		6	Borewell		1		Not suplly		Monu			4	Sucess		
+710	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165067	79.110164	KIGSKSA00007318	Pakka	1	residential	gyandevi		6	Borewell		1		Not suplly		Monu			3	Sucess		
+711	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165178	79.110015	KIGSKSA00007319	Pakka	1	residential	hiralal		6	Borewell		1		Not suplly		Monu			6	Sucess		
+712	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165828	79.110713	KIGSKSA00007320	Pakka	1	residential	Atarsingh		5	Borewell		1		Not suplly		Monu			5	Sucess		
+713	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165147	79.110259	KIGSKSA00007321	Pakka	1	residential	Amar sing		4	Borewell		1		Not suplly		Monu			3	Sucess		
+714	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16516	79.109835	KIGSKSA00007322	Pakka	1	residential	Santosh		4	Borewell		1		Not suplly		Monu			5	Sucess		
+715	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165063	79.109919	KIGSKSA00007323	Pakka	1	residential	Rajesh		4	Borewell		1		Not suplly		Monu			2	Sucess		
+716	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165246	79.110016	KIGSKSA00007324	Pakka	1	residential	Raees		5	Borewell		1		Not suplly		Monu			7	Sucess		
+717	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16496	79.110027	KIGSKSA00007325	Pakka	1	residential	Achhelal		5	Borewell		1		Not suplly		Monu			4	Sucess		
+718	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165499	79.109772	KIGSKSA00007326	Pakka	1	residential	Bhurelal		6	Borewell		1		Not suplly		Monu			4	Sucess		
+719	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165424	79.109673	KIGSKSA00007327	Pakka	1	residential	Mohan		7	Borewell		1		Not suplly		Monu			3	Sucess		
+720	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165717	79.109816	KIGSKSA00007328	Pakka	1	residential	Utkarsh		7	Borewell		1		Not suplly		Monu			3	Sucess		
+721	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165873	79.109914	KIGSKSA00007329	Pakka	1	residential	Anjani		6	Borewell		1		Not suplly		Monu			6	Sucess		
+722	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165735	79.11005	KIGSKSA00007330	Pakka	1	residential	Mangal		5	Borewell		1		Not suplly		Monu			5	Sucess		
+723	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165662	79.109664	KIGSKSA00007331	Pakka	1	residential	Pankaj		4	Borewell		1		Not suplly		Monu			4	Sucess		
+724	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165854	79.109625	KIGSKSA00007332	Pakka	1	residential	Abhinandan Singh		4	Borewell		1		Not suplly		Monu			4	Sucess		
+725	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164752	79.107574	KIGSKSA00007333	Pakka	1	residential	Rituraj		4	Borewell		1		Not suplly		Monu			5	Sucess		
+726	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164693	79.107619	KIGSKSA00007334	Pakka	1	residential	Deepanshu singh		4	Borewell		1		Not suplly		Monu			3	Sucess		
+727	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164935	79.107742	KIGSKSA00007335	Pakka	1	residential	vinay singh		4	Borewell		1		Not suplly		Monu			5	Sucess		
+728	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164966	79.107785	KIGSKSA00007336	Pakka	1	residential	Dileep Singh		4	Borewell		1		Not suplly		Monu			5	Sucess		
+729	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165053	79.107762	KIGSKSA00007337	Pakka	1	residential	Kuldeep Singh		4	Borewell		1		Not suplly		Monu			4	Sucess		
+730	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164999	79.107697	KIGSKSA00007338	Pakka	1	residential	Amarpal Singh		6	Borewell		1		Not suplly		Monu			9	Sucess		
+731	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165041	79.10794	KIGSKSA00007339	Pakka	1	residential	Kalyani devi		4	Borewell		1		Not suplly		Monu			3	Sucess		
+732	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165092	79.108078	KIGSKSA00007340	Pakka	1	residential	Vimala devi		5	Borewell		1		Not suplly		Monu			8	Sucess		
+733	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16477	79.108548	KIGSKSA00007341	Pakka	1	residential	Kuwan Singh		3	Borewell		1		Not suplly		Monu			4	Sucess		
+734	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164333	79.108324	KIGSKSA00007342	Pakka	1	residential	Gudiya devi		5	Borewell		1		Not suplly		Monu			4	Sucess		
+735	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164254	79.108434	KIGSKSA00007343	Pakka	1	residential	Akshay Singh		6	Borewell		1		Not suplly		Monu			3	Sucess		
+736	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164153	79.108436	KIGSKSA00007344	Pakka	1	residential	Manipal singh		3	Borewell		1		Not suplly		Monu			6	Sucess		
+737	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16421	79.10853	KIGSKSA00007345	Pakka	1	residential	Harpal Singh		3	Borewell		1		Not suplly		Monu			5	Sucess		
+738	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16384	79.108486	KIGSKSA00007346	Pakka	1	residential	Shambhunath		9	Borewell		1		Not suplly		Monu			4	Sucess		
+739	Mainpuri	jagir	sagamai	sagamai	sagamai	27.163777	79.10856	KIGSKSA00007347	Pakka	1	residential	Raghunath Singh		2	Borewell		1		Not suplly		Monu			5	Sucess		
+740	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164126	79.108495	KIGSKSA00007348	Pakka	1	residential	Munnu Singh		5	Borewell		1		Not suplly		Monu			5	Sucess		
+741	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164083	79.108607	KIGSKSA00007349	Pakka	1	residential	Vinnu Singh		5	Borewell		1		Not suplly		Monu			3	Sucess		
+742	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164043	79.1087	KIGSKSA00007350	Pakka	1	residential	Lalita Singh		4	Borewell		1		Not suplly		Monu			5	Sucess		
+743	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164125	79.108748	KIGSKSA00007351	Pakka	1	residential	Madan singh		6	Borewell		1		Not suplly		Monu			5	Sucess		
+744	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164313	79.108839	KIGSKSA00007352	Pakka	1	residential	Sushila Devi		6	Borewell		1		Not suplly		Monu			4	Sucess		
+745	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164049	79.108765	KIGSKSA00007353	Pakka	1	residential	Rinki Devi		2	Borewell		1		Not suplly		Monu			5	Sucess		
+746	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164095	79.108845	KIGSKSA00007354	Pakka	1	residential	sushma Chauhan		2	Borewell		1		Not suplly		Monu			5	Sucess		
+747	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164136	79.109229	KIGSKSA00007355	Pakka	1	residential	Pankaj Singh		1	Borewell		1		Not suplly		Monu			5	Sucess		
+748	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164284	79.109255	KIGSKSA00007356	Pakka	1	residential	Arati Chauhan		2	Borewell		1		Not suplly		Monu			4	Sucess		
+749	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164443	79.108971	KIGSKSA00007357	Pakka	1	residential	RajNath Singh		3	Borewell		1		Not suplly		Monu			5	Sucess		
+750	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164063	79.109293	KIGSKSA00007358	Pakka	1	residential	Jayendra Singh		9	Borewell		1		Not suplly		Monu			4	Sucess		
+751	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164414	79.109448	KIGSKSA00007359	Pakka	1	residential	Lochan Singh		3	Borewell		1		Not suplly		Monu			6	Sucess		
+752	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164503	79.109079	KIGSKSA00007360	Pakka	1	residential	Parveen Singh		5	Borewell		1		Not suplly		Monu			3	Sucess		
+753	Mainpuri	jagir	sagamai	sagamai	sagamai	27.164446	79.109143	KIGSKSA00007361	Pakka	1	residential	Ashta Singh		3	Borewell		1		Not suplly		Monu			5	Sucess		
+754	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165304	79.109167	KIGSKSA00007362	Pakka	1	residential	Garima Chauhan		3	Borewell		1		Not suplly		Monu			3	Sucess		
+755	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165161	79.109457	KIGSKSA00007363	Pakka	1	residential	Manorama Devi		6	Borewell		1		Not suplly		Monu			4	Sucess		
+756	Mainpuri	jagir	sagamai	sagamai	sagamai	27.165605	79.109079	KIGSKSA00007364	Pakka	1	residential	Shantikali  Devi		5	Borewell		1		Not suplly		Monu			4	Sucess		
+757	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16541	79.109288	KIGSKSA00007365	Pakka	1	residential	Shantikali  Devi		3	Borewell		1		Not suplly		Monu			6	Sucess		
+758	Mainpuri	jagir	sagamai	sagamai	sagamai	27.16483	79.109185	KIGSKSA00007366	Pakka	1	residential	Lekhpal Singh		4	Borewell		1		Not suplly		Monu			4	Sucess		

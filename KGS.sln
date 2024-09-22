@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.Web", "KGS.Web\KGS.Web.csproj", "{284324D0-EB7A-4364-A541-21063C56934B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.Core", "KGS.Core\KGS.Core.csproj", "{E115CE68-1D3B-4B0B-89D2-8075DDA08ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.Repo", "KGS.Repo\KGS.Repo.csproj", "{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.Data", "KGS.Data\KGS.Data.csproj", "{B8DB5666-CC24-413B-9F1A-19E7F9E4BCE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.Service", "KGS.Service\KGS.Service.csproj", "{19C68FEB-4877-49C0-99D0-84019663F2B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.DTO", "KGS.DTO\KGS.DTO.csproj", "{8C789407-8343-4BD3-B142-F3A34B27A7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KGS.DataTable", "KGS.DataTable\KGS.DataTable.csproj", "{6BEF9D30-620A-414B-989F-FEE65AFBCD6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284324D0-EB7A-4364-A541-21063C56934B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284324D0-EB7A-4364-A541-21063C56934B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284324D0-EB7A-4364-A541-21063C56934B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284324D0-EB7A-4364-A541-21063C56934B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E115CE68-1D3B-4B0B-89D2-8075DDA08ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E115CE68-1D3B-4B0B-89D2-8075DDA08ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E115CE68-1D3B-4B0B-89D2-8075DDA08ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E115CE68-1D3B-4B0B-89D2-8075DDA08ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DB5666-CC24-413B-9F1A-19E7F9E4BCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DB5666-CC24-413B-9F1A-19E7F9E4BCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DB5666-CC24-413B-9F1A-19E7F9E4BCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DB5666-CC24-413B-9F1A-19E7F9E4BCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C68FEB-4877-49C0-99D0-84019663F2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C68FEB-4877-49C0-99D0-84019663F2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C68FEB-4877-49C0-99D0-84019663F2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C68FEB-4877-49C0-99D0-84019663F2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C789407-8343-4BD3-B142-F3A34B27A7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C789407-8343-4BD3-B142-F3A34B27A7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C789407-8343-4BD3-B142-F3A34B27A7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C789407-8343-4BD3-B142-F3A34B27A7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF9D30-620A-414B-989F-FEE65AFBCD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF9D30-620A-414B-989F-FEE65AFBCD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF9D30-620A-414B-989F-FEE65AFBCD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF9D30-620A-414B-989F-FEE65AFBCD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01219D72-0D92-42D3-9BA2-0285C2424F8E}
+	EndGlobalSection
+EndGlobal

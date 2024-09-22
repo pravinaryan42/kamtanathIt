@@ -1,0 +1,1045 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{284324D0-EB7A-4364-A541-21063C56934B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KGS.Web</RootNamespace>
+    <AssemblyName>KGS.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44382</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=33.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.33.0.1\lib\net47\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTables.AspNet.Core, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DataTables.AspNet.Core.2.0.2\lib\net45\DataTables.AspNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DataTables.AspNet.Mvc5, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DataTables.AspNet.Mvc5.2.0.2\lib\net45\DataTables.AspNet.Mvc5.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=7.3.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.7.3.0\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.6.1.1\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.8.6.1\lib\net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation.Mvc, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.Mvc5.8.6.1\lib\net45\FluentValidation.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation.ValidatorAttribute, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.ValidatorAttribute.8.6.1\lib\net45\FluentValidation.ValidatorAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="jQuery.Validation.Unobtrusive.Native, Version=1.1.5809.17463, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jQuery.Validation.Unobtrusive.Native.MVC5.1.3.0\lib\net45\jQuery.Validation.Unobtrusive.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.3.3.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.3\lib\net45\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.3.3.0\lib\net45\Ninject.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common.WebHost, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.WebHost.3.3.0\lib\net45\Ninject.Web.Common.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.MVC5.3.3.0\lib\net45\Ninject.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.3.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.3.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.3.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\alertify\alertify.css" />
+    <Content Include="Content\alertify\alertify.min.css" />
+    <Content Include="Content\alertify\alertify.rtl.css" />
+    <Content Include="Content\alertify\alertify.rtl.min.css" />
+    <Content Include="Content\alertify\themes\bootstrap.css" />
+    <Content Include="Content\alertify\themes\bootstrap.min.css" />
+    <Content Include="Content\alertify\themes\bootstrap.rtl.css" />
+    <Content Include="Content\alertify\themes\bootstrap.rtl.min.css" />
+    <Content Include="Content\alertify\themes\default.css" />
+    <Content Include="Content\alertify\themes\default.min.css" />
+    <Content Include="Content\alertify\themes\default.rtl.css" />
+    <Content Include="Content\alertify\themes\default.rtl.min.css" />
+    <Content Include="Content\alertify\themes\semantic.css" />
+    <Content Include="Content\alertify\themes\semantic.min.css" />
+    <Content Include="Content\alertify\themes\semantic.rtl.css" />
+    <Content Include="Content\alertify\themes\semantic.rtl.min.css" />
+    <Content Include="Content\css\bootstrap-switch.css" />
+    <Content Include="Content\css\bootstrap-switch.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\dataTables.bootstrap.css" />
+    <Content Include="Content\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\css\dataTables.bootstrap4.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\googlefont.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\asc.gif" />
+    <Content Include="images\bg.gif" />
+    <Content Include="images\defaultUser.jpg" />
+    <Content Include="images\desc.gif" />
+    <Content Include="images\face.jpg" />
+    <Content Include="images\faces\backup\face1.jpg" />
+    <Content Include="images\faces\backup\face2.jpg" />
+    <Content Include="images\faces\backup\face3.jpg" />
+    <Content Include="images\faces\backup\face4.jpg" />
+    <Content Include="images\faces\backup\face5.jpg" />
+    <Content Include="images\faces\backup\face6.jpg" />
+    <Content Include="images\faces\face1.jpg" />
+    <Content Include="images\faces\face2.jpg" />
+    <Content Include="images\faces\face3.jpg" />
+    <Content Include="images\faces\face4.jpg" />
+    <Content Include="images\faces\face5.jpg" />
+    <Content Include="images\faces\face6.jpg" />
+    <Content Include="images\faces\face7.jpg" />
+    <Content Include="images\faces\face8.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\file-icons\128\001-interface-1.png" />
+    <Content Include="images\file-icons\128\002-tool.png" />
+    <Content Include="images\file-icons\128\003-interface.png" />
+    <Content Include="images\file-icons\128\004-folder-1.png" />
+    <Content Include="images\file-icons\128\005-database.png" />
+    <Content Include="images\file-icons\128\006-record.png" />
+    <Content Include="images\file-icons\128\007-folder.png" />
+    <Content Include="images\file-icons\128\008-archive.png" />
+    <Content Include="images\file-icons\256\001-interface-1.png" />
+    <Content Include="images\file-icons\256\002-tool.png" />
+    <Content Include="images\file-icons\256\003-interface.png" />
+    <Content Include="images\file-icons\256\004-folder-1.png" />
+    <Content Include="images\file-icons\256\005-database.png" />
+    <Content Include="images\file-icons\256\006-record.png" />
+    <Content Include="images\file-icons\256\007-folder.png" />
+    <Content Include="images\file-icons\256\008-archive.png" />
+    <Content Include="images\file-icons\512\001-interface-1.png" />
+    <Content Include="images\file-icons\512\002-tool.png" />
+    <Content Include="images\file-icons\512\003-interface.png" />
+    <Content Include="images\file-icons\512\004-folder-1.png" />
+    <Content Include="images\file-icons\512\005-database.png" />
+    <Content Include="images\file-icons\512\006-record.png" />
+    <Content Include="images\file-icons\512\007-folder.png" />
+    <Content Include="images\file-icons\512\008-archive.png" />
+    <Content Include="images\file-icons\64\001-interface-1.png" />
+    <Content Include="images\file-icons\64\002-tool.png" />
+    <Content Include="images\file-icons\64\003-interface.png" />
+    <Content Include="images\file-icons\64\004-folder-1.png" />
+    <Content Include="images\file-icons\64\005-database.png" />
+    <Content Include="images\file-icons\64\006-record.png" />
+    <Content Include="images\file-icons\64\007-folder.png" />
+    <Content Include="images\file-icons\64\008-archive.png" />
+    <Content Include="images\flags\AD.png" />
+    <Content Include="images\flags\AE.png" />
+    <Content Include="images\flags\AG.png" />
+    <Content Include="images\flags\AM.png" />
+    <Content Include="images\flags\AR.png" />
+    <Content Include="images\flags\AT.png" />
+    <Content Include="images\flags\AU.png" />
+    <Content Include="images\flags\BE.png" />
+    <Content Include="images\flags\BF.png" />
+    <Content Include="images\flags\BG.png" />
+    <Content Include="images\flags\BO.png" />
+    <Content Include="images\flags\BR.png" />
+    <Content Include="images\flags\CA.png" />
+    <Content Include="images\flags\CD.png" />
+    <Content Include="images\flags\CG.png" />
+    <Content Include="images\flags\CH.png" />
+    <Content Include="images\flags\CL.png" />
+    <Content Include="images\flags\CM.png" />
+    <Content Include="images\flags\CN.png" />
+    <Content Include="images\flags\CO.png" />
+    <Content Include="images\flags\CZ.png" />
+    <Content Include="images\flags\DE.png" />
+    <Content Include="images\flags\DJ.png" />
+    <Content Include="images\flags\DK.png" />
+    <Content Include="images\flags\DZ.png" />
+    <Content Include="images\flags\EE.png" />
+    <Content Include="images\flags\EG.png" />
+    <Content Include="images\flags\ES.png" />
+    <Content Include="images\flags\FI.png" />
+    <Content Include="images\flags\FR.png" />
+    <Content Include="images\flags\GA.png" />
+    <Content Include="images\flags\GB.png" />
+    <Content Include="images\flags\GM.png" />
+    <Content Include="images\flags\GT.png" />
+    <Content Include="images\flags\HN.png" />
+    <Content Include="images\flags\HT.png" />
+    <Content Include="images\flags\HU.png" />
+    <Content Include="images\flags\ID.png" />
+    <Content Include="images\flags\IE.png" />
+    <Content Include="images\flags\IL.png" />
+    <Content Include="images\flags\IN.png" />
+    <Content Include="images\flags\IQ.png" />
+    <Content Include="images\flags\IR.png" />
+    <Content Include="images\flags\IT.png" />
+    <Content Include="images\flags\JM.png" />
+    <Content Include="images\flags\JO.png" />
+    <Content Include="images\flags\JP.png" />
+    <Content Include="images\flags\KG.png" />
+    <Content Include="images\flags\KN.png" />
+    <Content Include="images\flags\KP.png" />
+    <Content Include="images\flags\KR.png" />
+    <Content Include="images\flags\KW.png" />
+    <Content Include="images\flags\KZ.png" />
+    <Content Include="images\flags\LA.png" />
+    <Content Include="images\flags\LB.png" />
+    <Content Include="images\flags\LC.png" />
+    <Content Include="images\flags\LS.png" />
+    <Content Include="images\flags\LU.png" />
+    <Content Include="images\flags\LV.png" />
+    <Content Include="images\flags\MG.png" />
+    <Content Include="images\flags\MK.png" />
+    <Content Include="images\flags\ML.png" />
+    <Content Include="images\flags\MM.png" />
+    <Content Include="images\flags\MT.png" />
+    <Content Include="images\flags\MX.png" />
+    <Content Include="images\flags\NA.png" />
+    <Content Include="images\flags\NE.png" />
+    <Content Include="images\flags\NG.png" />
+    <Content Include="images\flags\NI.png" />
+    <Content Include="images\flags\NL.png" />
+    <Content Include="images\flags\NO.png" />
+    <Content Include="images\flags\OM.png" />
+    <Content Include="images\flags\PA.png" />
+    <Content Include="images\flags\PE.png" />
+    <Content Include="images\flags\PG.png" />
+    <Content Include="images\flags\PK.png" />
+    <Content Include="images\flags\PL.png" />
+    <Content Include="images\flags\PT.png" />
+    <Content Include="images\flags\PY.png" />
+    <Content Include="images\flags\QA.png" />
+    <Content Include="images\flags\RO.png" />
+    <Content Include="images\flags\RU.png" />
+    <Content Include="images\flags\RW.png" />
+    <Content Include="images\flags\SA.png" />
+    <Content Include="images\flags\SE.png" />
+    <Content Include="images\flags\SG.png" />
+    <Content Include="images\flags\SL.png" />
+    <Content Include="images\flags\SN.png" />
+    <Content Include="images\flags\SO.png" />
+    <Content Include="images\flags\SV.png" />
+    <Content Include="images\flags\TD.png" />
+    <Content Include="images\flags\TJ.png" />
+    <Content Include="images\flags\TL.png" />
+    <Content Include="images\flags\TR.png" />
+    <Content Include="images\flags\TZ.png" />
+    <Content Include="images\flags\UA.png" />
+    <Content Include="images\flags\US.png" />
+    <Content Include="images\flags\VE.png" />
+    <Content Include="images\flags\VN.png" />
+    <Content Include="images\flags\YE.png" />
+    <Content Include="images\icons\001-doc.png" />
+    <Content Include="images\icons\001-editing.png" />
+    <Content Include="images\icons\001-map.png" />
+    <Content Include="images\icons\002-edit-text.png" />
+    <Content Include="images\icons\002-placeholder.png" />
+    <Content Include="images\icons\002-test.png" />
+    <Content Include="images\icons\003-file.png" />
+    <Content Include="images\icons\003-outbox.png" />
+    <Content Include="images\icons\004-coding.png" />
+    <Content Include="images\icons\004-sheet.png" />
+    <Content Include="images\icons\005-calendar.png" />
+    <Content Include="images\icons\005-forms.png" />
+    <Content Include="images\icons\006-form.png" />
+    <Content Include="images\icons\006-letter.png" />
+    <Content Include="images\icons\007-fire.png" />
+    <Content Include="images\icons\007-star.png" />
+    <Content Include="images\icons\008-list.png" />
+    <Content Include="images\icons\008-maps-and-flags-1.png" />
+    <Content Include="images\icons\009-layout.png" />
+    <Content Include="images\icons\009-maps-and-flags.png" />
+    <Content Include="images\icons\010-office-material.png" />
+    <Content Include="images\icons\011-gallery.png" />
+    <Content Include="images\icons\012-sliders.png" />
+    <Content Include="images\icons\013-slider.png" />
+    <Content Include="images\icons\014-chat.png" />
+    <Content Include="images\icons\015-notification.png" />
+    <Content Include="images\icons\016-diamond-1.png" />
+    <Content Include="images\icons\017-diamond.png" />
+    <Content Include="images\icons\018-warning.png" />
+    <Content Include="images\icons\019-fingerprint.png" />
+    <Content Include="images\icons\020-locked.png" />
+    <Content Include="images\icons\1.png" />
+    <Content Include="images\icons\10.png" />
+    <Content Include="images\icons\11.png" />
+    <Content Include="images\icons\2.png" />
+    <Content Include="images\icons\3.png" />
+    <Content Include="images\icons\4.png" />
+    <Content Include="images\icons\5.png" />
+    <Content Include="images\icons\6.png" />
+    <Content Include="images\icons\7.png" />
+    <Content Include="images\icons\8.png" />
+    <Content Include="images\icons\9.png" />
+    <Content Include="images\icons\exclamation-mark.png" />
+    <Content Include="images\icons\marker.png" />
+    <Content Include="images\icons\printer.png" />
+    <Content Include="images\icons\send.png" />
+    <Content Include="images\lightbox\play-button.png" />
+    <Content Include="images\lightbox\thumb-v-v-1.jpg" />
+    <Content Include="images\lightbox\thumb-v-v-2.jpg" />
+    <Content Include="images\lightbox\thumb-v-y-1.jpg" />
+    <Content Include="images\lightbox\thumb-v-y-2.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_inner.png" />
+    <Content Include="images\logo_name.png" />
+    <Content Include="images\logo_star.svg" />
+    <Content Include="images\logo_star_black.png" />
+    <Content Include="images\logo_star_black.svg" />
+    <Content Include="images\logo_star_mini.jpg" />
+    <Content Include="images\mainimage\about-1.jpg" />
+    <Content Include="images\mainimage\about-2.jpg" />
+    <Content Include="images\mainimage\admin.jpg" />
+    <Content Include="images\mainimage\background.jpg" />
+    <Content Include="images\mainimage\bd69c712-8e50-4f63-96a3-6d1eefcb9afc.jpg" />
+    <Content Include="images\mainimage\blog-1.jpg" />
+    <Content Include="images\mainimage\blog-2.jpg" />
+    <Content Include="images\mainimage\blog-3.jpg" />
+    <Content Include="images\mainimage\carousel-1.jpg" />
+    <Content Include="images\mainimage\carousel-2.jpg" />
+    <Content Include="images\mainimage\P1.png" />
+    <Content Include="images\mainimage\P2.png" />
+    <Content Include="images\mainimage\P3.png" />
+    <Content Include="images\mainimage\p4.png" />
+    <Content Include="images\mainimage\project-1.jpg" />
+    <Content Include="images\mainimage\project-2.jpg" />
+    <Content Include="images\mainimage\project-3.jpg" />
+    <Content Include="images\mainimage\project-4.jpg" />
+    <Content Include="images\mainimage\project-44.jpg" />
+    <Content Include="images\mainimage\project-5.jpg" />
+    <Content Include="images\mainimage\project-6.jpg" />
+    <Content Include="images\mainimage\team-1.png" />
+    <Content Include="images\mainimage\team-2.jpg" />
+    <Content Include="images\mainimage\Team-3.jpeg" />
+    <Content Include="images\mainimage\Team-4.jpeg" />
+    <Content Include="images\mainimage\Team-5.jpeg" />
+    <Content Include="images\mainimage\testimonial-1.jpg" />
+    <Content Include="images\mainimage\testimonial-2.jpg" />
+    <Content Include="images\mainimage\testimonial-3.jpg" />
+    <Content Include="images\mainimage\testimonial-4.jpg" />
+    <Content Include="images\profile.jpg" />
+    <Content Include="images\sprites\blue.png" />
+    <Content Include="images\sprites\dark.png" />
+    <Content Include="images\sprites\green.png" />
+    <Content Include="images\sprites\red.png" />
+    <Content Include="images\sprites\yellow.png" />
+    <Content Include="images\star-admin-logo.png" />
+    <Content Include="js\chart.js" />
+    <Content Include="js\CustomJs\Company\company-index.js" />
+    <Content Include="js\CustomJs\Login\user-login.js" />
+    <Content Include="js\CustomJs\Register\user-register.js" />
+    <Content Include="js\hoverable-collapse.js" />
+    <Content Include="js\maps.js" />
+    <Content Include="js\misc.js" />
+    <Content Include="js\off-canvas.js" />
+    <Content Include="MainPage\all.min.css" />
+    <Content Include="MainPage\animate.css" />
+    <Content Include="MainPage\animate.min.css" />
+    <Content Include="MainPage\bootstrap-icons.css" />
+    <Content Include="MainPage\bootstrap.bundle.min.js" />
+    <Content Include="MainPage\bootstrap.min.css" />
+    <Content Include="MainPage\easing.min.js" />
+    <Content Include="MainPage\fonts\font-awesome.css" />
+    <Content Include="MainPage\jquery.min.js" />
+    <Content Include="MainPage\main.js" />
+    <Content Include="MainPage\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="MainPage\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="MainPage\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="MainPage\owlcarousel\owl.carousel.js" />
+    <Content Include="MainPage\owlcarousel\owl.carousel.min.js" />
+    <Content Include="MainPage\perfect-scrollbar.css" />
+    <Content Include="MainPage\style.css" />
+    <Content Include="MainPage\waypoints.min.js" />
+    <Content Include="MainPage\wow.min.js" />
+    <Content Include="MainPage\loginstyle.css" />
+    <Content Include="Scripts\alertify\alertify.js" />
+    <Content Include="Scripts\alertify\alertify.min.js" />
+    <Content Include="Scripts\alertify\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap-switch.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\chart.js\dist\Chart.bundle.js" />
+    <Content Include="Scripts\chart.js\dist\Chart.bundle.min.js" />
+    <Content Include="Scripts\chart.js\dist\Chart.js" />
+    <Content Include="Scripts\chart.js\dist\Chart.min.js" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\cartesian\category.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\cartesian\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\cartesian\linear.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\cartesian\logarithmic.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\cartesian\time.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\labelling.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\radial\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\radial\linear.html" />
+    <Content Include="Scripts\chart.js\dist\docs\axes\styling.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\area.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\bar.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\bubble.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\doughnut.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\line.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\mixed.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\polar.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\radar.html" />
+    <Content Include="Scripts\chart.js\dist\docs\charts\scatter.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\animations.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\elements.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\layout.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\legend.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\title.html" />
+    <Content Include="Scripts\chart.js\dist\docs\configuration\tooltip.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\api.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\axes.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\charts.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\contributing.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\plugins.html" />
+    <Content Include="Scripts\chart.js\dist\docs\developers\updates.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\colors.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\fonts.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\interactions\events.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\interactions\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\interactions\modes.html" />
+    <Content Include="Scripts\chart.js\dist\docs\general\responsive.html" />
+    <Content Include="Scripts\chart.js\dist\docs\getting-started\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\getting-started\installation.html" />
+    <Content Include="Scripts\chart.js\dist\docs\getting-started\integration.html" />
+    <Content Include="Scripts\chart.js\dist\docs\getting-started\usage.html" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\fontawesome-webfont.svg" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-anchorjs\anchor-style.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\Chart.bundle.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\Chart.bundle.min.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\Chart.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\Chart.min.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\chartjs-plugin-deferred.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\chartjs-plugin-deferred.min.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-chartjs\style.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-fontsettings\fontsettings.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-fontsettings\website.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-ga\plugin.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-highlight\ebook.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-highlight\website.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-search-plus\jquery.mark.min.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-search-plus\search.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-search-plus\search.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook-plugin-sharing\buttons.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\gitbook.js" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\images\apple-touch-icon-precomposed-152.png" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\images\favicon.ico" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\style.css" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\theme.js" />
+    <Content Include="Scripts\chart.js\dist\docs\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\notes\comparison.html" />
+    <Content Include="Scripts\chart.js\dist\docs\notes\extensions.html" />
+    <Content Include="Scripts\chart.js\dist\docs\notes\index.html" />
+    <Content Include="Scripts\chart.js\dist\docs\notes\license.html" />
+    <Content Include="Scripts\chart.js\dist\docs\style.css" />
+    <Content Include="Scripts\chart.js\docs\style.css" />
+    <Content Include="Scripts\chart.js\gulpfile.js" />
+    <Content Include="Scripts\chart.js\karma.conf.js" />
+    <Content Include="Scripts\chart.js\samples\advanced\data-labelling.html" />
+    <Content Include="Scripts\chart.js\samples\advanced\progress-bar.html" />
+    <Content Include="Scripts\chart.js\samples\charts\area\analyser.js" />
+    <Content Include="Scripts\chart.js\samples\charts\area\line-boundaries.html" />
+    <Content Include="Scripts\chart.js\samples\charts\area\line-datasets.html" />
+    <Content Include="Scripts\chart.js\samples\charts\area\line-stacked.html" />
+    <Content Include="Scripts\chart.js\samples\charts\area\radar.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bar\horizontal.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bar\multi-axis.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bar\stacked-group.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bar\stacked.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bar\vertical.html" />
+    <Content Include="Scripts\chart.js\samples\charts\bubble.html" />
+    <Content Include="Scripts\chart.js\samples\charts\combo-bar-line.html" />
+    <Content Include="Scripts\chart.js\samples\charts\doughnut.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\basic.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\interpolation-modes.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\line-styles.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\multi-axis.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\point-sizes.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\point-styles.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\skip-points.html" />
+    <Content Include="Scripts\chart.js\samples\charts\line\stepped.html" />
+    <Content Include="Scripts\chart.js\samples\charts\pie.html" />
+    <Content Include="Scripts\chart.js\samples\charts\polar-area.html" />
+    <Content Include="Scripts\chart.js\samples\charts\radar-skip-points.html" />
+    <Content Include="Scripts\chart.js\samples\charts\radar.html" />
+    <Content Include="Scripts\chart.js\samples\charts\scatter\basic.html" />
+    <Content Include="Scripts\chart.js\samples\charts\scatter\multi-axis.html" />
+    <Content Include="Scripts\chart.js\samples\favicon.ico" />
+    <Content Include="Scripts\chart.js\samples\index.html" />
+    <Content Include="Scripts\chart.js\samples\legend\point-style.html" />
+    <Content Include="Scripts\chart.js\samples\legend\positioning.html" />
+    <Content Include="Scripts\chart.js\samples\logo.svg" />
+    <Content Include="Scripts\chart.js\samples\samples.js" />
+    <Content Include="Scripts\chart.js\samples\scales\filtering-labels.html" />
+    <Content Include="Scripts\chart.js\samples\scales\gridlines-display.html" />
+    <Content Include="Scripts\chart.js\samples\scales\gridlines-style.html" />
+    <Content Include="Scripts\chart.js\samples\scales\linear\min-max-suggested.html" />
+    <Content Include="Scripts\chart.js\samples\scales\linear\min-max.html" />
+    <Content Include="Scripts\chart.js\samples\scales\linear\step-size.html" />
+    <Content Include="Scripts\chart.js\samples\scales\logarithmic\line.html" />
+    <Content Include="Scripts\chart.js\samples\scales\logarithmic\scatter.html" />
+    <Content Include="Scripts\chart.js\samples\scales\multiline-labels.html" />
+    <Content Include="Scripts\chart.js\samples\scales\non-numeric-y.html" />
+    <Content Include="Scripts\chart.js\samples\scales\time\combo.html" />
+    <Content Include="Scripts\chart.js\samples\scales\time\line-point-data.html" />
+    <Content Include="Scripts\chart.js\samples\scales\time\line.html" />
+    <Content Include="Scripts\chart.js\samples\style.css" />
+    <Content Include="Scripts\chart.js\samples\tooltips\border.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\callbacks.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\custom-line.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\custom-pie.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\custom-points.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\interactions.html" />
+    <Content Include="Scripts\chart.js\samples\tooltips\positioning.html" />
+    <Content Include="Scripts\chart.js\samples\utils.js" />
+    <Content Include="Scripts\chart.js\src\chart.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Bar.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Bubble.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Doughnut.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Line.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.PolarArea.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Radar.js" />
+    <Content Include="Scripts\chart.js\src\charts\Chart.Scatter.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.bar.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.bubble.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.doughnut.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.line.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.polarArea.js" />
+    <Content Include="Scripts\chart.js\src\controllers\controller.radar.js" />
+    <Content Include="Scripts\chart.js\src\core\core.animation.js" />
+    <Content Include="Scripts\chart.js\src\core\core.canvasHelpers.js" />
+    <Content Include="Scripts\chart.js\src\core\core.controller.js" />
+    <Content Include="Scripts\chart.js\src\core\core.datasetController.js" />
+    <Content Include="Scripts\chart.js\src\core\core.element.js" />
+    <Content Include="Scripts\chart.js\src\core\core.helpers.js" />
+    <Content Include="Scripts\chart.js\src\core\core.interaction.js" />
+    <Content Include="Scripts\chart.js\src\core\core.js" />
+    <Content Include="Scripts\chart.js\src\core\core.layoutService.js" />
+    <Content Include="Scripts\chart.js\src\core\core.plugin.js" />
+    <Content Include="Scripts\chart.js\src\core\core.scale.js" />
+    <Content Include="Scripts\chart.js\src\core\core.scaleService.js" />
+    <Content Include="Scripts\chart.js\src\core\core.ticks.js" />
+    <Content Include="Scripts\chart.js\src\core\core.tooltip.js" />
+    <Content Include="Scripts\chart.js\src\elements\element.arc.js" />
+    <Content Include="Scripts\chart.js\src\elements\element.line.js" />
+    <Content Include="Scripts\chart.js\src\elements\element.point.js" />
+    <Content Include="Scripts\chart.js\src\elements\element.rectangle.js" />
+    <Content Include="Scripts\chart.js\src\platforms\platform.dom.js" />
+    <Content Include="Scripts\chart.js\src\platforms\platform.js" />
+    <Content Include="Scripts\chart.js\src\plugins\plugin.filler.js" />
+    <Content Include="Scripts\chart.js\src\plugins\plugin.legend.js" />
+    <Content Include="Scripts\chart.js\src\plugins\plugin.title.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.category.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.linear.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.linearbase.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.logarithmic.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.radialLinear.js" />
+    <Content Include="Scripts\chart.js\src\scales\scale.time.js" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-end-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-end.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-spline-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-spline.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-stepped-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-stepped.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-start-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-start.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-spline-span.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-spline.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-radar-boundary-origin-spline.png" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-radar-boundary-origin.png" />
+    <Content Include="Scripts\chart.js\test\jasmine.context.js" />
+    <Content Include="Scripts\chart.js\test\jasmine.index.js" />
+    <Content Include="Scripts\chart.js\test\jasmine.matchers.js" />
+    <Content Include="Scripts\chart.js\test\jasmine.utils.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.bar.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.bubble.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.doughnut.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.line.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.polarArea.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\controller.radar.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.controller.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.datasetController.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.element.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.helpers.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.interaction.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.layoutService.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.plugin.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.scaleService.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\core.tooltip.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\element.arc.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\element.line.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\element.point.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\element.rectangle.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\global.defaults.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\global.deprecations.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\platform.dom.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\plugin.filler.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\plugin.legend.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\plugin.title.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\scale.category.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\scale.linear.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\scale.logarithmic.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\scale.radialLinear.tests.js" />
+    <Content Include="Scripts\chart.js\test\specs\scale.time.tests.js" />
+    <Content Include="Scripts\CustomJs\dashboard-index.js" />
+    <Content Include="Scripts\CustomJs\loadMap.js" />
+    <Content Include="Scripts\CustomJs\updaterecord-index.js" />
+    <Content Include="Scripts\CustomJs\georecord-index.js" />
+    <Content Include="Scripts\datatable-extension\buttons.html5.min.js" />
+    <Content Include="Scripts\datatable-extension\buttons.print.min.js" />
+    <Content Include="Scripts\datatable-extension\dataTables.buttons.min.js" />
+    <Content Include="Scripts\datatable-extension\export_excel.min.js" />
+    <Content Include="Scripts\datatable-extension\pdfmake.min.js" />
+    <Content Include="Scripts\dataTables.bootstrap.js" />
+    <Content Include="Scripts\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\global.js" />
+    <Content Include="MainPage\owlcarousel\LICENSE" />
+    <Content Include="MainPage\fonts\bootstrap-icons.woff" />
+    <Content Include="MainPage\fonts\bootstrap-icons.woff2" />
+    <Content Include="MainPage\fonts\font-awesome.css.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <None Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\jquery.dataTables.js" />
+    <Content Include="Scripts\jquery.fnSetFilteringEnterPress.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\perfect-scrollbar.jquery.min.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\RegisterUser.cshtml" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Dashboard.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\Ninject.Web.Common.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Code\Attributes\Captcha.cs" />
+    <Compile Include="Code\Attributes\CommonMethods.cs" />
+    <Compile Include="Code\Attributes\CustomAuthorization.cs" />
+    <Compile Include="Code\Attributes\ImageResize.cs" />
+    <Compile Include="Code\Attributes\ImportData.cs" />
+    <Compile Include="Code\Attributes\ManageExceptionFilter.cs" />
+    <Compile Include="Code\Email\EmailSender.cs" />
+    <Compile Include="Code\Email\FlexiMail.cs" />
+    <Compile Include="Code\LIBS\BaseViewPage.cs" />
+    <Compile Include="Code\LIBS\CommonMethod.cs" />
+    <Compile Include="Code\LIBS\Enums.cs" />
+    <Compile Include="Code\LIBS\HtmlExtension.cs" />
+    <Compile Include="Code\LIBS\SiteKeys.cs" />
+    <Compile Include="Code\PayPal\PayPalStandardPayment.cs" />
+    <Compile Include="Code\Serialization\JsonNetResult.cs" />
+    <Compile Include="Code\Serialization\ReCaptchaClass.cs" />
+    <Compile Include="Code\Validation\LoginValidator.cs" />
+    <Compile Include="Code\Validation\SignUpModelValidator.cs" />
+    <Compile Include="Code\Validation\ValidatorFactory.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\MapController.cs" />
+    <Compile Include="Controllers\GeoRecordController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IndexController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EnquiryViewModel.cs" />
+    <Compile Include="Models\ForgotPasswordViewModel.cs" />
+    <Compile Include="Models\ImportFileModel.cs" />
+    <Compile Include="Models\LocationViewModel.cs" />
+    <Compile Include="Models\Others\GlobalClass.cs" />
+    <Compile Include="Models\Others\Modal.cs" />
+    <Compile Include="Models\Others\Notification.cs" />
+    <Compile Include="Models\ResetPasswordViewModel.cs" />
+    <Compile Include="Models\SecretaryPermissionModel.cs" />
+    <Compile Include="Models\Security\CustomPrincipal.cs" />
+    <Compile Include="Models\UserLoginViewModel.cs" />
+    <Compile Include="Models\UserRegisterViewModel.cs" />
+    <Compile Include="Models\VerificationViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="images\.DS_Store" />
+    <Content Include="images\faces\.DS_Store" />
+    <Content Include="images\faces\backup\.DS_Store" />
+    <Content Include="images\file-icons\.DS_Store" />
+    <Content Include="images\file-icons\128\.DS_Store" />
+    <Content Include="images\file-icons\256\.DS_Store" />
+    <Content Include="images\file-icons\512\.DS_Store" />
+    <Content Include="images\file-icons\64\.DS_Store" />
+    <None Include="packages.config" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_LayoutLogin.cshtml" />
+    <Content Include="Views\Shared\_LayoutMaster.cshtml" />
+    <Content Include="Views\Shared\_SideBar.cshtml" />
+    <Content Include="Scripts\chart.js\.editorconfig" />
+    <Content Include="Scripts\chart.js\.eslintignore" />
+    <Content Include="Scripts\chart.js\.eslintrc" />
+    <Content Include="Scripts\chart.js\.npmignore" />
+    <Content Include="Scripts\chart.js\book.json" />
+    <Content Include="Scripts\chart.js\bower.json" />
+    <Content Include="Scripts\chart.js\composer.json" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\fontawesome-webfont.eot" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\fontawesome-webfont.woff" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\fontawesome-webfont.woff2" />
+    <Content Include="Scripts\chart.js\dist\docs\gitbook\fonts\fontawesome\FontAwesome.otf" />
+    <Content Include="Scripts\chart.js\dist\docs\search_plus_index.json" />
+    <Content Include="Scripts\chart.js\docs\axes\cartesian\category.md" />
+    <Content Include="Scripts\chart.js\docs\axes\cartesian\linear.md" />
+    <Content Include="Scripts\chart.js\docs\axes\cartesian\logarithmic.md" />
+    <Content Include="Scripts\chart.js\docs\axes\cartesian\README.md" />
+    <Content Include="Scripts\chart.js\docs\axes\cartesian\time.md" />
+    <Content Include="Scripts\chart.js\docs\axes\labelling.md" />
+    <Content Include="Scripts\chart.js\docs\axes\radial\linear.md" />
+    <Content Include="Scripts\chart.js\docs\axes\radial\README.md" />
+    <Content Include="Scripts\chart.js\docs\axes\README.md" />
+    <Content Include="Scripts\chart.js\docs\axes\styling.md" />
+    <Content Include="Scripts\chart.js\docs\charts\area.md" />
+    <Content Include="Scripts\chart.js\docs\charts\bar.md" />
+    <Content Include="Scripts\chart.js\docs\charts\bubble.md" />
+    <Content Include="Scripts\chart.js\docs\charts\doughnut.md" />
+    <Content Include="Scripts\chart.js\docs\charts\line.md" />
+    <Content Include="Scripts\chart.js\docs\charts\mixed.md" />
+    <Content Include="Scripts\chart.js\docs\charts\polar.md" />
+    <Content Include="Scripts\chart.js\docs\charts\radar.md" />
+    <Content Include="Scripts\chart.js\docs\charts\README.md" />
+    <Content Include="Scripts\chart.js\docs\charts\scatter.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\animations.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\elements.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\layout.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\legend.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\README.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\title.md" />
+    <Content Include="Scripts\chart.js\docs\configuration\tooltip.md" />
+    <Content Include="Scripts\chart.js\docs\developers\api.md" />
+    <Content Include="Scripts\chart.js\docs\developers\axes.md" />
+    <Content Include="Scripts\chart.js\docs\developers\charts.md" />
+    <Content Include="Scripts\chart.js\docs\developers\contributing.md" />
+    <Content Include="Scripts\chart.js\docs\developers\plugins.md" />
+    <Content Include="Scripts\chart.js\docs\developers\README.md" />
+    <Content Include="Scripts\chart.js\docs\developers\updates.md" />
+    <Content Include="Scripts\chart.js\docs\general\colors.md" />
+    <Content Include="Scripts\chart.js\docs\general\fonts.md" />
+    <Content Include="Scripts\chart.js\docs\general\interactions\events.md" />
+    <Content Include="Scripts\chart.js\docs\general\interactions\modes.md" />
+    <Content Include="Scripts\chart.js\docs\general\interactions\README.md" />
+    <Content Include="Scripts\chart.js\docs\general\README.md" />
+    <Content Include="Scripts\chart.js\docs\general\responsive.md" />
+    <Content Include="Scripts\chart.js\docs\getting-started\installation.md" />
+    <Content Include="Scripts\chart.js\docs\getting-started\integration.md" />
+    <Content Include="Scripts\chart.js\docs\getting-started\README.md" />
+    <Content Include="Scripts\chart.js\docs\getting-started\usage.md" />
+    <Content Include="Scripts\chart.js\docs\notes\comparison.md" />
+    <Content Include="Scripts\chart.js\docs\notes\extensions.md" />
+    <Content Include="Scripts\chart.js\docs\notes\license.md" />
+    <Content Include="Scripts\chart.js\docs\notes\README.md" />
+    <Content Include="Scripts\chart.js\docs\README.md" />
+    <Content Include="Scripts\chart.js\docs\SUMMARY.md" />
+    <Content Include="Scripts\chart.js\LICENSE.md" />
+    <Content Include="Scripts\chart.js\MAINTAINING.md" />
+    <Content Include="Scripts\chart.js\package.json" />
+    <Content Include="Scripts\chart.js\README.md" />
+    <Content Include="Scripts\chart.js\scripts\deploy.sh" />
+    <Content Include="Scripts\chart.js\scripts\release.sh" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-end-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-end.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-spline-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-spline.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-stepped-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin-stepped.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-origin.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-start-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-boundary-start.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-spline-span.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset-spline.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-line-dataset.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-radar-boundary-origin-spline.json" />
+    <Content Include="Scripts\chart.js\test\fixtures\plugin.filler\fill-radar-boundary-origin.json" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Views\Index\Index.cshtml" />
+    <Content Include="Views\Shared\_MasterHeader.cshtml" />
+    <Content Include="Views\Shared\_MasterFooter.cshtml" />
+    <Content Include="Views\Shared\_MasterLayout.cshtml" />
+    <Content Include="Views\GeoRecord\Index.cshtml" />
+    <Content Include="Views\Shared\_Modal.cshtml" />
+    <Content Include="Views\Shared\_ModalDelete.cshtml" />
+    <Content Include="Views\Shared\_ModalFooter.cshtml" />
+    <Content Include="Views\Shared\_ModalForSelect.cshtml" />
+    <Content Include="Views\Shared\_ModalHeader.cshtml" />
+    <Content Include="Views\Shared\_MessageNotification.cshtml" />
+    <Content Include="Views\GeoRecord\ImportRecord.cshtml" />
+    <Content Include="Template\SampleDataImport.xlsx" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Views\GeoRecord\UpdateData.cshtml" />
+    <Content Include="Views\Map\Index.cshtml" />
+    <Content Include="Template\westcampus.kml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ImportDataFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KGS.Core\KGS.Core.csproj">
+      <Project>{e115ce68-1d3b-4b0b-89d2-8075dda08ed5}</Project>
+      <Name>KGS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KGS.DataTable\KGS.DataTable.csproj">
+      <Project>{6bef9d30-620a-414b-989f-fee65afbcd6c}</Project>
+      <Name>KGS.DataTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KGS.Data\KGS.Data.csproj">
+      <Project>{b8db5666-cc24-413b-9f1a-19e7f9e4bce4}</Project>
+      <Name>KGS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KGS.DTO\KGS.DTO.csproj">
+      <Project>{8c789407-8343-4bd3-b142-f3a34b27a7b7}</Project>
+      <Name>KGS.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KGS.Repo\KGS.Repo.csproj">
+      <Project>{B30E1EE9-F1F8-4452-85F1-9BB919BF0B6D}</Project>
+      <Name>KGS.Repo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KGS.Service\KGS.Service.csproj">
+      <Project>{19c68feb-4877-49c0-99d0-84019663f2b8}</Project>
+      <Name>KGS.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54751</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44382/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
