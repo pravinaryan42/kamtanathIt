@@ -47,26 +47,7 @@
     </div>
 
 </div>
-<div class="browse-block">
-    <div class="row">
-        <div class="col-sm-4 select-lbl">
-            @Html.Label("Select File Import", htmlAttributes: new { @class = "requiredasterisk" })
 
-        </div>
-        <div class="col-sm-8">
-            <label class="btn-block" onchange="selectFile(6)">
-                <a style="cursor:pointer">
-                    <div id="divSelectedFile" class="btn btn-primary  browse-btn">
-                        <span id="fakefile">Browse</span>
-                    </div>
-                    <input id='kmlFile' name='kmlFile' type='file' style='display:none' accept="*" />
-                </a>
-            </label>
-            <span class="text-danger errorfile"></span>
-
-        </div>
-    </div>
-</div>
 
 <div id="map"></div>
 @section scripts{

@@ -14,7 +14,7 @@ namespace KGS.Service
     {
         DataTable.Search.PagedListResult<GeoRecord> GetGeoRecord(SearchQuery<GeoRecord> query, out int totalItems);
 
-        GeoRecord GetGeoRecordById(int id);
+        GeoRecord GetGeoRecordById(long id);
         GeoRecord GetGeoRecordByName(string allergyName);
         GeoRecord Save(GeoRecord Allergies);
 
@@ -34,5 +34,6 @@ namespace KGS.Service
         List<GeoRecord> GetGeoRecordsByGP(string District,string BlockName, string GpName);
         List<SelectListItem> GetAllGPs(string Block = "");
         List<System.Web.Mvc.SelectListItem> GetAllDistrict(string District = "");
+        long GetMaxFID(string dISTRICT);
     }
 }

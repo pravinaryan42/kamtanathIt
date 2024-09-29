@@ -213,6 +213,7 @@
     <Content Include="Content\css\dataTables.bootstrap.css" />
     <Content Include="Content\css\dataTables.bootstrap.min.css" />
     <Content Include="Content\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\MainStyle.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\googlefont.css" />
@@ -457,6 +458,12 @@
     <Content Include="images\mainimage\testimonial-2.jpg" />
     <Content Include="images\mainimage\testimonial-3.jpg" />
     <Content Include="images\mainimage\testimonial-4.jpg" />
+    <Content Include="images\marker-16.png" />
+    <Content Include="images\marker-24.png" />
+    <Content Include="images\marker-32.png" />
+    <Content Include="images\markerr-16.png" />
+    <Content Include="images\markerr-24.png" />
+    <Content Include="images\markerr-32.png" />
     <Content Include="images\profile.jpg" />
     <Content Include="images\sprites\blue.png" />
     <Content Include="images\sprites\dark.png" />
@@ -501,7 +508,6 @@
     <Content Include="Scripts\alertify\alertify.min.js" />
     <Content Include="Scripts\alertify\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap-switch.js" />
-    <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\chart.js\dist\Chart.bundle.js" />
     <Content Include="Scripts\chart.js\dist\Chart.bundle.min.js" />
@@ -771,6 +777,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jszip.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\perfect-scrollbar.jquery.min.js" />
     <Content Include="Scripts\popper.min.js" />
@@ -964,6 +971,7 @@
     <Content Include="Views\GeoRecord\UpdateData.cshtml" />
     <Content Include="Views\Map\Index.cshtml" />
     <Content Include="Template\westcampus.kml" />
+    <Content Include="Views\GeoRecord\AddNewRecord.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

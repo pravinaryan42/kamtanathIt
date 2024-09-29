@@ -25,7 +25,7 @@ namespace KGS.Service
             return repo.Search(query, out totalItems);
         }
 
-        public GeoRecord GetGeoRecordById(int id)
+        public GeoRecord GetGeoRecordById(long id)
         {
             return repo.FindById(id);
         }
@@ -58,9 +58,9 @@ namespace KGS.Service
             return repo.Query().AsTracking().Get().OrderBy(s => s.FID).ToList();
         }
 
-        public List<GeoRecord> GetGeoRecordsByGP(string District,string BlockName,string GpName)
+        public List<GeoRecord> GetGeoRecordsByGP(string District, string BlockName, string GpName)
         {
-         
+
             if (!string.IsNullOrEmpty(GpName))
             {
                 return repo.Query().AsTracking().Filter(x => x.DISTRICT.ToLower() == District.ToLower() && x.BLOCK.ToLower() == BlockName.ToLower() && x.GP.ToLower() == GpName.ToLower()).Get().OrderBy(s => s.FID).ToList();
@@ -111,11 +111,11 @@ namespace KGS.Service
             return repoMasterLocation.Query().AsTracking().Get().SelectMany(x => new List<System.Web.Mvc.SelectListItem> { new System.Web.Mvc.SelectListItem { Text = x.District, Value = x.District } }).OrderBy(s => s.Text).ToList();
 
         }
-        public List<System.Web.Mvc.SelectListItem> GetAllBlocks(string District="") {
+        public List<System.Web.Mvc.SelectListItem> GetAllBlocks(string District = "") {
             if (!string.IsNullOrEmpty(District))
             {
                 District = District.ToLower().Trim();
-                return repoMasterLocation.Query().Filter(x=>x.District.ToLower()== District).AsTracking().Get().SelectMany(x => new List<System.Web.Mvc.SelectListItem> { new System.Web.Mvc.SelectListItem { Text = x.Block, Value = x.Block } }).OrderBy(s => s.Text).ToList();
+                return repoMasterLocation.Query().Filter(x => x.District.ToLower() == District).AsTracking().Get().SelectMany(x => new List<System.Web.Mvc.SelectListItem> { new System.Web.Mvc.SelectListItem { Text = x.Block, Value = x.Block } }).OrderBy(s => s.Text).ToList();
 
             }
             else {
@@ -195,7 +195,7 @@ namespace KGS.Service
             switch (selectedBlock)
             {
                 case "DISTRICT":
-                    records = repo.Query().Filter(x =>x.DISTRICT.ToLower() == updateFrom.ToLower()).Get().ToList();
+                    records = repo.Query().Filter(x => x.DISTRICT.ToLower() == updateFrom.ToLower()).Get().ToList();
                     if (records != null && records.Count() > 0) {
                         records.ForEach(x => x.DISTRICT = updateTo);
                         repo.UpdateCollection(records);
@@ -286,6 +286,10 @@ namespace KGS.Service
             }
         }
 
+        public long GetMaxFID(string dISTRICT) {
+
+            return (repo.Query().Filter(x => x.DISTRICT == dISTRICT).Get().Max(x => x.FID))+1??1;
+        }
         #region "Dispose"
         public void Dispose()
         {

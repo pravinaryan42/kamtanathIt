@@ -4,12 +4,21 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace KGS.DTO
 {
     public class GeoRecordData
     {
-
+        public GeoRecordData() {
+            BlockDataList = new List<SelectListItem>();
+            GPDataList = new List<SelectListItem>();
+            DistrictDataList = new List<SelectListItem>();
+        }
+        public List<SelectListItem> BlockDataList { get; set; }
+        public List<SelectListItem> GPDataList { get; set; }
+        public List<SelectListItem> DistrictDataList { get; set; }
+        public long ID { get; set; }
         public long FID { get; set; }
         public string DISTRICT { get; set; }
         public string BLOCK { get; set; }
@@ -35,6 +44,7 @@ namespace KGS.DTO
         public string CONNECTIONSTATUS { get; set; }
         public string CONNECTIONPHOTO { get; set; }
         public int NUMBEROFROOM { get; set; }
+      public string CONNECTIONTYPE { get; set; }
         public Guid? UPLOADEDBY { get; set; }
         public DateTime UPLOADEDON { get; set; }
 

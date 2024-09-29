@@ -21,7 +21,7 @@ namespace KGS.Web
             //Main Layout
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                   "~/Scripts/bootstrap.min.js"));
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include("~/Scripts/jquery-3.4.1.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/jquery").Include("~/Scripts/jquery.js"));
             bundles.Add(new ScriptBundle("~/bundles/globalJs").Include("~/Scripts/alertify/alertify.min.js","~/Scripts/global.js"));
             bundles.Add(new ScriptBundle("~/bundles/validateJs").Include(
           "~/Scripts/jquery.validate.min.js",
@@ -37,12 +37,12 @@ namespace KGS.Web
             #region [Login Layout]
 
             bundles.Add(new StyleBundle("~/bundles/LoginLayoutCss").Include(
+                 "~/Content/css/bootstrap.min.css",
                "~/MainPage/fonts/font-awesome.css",
                "~/MainPage/perfect-scrollbar.css",
                "~/MainPage/loginstyle.css", "~/Content/alertify/alertify.min.css"
               ));
-            bundles.Add(new ScriptBundle("~/bundles/LoginLayoutjs").Include(
-         "~/Scripts/jquery.js",
+            bundles.Add(new ScriptBundle("~/bundles/LoginLayoutjs").Include(       
           "~/Scripts/popper.min.js",
          "~/Scripts/alertify/bootstrap.min.js",
          "~/Scripts/perfect-scrollbar.jquery.min.js",

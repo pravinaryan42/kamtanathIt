@@ -129,7 +129,8 @@ namespace KGS.Web.Controllers
                     return NewtonSoftJsonResult(new RequestOutcome<string> { Message = "", RedirectUrl = @Url.Action("UpdateData", "GeoRecord") });
 
                 }
-                else {
+                else
+                {
                     ShowSuccessMessage("Success", "No record to update.", false);
 
                     return NewtonSoftJsonResult(new RequestOutcome<string> { Message = "", RedirectUrl = @Url.Action("UpdateData", "GeoRecord") });
@@ -142,7 +143,7 @@ namespace KGS.Web.Controllers
                 ShowErrorMessage("Fail", ex.Message, false);
                 return NewtonSoftJsonResult(new RequestOutcome<string> { RedirectUrl = @Url.Action("UpdateData", "GeoRecord") });
             }
-           
+
         }
 
 
@@ -257,11 +258,12 @@ namespace KGS.Web.Controllers
                 query.Take = -1;
                 query.Skip = 0;
             }
-            else {
+            else
+            {
                 query.Take = dataTable.iDisplayLength;
                 query.Skip = dataTable.iDisplayStart;
             }
-          
+
 
             int count = dataTable.iDisplayStart + 1, total = 0;
 
@@ -294,7 +296,8 @@ namespace KGS.Web.Controllers
                     item.SURVEYOR_LOCATION,
                     item.USERNAME,
                     item.CONNECTIONSTATUS,
-                    item.CONNECTIONPHOTO,//4,         
+                    item.CONNECTIONPHOTO,//4,
+                    item.CONNECTIONTYPE,
                     Convert.ToString(item.NumberOfRoom),
                 });
                 count++;
@@ -307,6 +310,130 @@ namespace KGS.Web.Controllers
         {
             ImportFileModel model = new ImportFileModel();
             return PartialView("ImportRecord", model);
+        }
+
+        [HttpGet]
+        public PartialViewResult AddNewRecord(long? Id)
+        {
+            GeoRecordData model = new GeoRecordData();
+            GeoRecord record = new GeoRecord();
+            if (Id.HasValue && Id > 0) {
+                record = recordService.GetGeoRecordById(Id.Value);
+                if (record != null) {
+                    model.ID = record.ID;
+                    model.DISTRICT = record.DISTRICT;
+                    model.BLOCK = record.BLOCK;
+                    model.GP = record.GP;
+                    model.HABITATION = record.HABITATION;
+                    model.DISTRICT = record.DISTRICT;
+                    model.VILLAGE = record.VILLAGE;
+                    model.LATITUDE = record.LATITUDE;
+                    model.LONGITUDE = record.LONGITUDE;
+                    model.PROPERTYID = record.PROPERTYID;
+                    model.PROPERTYTYPE = record.PROPERTYTYPE;
+                    model.NUMBE_ROF_FLOORS = record.NUMBE_ROF_FLOORS??0;
+                    model.CONSTRUCTIONTYPE = record.CONSTRUCTIONTYPE;
+                    model.CONSUMERNAME = record.CONSUMERNAME;
+                    model.PHONENO = record.PHONENO;
+                    model.FAMILYCOUNT = record.FAMILYCOUNT??0;
+                    model.WATERSUPPLYTYPE = record.WATERSUPPLYTYPE;
+                    model.SUPPLY_IN_HOURS = record.SUPPLY_IN_HOURS ?? 0;
+                    model.NUMBER_OF_CONNECTIONS = record.NUMBER_OF_CONNECTIONS ?? 0;
+                    model.REMARKS = record.REMARKS;
+                    model.STATUS = record.STATUS;
+                    model.SURVEYOR_LOCATION = record.SURVEYOR_LOCATION;
+                    model.USERNAME = record.USERNAME;
+                    model.CONNECTIONSTATUS = record.CONNECTIONSTATUS;
+                    model.CONNECTIONPHOTO = record.CONNECTIONPHOTO;                  
+                    model.NUMBEROFROOM = record.NumberOfRoom ?? 0;
+                    model.CONNECTIONTYPE = record.CONNECTIONTYPE;
+                   
+                }
+            }
+            List<SelectListItem> lstmodel = new List<SelectListItem>();
+            lstmodel = recordService.GetAllDistrict();
+            if (lstmodel != null && lstmodel.Count > 0)
+            {
+                foreach (string text in lstmodel.Select(x => x.Text).Distinct())
+                {
+                    model.DistrictDataList.Add(new SelectListItem { Text = text, Value = text });
+                }
+                model.DistrictDataList = model.DistrictDataList.OrderBy(x => x.Text).ToList();
+            }
+            if (record != null && record.ID>0)
+            {
+                model.BlockDataList = new List<SelectListItem> { new SelectListItem { Text = model.BLOCK,Value= model.BLOCK } };
+
+                model.GPDataList = new List<SelectListItem> { new SelectListItem { Text = model.GP, Value = model.GP } };
+            }
+            else {
+                model.BlockDataList = new List<SelectListItem>();
+                model.GPDataList = new List<SelectListItem>();
+            }
+       
+            model.USERNAME = CurrentUser.FirstName + " " + CurrentUser.LastName;
+            return PartialView("AddNewRecord", model);
+        }
+
+        [HttpPost]
+        public ActionResult SaveRecordData(GeoRecordData model)
+        {
+            try
+            {
+                GeoRecord geo = new GeoRecord();
+                if (model.ID > 0) {
+                    geo = recordService.GetGeoRecordById(model.ID);
+                }
+                geo.FID = recordService.GetMaxFID(model.DISTRICT);
+                geo.DISTRICT = model.DISTRICT;
+                geo.BLOCK = model.BLOCK;
+                geo.GP = model.GP;
+                geo.HABITATION = model.HABITATION;
+                geo.DISTRICT = model.DISTRICT;
+                geo.VILLAGE = model.VILLAGE;
+                geo.LATITUDE = model.LATITUDE;
+                geo.LONGITUDE = model.LONGITUDE;
+                geo.PROPERTYID = model.PROPERTYID;
+                geo.PROPERTYTYPE = model.PROPERTYTYPE;
+                geo.NUMBE_ROF_FLOORS = model.NUMBE_ROF_FLOORS;
+                geo.CONSTRUCTIONTYPE = model.CONSTRUCTIONTYPE;
+                geo.CONSUMERNAME = model.CONSUMERNAME;
+                geo.PHONENO = model.PHONENO;
+                geo.FAMILYCOUNT = model.FAMILYCOUNT;
+                geo.WATERSUPPLYTYPE = model.WATERSUPPLYTYPE;
+                geo.SUPPLY_IN_HOURS = model.SUPPLY_IN_HOURS;
+                geo.NUMBER_OF_CONNECTIONS = model.NUMBER_OF_CONNECTIONS;
+                geo.REMARKS = model.REMARKS;
+                geo.STATUS = model.STATUS;
+                geo.SURVEYOR_LOCATION = model.SURVEYOR_LOCATION;
+                geo.USERNAME = model.USERNAME;
+                geo.CONNECTIONSTATUS = model.CONNECTIONSTATUS;
+                geo.CONNECTIONPHOTO = model.CONNECTIONPHOTO;
+                geo.UPLOADEDBY = model.UPLOADEDBY;
+                geo.UPLOADEDON = model.UPLOADEDON;
+                geo.NumberOfRoom = model.NUMBEROFROOM;
+                geo.CONNECTIONTYPE = model.CONNECTIONTYPE;
+                geo.UPLOADEDBY = CurrentUser.UserId;
+                if (model.ID > 0)
+                {
+                    recordService.Update(geo);
+                }
+                else {
+                    recordService.Save(geo);
+                }
+                
+                ShowSuccessMessage("Success", "Record saved successfully", false);
+
+                return NewtonSoftJsonResult(new RequestOutcome<string> { Message = "Record saved successfully", RedirectUrl = @Url.Action("Index", "GeoRecord") });
+            }
+            catch (Exception ex)
+            {
+                ShowErrorMessage("Failed", "Failed to save record", false);
+
+                return NewtonSoftJsonResult(new RequestOutcome<string> { Message = "Failed to save record", RedirectUrl = @Url.Action("Index", "GeoRecord") });
+            }
+          
+
         }
         private string test(System.Data.DataTable dt, string path)
         {
@@ -436,6 +563,7 @@ namespace KGS.Web.Controllers
                             string NumberOfRoom = Convert.ToString(r["NUMBEROFROOM"]);
                             NumberOfRoom = NumberOfRoom?.Trim() ?? string.Empty;
                             importedrecord.NumberOfRoom = Convert.ToInt32(!string.IsNullOrEmpty(NumberOfRoom) ? NumberOfRoom : "0");
+                            importedrecord.CONNECTIONTYPE = Convert.ToString(r["CONNECTIONTYPE"]);
                             importedrecord.UPLOADEDBY = CurrentUser.UserId;
                             importedrecord.UPLOADEDON = DateTime.Now;
                             if (!(allergiesList.Any(x => x.BLOCK == importedrecord.BLOCK && x.PROPERTYID == importedrecord.PROPERTYID && x.PROPERTYTYPE == importedrecord.PROPERTYTYPE)))
@@ -544,7 +672,7 @@ namespace KGS.Web.Controllers
         {
             List<SelectListItem> methodList = new List<SelectListItem>();
 
-            methodList = recordService.GetAllBlocks(DistrictId);            
+            methodList = recordService.GetAllBlocks(DistrictId);
 
             methodList = methodList
     .GroupBy(t => t.Text) // Group by Text to get distinct items
@@ -560,7 +688,7 @@ namespace KGS.Web.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public ActionResult BindGP(string DistrictId,string BlockId)
+        public ActionResult BindGP(string DistrictId, string BlockId)
         {
             List<SelectListItem> methodList = new List<SelectListItem>();
             methodList = recordService.GetAllGPs(BlockId);

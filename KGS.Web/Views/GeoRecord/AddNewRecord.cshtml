@@ -1,0 +1,198 @@
+﻿@model KGS.DTO.GeoRecordData
+    <style>
+        .modal-header {
+            display: inline-block;
+        }
+    </style>
+<div id="adminUpdateAllergyModal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-header ">
+            <button type="button" class="close font16" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            <h4 class="modal-title"><b><span class="UpdateAllergy">Add New Records</span></b>
+           
+            </h4>
+        </div>
+        @using (Html.BeginForm("SaveRecordData", "GeoRecord", null, FormMethod.Post, new { @class = "form-horizontal", id = "formAddEditRequest" }))
+        {
+        <div class="modal-body">
+
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <input type="hidden" name="ID" id="ID" value="@Model.ID" />
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("District", "District", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.DropDownListFor(model => model.DISTRICT, true, Model.DistrictDataList, "Select District", htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Block", "Block", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.DropDownListFor(model => model.BLOCK, true, Model.BlockDataList, "Select Block", htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Gram Panchayat", "Gram Panchayat", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.DropDownListFor(model => model.GP, true, Model.GPDataList, "Select Gp", htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Village", "Village", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.VILLAGE, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "50" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Habitation", "Habitation", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.HABITATION, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "50" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Latitude", "Latitude", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.LATITUDE, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "50" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Longitude", "Longitude", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.LONGITUDE, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "50" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Property Id", "Property Id", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.PROPERTYID, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "50" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Property Type", "Property Type", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    <select class="form-control form-control-sm" id="PROPERTYTYPE" name="PROPERTYTYPE">
+                        <option value="Kachcha">Kachcha</option>
+                        <option selected value="Pakka">Pakka</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("No Of Floor", "No Of Floor", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.NUMBE_ROF_FLOORS, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "3", Type = "Number" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Construction Type", "Construction Type", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    <select class="form-control form-control-sm" id="CONSTRUCTIONTYPE" name="CONSTRUCTIONTYPE">
+                        <option value="Both">Both</option>
+                        <option value="Commercial">Commercial</option>
+                        <option selected value="Residential">Residential</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Consumer Name", "Consumer Name", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.CONSUMERNAME, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "80" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Phone No", "Phone No", new { @class = "main-label" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.PHONENO, false, htmlAttributes: new { @class = "form-control form-control-sm", @MaxLength = "12", Type = "Number" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Family Count", "Family Count", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.FAMILYCOUNT, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "3", Type = "Number" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Water Supply Type", "Water Supply Type", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    <select class="form-control form-control-sm" id="WATERSUPPLYTYPE" name="WATERSUPPLYTYPE">
+                        <option value="Handpump">Handpump</option>
+                        <option selected value="Borewell">Borewell</option>
+                        <option value="FSTC">FSTC</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Supply In Hours", "Supply In Hours", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.SUPPLY_IN_HOURS, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "5" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("No Of Connection", "No Of Connection", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.NUMBER_OF_CONNECTIONS, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "5" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Remark", "Remark", new { @class = "main-label" })</div>
+                <div class="col-sm-12">
+                    @Html.TextAreaFor(model => model.REMARKS, false, 5, 33, htmlAttributes: new { @class = "form-control form-control-sm", @MaxLength = "500" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Status", "Status", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    <select class="form-control form-control-sm" id="STATUS" name="STATUS">
+                        <option value="InProgress">InProgress</option>
+                        <option selected value="Complete">Complete</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Surveyor Location", "Surveyor Location", new { @class = "main-label" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.SURVEYOR_LOCATION, false, htmlAttributes: new { @class = "form-control form-control-sm", @MaxLength = "80" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("User Name", "User Name", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.USERNAME, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "80" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Connection Status", "Connection Status", new { @class = "main-label" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.CONNECTIONSTATUS, false, htmlAttributes: new { @class = "form-control form-control-sm", @MaxLength = "80" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Number of Room", "Number of Room", new { @class = "main-label requiredasterisk" })</div>
+                <div class="col-sm-12">
+                    @Html.TextBoxFor(model => model.NUMBEROFROOM, true, htmlAttributes: new { @class = "form-control form-control-sm", @data_rule_required = "true", @data_msg_required = "*required", @MaxLength = "3", Type = "Number" })
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-sm-12 label-schedule">@Html.Label("Connection Type", "Connection Type", new { @class = "main-label" })</div>
+                <div class="col-sm-12">
+                    <select class="form-control form-control-sm" id="CONNECTIONTYPE" name="CONNECTIONTYPE">
+                        <option value="N">New</option>
+                        <option selected value="E">Existing</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+            <div class="modal-footer">
+                <div class="row" style="margin-top:5px;">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-9">
+                        <input id="submitbtn" type="submit" class="btn btn-primary btn-lg btn-green mar-l10 UploadImage pull-right" value="Import" name="Upload" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

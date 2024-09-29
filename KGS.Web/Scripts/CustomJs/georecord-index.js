@@ -1,45 +1,86 @@
 ﻿(function ($) {
 
     function GeoRecordIndex() {
-        var $this = this, grid, formAddEdit, formImportPresenter;
+        var $this = this, grid, formAddEdit, formImportPresenter, $EditId = 0, $deleteId = 0;
 
         function initializeModalWithForm() {
-            $(document).off("change", "#SelectedDistrict").on("change", "#SelectedDistrict", function () { 
-                bindBlock();
+            $(document).off("change", "#SelectedDistrict").on("change", "#SelectedDistrict", function () {
+                bindBlock(false);
             });
             $(document).off("change", "#SelectedBlock").on("change", "#SelectedBlock", function () {
-                bindGP()
-            }); 
+                bindGP(false)
+            });
+
+            $(document).off("click", ".deletelink").on("click", ".deletelink", function () {
+                $deleteId = 0;
+                $deleteId = $(this).data('deleteid');
+                $('.dynamicLinkSlot').remove();
+                var isListDummy = '0';
+                $('body').append('<a id="linkAdd" class="dynamicLinkSlot" data-toggle="modal" data-backdrop="static" data-target= "#modal-delete-record" >& nbsp;</a >');
+                $('#linkAdd')[0].click();
+            });
+            $(document).off("click", ".editlink").on("click", ".editlink", function () {
+                $EditId = 0;
+                $EditId = $(this).data('editid');
+                $('.dynamicLinkSlot').remove();
+                var isListDummy = '0';
+                $('body').append('<a id="linkAdd" class="dynamicLinkSlot" data-toggle="modal" data-backdrop="static" data-target= "#modal-add-record" >& nbsp;</a >');
+                $('#linkAdd')[0].click();
+            });
             $(document).off("click", "#downloadKML").on("click", "#downloadKML", function () {
                 var table = $('#grid-records').DataTable(); // Replace '#example' with your table's selector
 
                 if (table.data().count() > 0) {
                     $('.dynamicLinkSlotAddAppointment').remove();
                     var isListDummy = '0';
-                    $('body').append('<a id="linkAppointmentAdd" class="dynamicLinkSlotAddAppointment" href=' + domain + 'map/ExportKml?DistrictName=' + $('#SelectedDistrict').val() + '&BlockName=' + $('#SelectedBlock').val() + '&GPName=' + $('#SelectedGP').val() +'>& nbsp;</a >');
-                    $('#linkAppointmentAdd')[0].click();               
+                    $('body').append('<a id="linkAppointmentAdd" class="dynamicLinkSlotAddAppointment" href=' + domain + 'map/ExportKml?DistrictName=' + $('#SelectedDistrict').val() + '&BlockName=' + $('#SelectedBlock').val() + '&GPName=' + $('#SelectedGP').val() + '>& nbsp;</a >');
+                    $('#linkAppointmentAdd')[0].click();
                 } else {
                     Global.Alert("Please select district/block/GP;")
                 }
-            }); 
-           
-            function bindBlock() {
-                $('#SelectedBlock').empty();
-                var districtId = $('#SelectedDistrict').val();
-                $('#SelectedBlock').append($('<option/>', {
-                    value: null,
-                    text: "Select Block"
-                }));
+            });
+
+            function bindBlock(flag) {
+                if (flag) {
+                    $('#BLOCK').empty();
+                }
+                else {
+                    $('#SelectedBlock').empty();
+                }
+
+                var districtId = flag ? $('#DISTRICT').val() : $('#SelectedDistrict').val();
+                if (flag) {
+                    $('#BLOCK').append($('<option/>', {
+                        value: null,
+                        text: "Select Block"
+                    }));
+                }
+                else {
+                    $('#SelectedBlock').append($('<option/>', {
+                        value: null,
+                        text: "Select Block"
+                    }));
+                }
+
                 if (districtId != null && districtId != '' && districtId != 'select') {
                     $.get(domain + 'georecord/bindblock?DistrictId=' + districtId, function (result) {
 
                         if (result != null && !jQuery.isEmptyObject(result)) {
 
                             $.each(result, function (index, item) {
-                                $('#SelectedBlock').append($('<option/>', {
-                                    value: item.Value,
-                                    text: item.Text
-                                }));
+                                if (flag) {
+                                    $('#BLOCK').append($('<option/>', {
+                                        value: item.Value,
+                                        text: item.Text
+                                    }));
+                                }
+                                else {
+                                    $('#SelectedBlock').append($('<option/>', {
+                                        value: item.Value,
+                                        text: item.Text
+                                    }));
+                                }
+
                             });
                         };
 
@@ -47,22 +88,47 @@
                 }
             }
 
-            function bindGP() {
-                $('#SelectedGP').empty();
-                var districtId = $('#SelectedDistrict').val();
-                var blockId = $('#SelectedBlock').val();
-                $('#SelectedGP').append($('<option/>', {
-                    value: null,
-                    text: "Select GP"
-                }));
+            function bindGP(flag) {
+
+
+                if (flag) {
+                    $('#GP').empty();
+                }
+                else {
+                    $('#SelectedGP').empty();
+                }
+                var districtId = flag ? $('#DISTRICT').val() : $('#SelectedDistrict').val();
+                var blockId = flag ? $('#BLOCK').val() : $('#SelectedBlock').val();
+                if (flag) {
+                    $('#GP').append($('<option/>', {
+                        value: null,
+                        text: "Select GP"
+                    }));
+                }
+                else {
+                    $('#SelectedGP').append($('<option/>', {
+                        value: null,
+                        text: "Select GP"
+                    }));
+                }
+
                 if (districtId != null && districtId != '' && districtId != 'Select District') {
                     $.get(domain + 'georecord/bindgp?DistrictId=' + districtId + '&BlockId=' + blockId, function (result) {
                         if (result != null && !jQuery.isEmptyObject(result)) {
                             $.each(result, function (index, item) {
-                                $('#SelectedGP').append($('<option/>', {
-                                    value: item.Value,
-                                    text: item.Text
-                                }));
+
+                                if (flag) {
+                                    $('#GP').append($('<option/>', {
+                                        value: item.Value,
+                                        text: item.Text
+                                    }));
+                                }
+                                else {
+                                    $('#SelectedGP').append($('<option/>', {
+                                        value: item.Value,
+                                        text: item.Text
+                                    }));
+                                }
                             });
                         };
                     });
@@ -77,19 +143,23 @@
 
                 }
                 initializeGrid();
-                
+
             });
 
-           
 
 
 
-            $("#modal-delete-record").on('shown.bs.modal', function (e) {
-                var formDeleteJobTitle = new Global.FormHelper($(this).find("form"), { updateTargetId: "validation-summary" }, function (data) {
-                    debugger;
-                    if (data.isSuccess) {
-                        window.location.reload();
-                    }
+
+            $("#modal-delete-record").on('show.bs.modal', function (e) {
+              
+                var url = domain + 'GeoRecord/DeleteRecord?id=' + $deleteId;
+                $(this).find(".modal-content").load(url, function () {
+                    var formDeleteJobTitle = new Global.FormHelper($(this).find("form"), { updateTargetId: "validation-summary" }, function (data) {
+                     
+                        if (data.isSuccess) {
+                            window.location.reload();
+                        }
+                    });
                 });
             }).on('hidden.bs.modal', function (e) {
                 $(this).removeData('bs.modal');
@@ -97,36 +167,89 @@
 
 
             $("#modal-import-record").on('shown.bs.modal', function (e) {
+                var url = domain + 'GeoRecord/ImportRecord';
+                $(this).find(".modal-content").load(url, function () {
+                    formAddEditPresenter = new Global.FormHelperWithFiles($("#formImportRecord"),
+                        {
+                            updateTargetId: "validation-summary", beforeSubmit: function () {
 
-                formAddEditPresenter = new Global.FormHelperWithFiles($("#formImportRecord"),
-                    {
-                        updateTargetId: "validation-summary", beforeSubmit: function () {
-
-                            if ($('#ImportedFile').val() == undefined || $('#ImportedFile').val() == null || $('#ImportedFile').val() == '') {
-                                $('.errorfile').html('*required');
-                            }
-                            if ($('.errorfile').html() == '') { return true; } else { return false; }
-
-                        }
-                    }, function onSuccess(result) {
-                        if (result) {
-
-                            if (result.message != undefined && result.message != null && result.message != '') {
-                                var url = result.message.replace('~', '');
-                                var link = document.createElement('a');
-                                document.body.appendChild(link);
-                                link.href = domain + url;
-                                link.click();
+                                if ($('#ImportedFile').val() == undefined || $('#ImportedFile').val() == null || $('#ImportedFile').val() == '') {
+                                    $('.errorfile').html('*required');
+                                }
+                                if ($('.errorfile').html() == '') { return true; } else { return false; }
 
                             }
-                            setTimeout(function () { window.location.href = result.redirectUrl; }, 200);
-                            //;
-                        }
-                    });
+                        }, function onSuccess(result) {
+                            if (result) {
+
+                                if (result.message != undefined && result.message != null && result.message != '') {
+                                    var url = result.message.replace('~', '');
+                                    var link = document.createElement('a');
+                                    document.body.appendChild(link);
+                                    link.href = domain + url;
+                                    link.click();
+
+                                }
+                                setTimeout(function () { window.location.href = result.redirectUrl; }, 200);
+                                //;
+                            }
+                        });
+                });
 
             }).on('hidden.bs.modal', function (e) {
+                $("#modal-import-record").find(".modal-content").html("");
                 $(this).removeData('bs.modal');
+                setTimeout(function () { $('body').addClass('modal-open'); }, 400);
             });
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    alert("Geolocation is not supported by this browser.");
+                }
+            }
+            function showPosition(position) {
+                $('#LATITUDE').val(position.coords.latitude);
+                $('#LONGITUDE').val(position.coords.longitude);
+
+            }
+
+            $("#modal-add-record").on('show.bs.modal', function (e) {
+                // Fetch and load dynamic content here
+                var url = domain + 'GeoRecord/AddNewRecord'; // Replace with your actual URL
+                if ($EditId > 0) {
+                    url = domain + 'GeoRecord/AddNewRecord?Id=' + $EditId;
+                }
+                $EditId = 0;
+                $(this).find(".modal-content").load(url, function () {
+                    getLocation();
+                    // Initialize form handling after content is loaded
+                    formaddPresenter = new Global.FormHelper($("#formAddEditRequest"), {
+                        updateTargetId: "validation-summary",
+                        beforeSubmit: function () {
+                            return true;// Simplified return statement
+                        }
+                    }, function onSuccess(result) {
+                        window.location.href = result.redirectUrl;
+                    });
+
+                    // Bind change events for dynamic dropdowns
+                    $(document).off("change", "#DISTRICT").on("change", "#DISTRICT", function () {
+                        bindBlock(true);
+                    });
+                    $(document).off("change", "#BLOCK").on("change", "#BLOCK", function () {
+                        bindGP(true);
+                    });
+                });
+            }).on('hidden.bs.modal', function (e) {
+                // Clear modal content on hide
+                $(this).find(".modal-content").html("");
+                $(this).removeData('bs.modal');
+
+            });
+
+
+
 
             $(document).off("click", ".alphabet").on("click", ".alphabet", function () {
                 $(".alphabet").each(function () {
@@ -311,34 +434,67 @@
                         "searchable": true
 
                     },
-                  
+                    {
+                        "targets": [20],
+                        "visible": true,
+                        "sortable": false,
+                        "searchable": true
+
+                    },
+                    {
+                        "targets": [21],
+                        "visible": true,
+                        "sortable": true,
+                        "searchable": true
+                    },
+                    {
+                        "targets": [22],
+                        "visible": true,
+                        "sortable": true,
+                        "searchable": true
+                    },
                     {
                         "targets": [23],
-                        "data":[25],
+                        "data": [26],
                         "visible": true,
                         "sortable": true,
                         "searchable": true
                     },
                     {
                         "targets": [24],
-                        "data": [0],
+                        "data": [25],
                         "visible": true,
+                        "sortable": true,
+                        "searchable": true
+
+                    },
+                    {
+                        "targets": [25],
+                        "data": [0],
+                        "visible": currentuserId == '1',
                         "sortable": true,
                         "searchable": true,
                         "render": function (data, type, row, meta) {
-                            var actionLink = ''                         
+                            var actionLink = ''
                             actionLink += $("<a/>", {
-                                href: domain + "GeoRecord/DeleteRecord?id=" + row[0],
+                                "data-deleteId": row[0],
                                 id: "Deletedoctor",
-                                class: "action-btn gray",
+                                class: "action-btn gray deletelink",
                                 'title': "Delete",
-                                'data-toggle': "modal",
-                                'data-target': "#modal-delete-record",
+
                                 html: $("<i/>", {
                                     class: "ace-icon fa fa-trash bigger-120"
                                 }),
                             }).get(0).outerHTML;
-
+                            actionLink += "&nbsp;" + $("<a/>", {
+                                "data-editId": row[0],
+                                id: "UpdateRecordData",
+                                class: "action-btn gray editlink",
+                                'title': "Edit",
+                                html: $("<i/>", {
+                                    class: "fa fa-edit"
+                                }),
+                            }).get(0).outerHTML;
 
 
                             return actionLink;
@@ -356,25 +512,25 @@
                 "bAutoWidth": false,
                 "stateSave": false,
                 "searching": false,
-                 "sLength":true,
+                "sLength": true,
                 "pageLength": 20, // default number of rows to show               
                 "dom": 'Bfrtip', // Define the position of the buttons and table controls
                 "buttons": [
                     {
                         extend: 'excelHtml5',
-                        id:'btn-exporttoexcel',
+                        id: 'btn-exporttoexcel',
                         text: 'Export to Excel',
                         className: 'btn btn-success hidden'
                     }
                 ],
                 "sAjaxSource": domain + "/GeoRecord/Index",
                 "fnServerData": function (url, data, callback) {
-                   
+
                     data.push(
                         { name: "SelectedDistrict", value: $("#SelectedDistrict").val() },
-                        { name: "SelectedBlock", value: $("#SelectedBlock").val() }, 
-                        { name: "SelectedGP", value: $("#SelectedGP").val() }, 
-                         { name: "ShowAll", value: $("#showAll").is(':checked')} 
+                        { name: "SelectedBlock", value: $("#SelectedBlock").val() },
+                        { name: "SelectedGP", value: $("#SelectedGP").val() },
+                        { name: "ShowAll", value: $("#showAll").is(':checked') }
                     );
 
                     $.ajax({

@@ -41,17 +41,21 @@
                     }
                    
                     var markerIcon = {
-                        url: domain + 'images/icons/marker.png', // Your icon URL
-                        scaledSize: new google.maps.Size(22, 22), // Set the width and height of the marker
+                        url: domain + 'images/markerr-24.png', // Your icon URL
+                        scaledSize: new google.maps.Size(30, 30), // Set the width and height of the marker
+                    };
+                    var markerGIcon = {
+                        url: domain + 'images/marker-24.png', // Your icon URL
+                        scaledSize: new google.maps.Size(30, 30), // Set the width and height of the marker
                     };
                     // Loop through the retrieved locations and create markers
-                    data.forEach(function (location) {
+                    data.forEach(function (location) {                   
                         var marker = new google.maps.Marker({
                             position: {
                                 lat: parseFloat(location.Latitude), lng: parseFloat(location.Longitude)
                             },
                             map: map,
-                            icon: markerIcon, // Set the custom icon
+                            icon: location.ConnectionType == 'E' ? markerIcon : markerGIcon, // Set the custom icon
                             title: location.Name,
                             mapTypeId: google.maps.MapTypeId.SATELLITE
                         });

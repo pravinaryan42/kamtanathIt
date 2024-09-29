@@ -82,6 +82,7 @@ namespace KGS.Web.Controllers
                     mp.Name = item.CONSUMERNAME;
                     mp.Latitude = item.LATITUDE;
                     mp.Longitude = item.LONGITUDE;
+                    mp.ConnectionType = item.CONNECTIONTYPE == "N" ? "N" : "E";
                     model.MapDataList.Add(mp);
                 }
             }
@@ -103,6 +104,7 @@ namespace KGS.Web.Controllers
                     mp.Name = item.CONSUMERNAME;
                     mp.Latitude = item.LATITUDE;
                     mp.Longitude = item.LONGITUDE;
+                    mp.ConnectionType = item.CONNECTIONTYPE == "N" ? "N" : "E";
                     locations.Add(mp);
                 }
             }

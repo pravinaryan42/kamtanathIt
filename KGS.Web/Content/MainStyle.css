@@ -1,0 +1,65 @@
+﻿select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem +10px) !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.rowhead {
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .custom-checkbox input[type="checkbox"] {
+        display: none; /* Hide the default checkbox */
+    }
+
+    .custom-checkbox .checkbox-label {
+        position: relative;
+        padding-left: 30px; /* Space for the custom checkbox */
+        cursor: pointer;
+    }
+
+        .custom-checkbox .checkbox-label::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            border: 2px solid #007BFF; /* Border color */
+            border-radius: 4px; /* Rounded corners */
+            background-color: white; /* Background color */
+            transition: background-color 0.2s ease;
+        }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkbox-label::before {
+        background-color: #007BFF; /* Background when checked */
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkbox-label::after {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 0px;
+        width: 8px;
+        height: 16px;
+        border: solid white; /* Checkmark color */
+        border-width: 0 2px 2px 0; /* Make the checkmark */
+        transform: rotate(45deg);
+    }
+body.modal-open {
+    overflow: visible;
+}
+#adminUpdateAllergyModal .form-group.error {
+    margin-bottom: 1.9rem !important;
+}

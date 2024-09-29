@@ -42,5 +42,6 @@ namespace KGS.Data
         public Nullable<System.Guid> UPLOADEDBY { get; set; }
         public Nullable<System.DateTime> UPLOADEDON { get; set; }
         public Nullable<int> NumberOfRoom { get; set; }
+        public string CONNECTIONTYPE { get; set; }
     }
 }

@@ -28,6 +28,7 @@ Global.FormHelper = function (formElement, options, onSucccess, onError, onValid
 
 
     formElement.submit(function (e) {
+      
         e.stopPropagation();
         e.preventDefault();
         e.stopImmediatePropagation();

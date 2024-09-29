@@ -52,6 +52,7 @@
           <Property Name="UPLOADEDBY" Type="uniqueidentifier" />
           <Property Name="UPLOADEDON" Type="datetime" />
           <Property Name="NumberOfRoom" Type="int" />
+          <Property Name="CONNECTIONTYPE" Type="nvarchar" MaxLength="20" />
         </EntityType>
         <EntityType Name="Invoices">
           <Key>
@@ -222,9 +223,18 @@
           <EntitySet Name="Orders" EntityType="Self.Order" />
           <EntitySet Name="Products" EntityType="Self.Product" />
           <EntitySet Name="Users" EntityType="Self.User" />
-          <EntitySet Name="GeoRecords" EntityType="KamtanathDbModel.GeoRecord" />
           <EntitySet Name="MasterLocations" EntityType="KamtanathDbModel.MasterLocation" />
+          <EntitySet Name="GeoRecords" EntityType="KamtanathDbModel.GeoRecord" />
         </EntityContainer>
+        <EntityType Name="MasterLocation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="District" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Block" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Gram_Panchayat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
         <EntityType Name="GeoRecord">
           <Key>
             <PropertyRef Name="ID" />
@@ -257,15 +267,7 @@
           <Property Name="UPLOADEDBY" Type="Guid" />
           <Property Name="UPLOADEDON" Type="DateTime" Precision="3" />
           <Property Name="NumberOfRoom" Type="Int32" />
-        </EntityType>
-        <EntityType Name="MasterLocation">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="District" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="Block" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="Gram_Panchayat" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CONNECTIONTYPE" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -356,9 +358,20 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="MasterLocations">
+            <EntityTypeMapping TypeName="KamtanathDbModel.MasterLocation">
+              <MappingFragment StoreEntitySet="MasterLocation">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Gram_Panchayat" ColumnName="Gram Panchayat" />
+                <ScalarProperty Name="Block" ColumnName="Block" />
+                <ScalarProperty Name="District" ColumnName="District" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="GeoRecords">
             <EntityTypeMapping TypeName="KamtanathDbModel.GeoRecord">
               <MappingFragment StoreEntitySet="GeoRecord">
+                <ScalarProperty Name="CONNECTIONTYPE" ColumnName="CONNECTIONTYPE" />
                 <ScalarProperty Name="NumberOfRoom" ColumnName="NumberOfRoom" />
                 <ScalarProperty Name="UPLOADEDON" ColumnName="UPLOADEDON" />
                 <ScalarProperty Name="UPLOADEDBY" ColumnName="UPLOADEDBY" />
@@ -387,16 +400,6 @@
                 <ScalarProperty Name="DISTRICT" ColumnName="DISTRICT" />
                 <ScalarProperty Name="FID" ColumnName="FID" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="MasterLocations">
-            <EntityTypeMapping TypeName="KamtanathDbModel.MasterLocation">
-              <MappingFragment StoreEntitySet="MasterLocation">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Gram_Panchayat" ColumnName="Gram Panchayat" />
-                <ScalarProperty Name="Block" ColumnName="Block" />
-                <ScalarProperty Name="District" ColumnName="District" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

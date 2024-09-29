@@ -30,7 +30,7 @@ namespace KGS.Data
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<GeoRecord> GeoRecords { get; set; }
         public virtual DbSet<MasterLocation> MasterLocations { get; set; }
+        public virtual DbSet<GeoRecord> GeoRecords { get; set; }
     }
 }
